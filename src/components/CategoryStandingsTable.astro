@@ -22,6 +22,13 @@ function scoreFor(match, team) {
 
 {rows.length ? (
   <div class="team-table">
+    <div class="team-table-header" aria-hidden="true">
+      <span>Pos</span>
+      <span>Equipo</span>
+      <span>Pts</span>
+      <span>PJ</span>
+      <span>Dif</span>
+    </div>
     {rows.map((row) => {
       const played = teamMatches(row.team);
       const pending = teamPending(row.team);
@@ -31,9 +38,9 @@ function scoreFor(match, team) {
           <summary>
             <span class="position">{row.position}</span>
             <span class="team-name">{row.team}</span>
-            <span class="metric"><strong>{row.points}</strong><small>Pts</small></span>
-            <span class="metric"><strong>{row.played}</strong><small>PJ</small></span>
-            <span class="metric"><strong>{row.goalDifference}</strong><small>Dif</small></span>
+            <span class="metric">{row.points}</span>
+            <span class="metric">{row.played}</span>
+            <span class="metric">{row.goalDifference}</span>
           </summary>
 
           <div class="team-detail">

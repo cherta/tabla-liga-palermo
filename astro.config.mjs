@@ -1,7 +1,7 @@
-import { defineConfig } from 'astro/config';
+import { defineConfig } from "astro/config";
 
 export default defineConfig({
-  site: 'https://cherta.github.io',
-  base: '/tabla-liga-palermo',
-  output: 'static',
+  site: "https://cherta.github.io",
+  base: process.env.NODE_ENV === "production" ? "/tabla-liga-palermo" : "",
+  output: "static",
 });
