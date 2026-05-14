@@ -1,0 +1,87 @@
+---
+const { rows, results, nextGames } = Astro.props;
+
+function teamMatches(team) {
+  return results.filter((match) => match.home === team || match.away === team);
+}
+
+function teamPending(team) {
+  return nextGames.filter((match) => match.home === team || match.away === team);
+}
+
+function opponentFor(match, team) {
+  return match.home === team ? match.away : match.home;
+}
+
+function scoreFor(match, team) {
+  return match.home === team
+    ? `${match.homeGoals} - ${match.awayGoals}`
+    : `${match.awayGoals} - ${match.homeGoals}`;
+}
+---
+
+{rows.length ? (
+  <div class="team-table">
+    {rows.map((row) => {
+      const played = teamMatches(row.team);
+      const pending = teamPending(row.team);
+
+      return (
+        <details class="team-row">
+          <summary>
+            <span class="position">{row.position}</span>
+            <span class="team-name">{row.team}</span>
+            <span class="metric"><strong>{row.points}</strong><small>Pts</small></span>
+            <span class="metric"><strong>{row.played}</strong><small>PJ</small></span>
+            <span class="metric"><strong>{row.goalDifference}</strong><small>Dif</small></span>
+          </summary>
+
+          <div class="team-detail">
+            <div class="detail-stats" aria-label={`Estadisticas de ${row.team}`}>
+              <span>PG {row.won}</span>
+              <span>PE {row.drawn}</span>
+              <span>PP {row.lost}</span>
+              <span>GF {row.goalsFor}</span>
+              <span>GC {row.goalsAgainst}</span>
+            </div>
+
+            <section>
+              <h4>Jugados</h4>
+              {played.length ? (
+                <div class="compact-list">
+                  {played.map((match) => (
+                    <article class="compact-match">
+                      <span>{match.round}</span>
+                      <strong>{opponentFor(match, row.team)}</strong>
+                      <b>{scoreFor(match, row.team)}</b>
+                    </article>
+                  ))}
+                </div>
+              ) : (
+                <p class="empty small">Sin partidos jugados.</p>
+              )}
+            </section>
+
+            <section>
+              <h4>Próximos cruces posibles</h4>
+              {pending.length ? (
+                <div class="compact-list pending-list">
+                  {pending.map((match) => (
+                    <article class="compact-match">
+                      <span>vs</span>
+                      <strong>{opponentFor(match, row.team)}</strong>
+                    </article>
+                  ))}
+                </div>
+              ) : (
+                <p class="empty small">Sin cruces pendientes inferidos.</p>
+              )}
+            </section>
+          </div>
+        </details>
+      );
+    })}
+  </div>
+) : (
+  <p class="empty">No hay tabla disponible.</p>
+)}

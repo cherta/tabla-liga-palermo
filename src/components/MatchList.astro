@@ -1,0 +1,20 @@
+---
+const { matches, emptyText = 'Todavia no hay resultados cargados.' } = Astro.props;
+---
+
+{matches.length ? (
+  <div class="match-list">
+    {matches.map((match) => (
+      <div class="match-card">
+        <span class="round">{match.round}</span>
+        <div class="scoreline">
+          <strong>{match.home}</strong>
+          <span>{match.homeGoals} - {match.awayGoals}</span>
+          <strong>{match.away}</strong>
+        </div>
+      </div>
+    ))}
+  </div>
+) : (
+  <p class="empty">{emptyText}</p>
+)}

@@ -1,0 +1,17 @@
+---
+const { matches } = Astro.props;
+---
+
+{matches.length ? (
+  <div class="pending-grid">
+    {matches.map((match) => (
+      <div class="pending-card">
+        <span>{match.home}</span>
+        <small>vs</small>
+        <span>{match.away}</span>
+      </div>
+    ))}
+  </div>
+) : (
+  <p class="empty">No quedan cruces pendientes inferidos.</p>
+)}
