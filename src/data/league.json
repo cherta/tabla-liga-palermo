@@ -1,11 +1,14 @@
 {
-  "updatedAt": "2026-05-15T11:35:13.801Z",
+  "updatedAt": "2026-05-15T14:24:50.039Z",
   "source": {
     "pageUrl": "https://www.ligapalermo.org/serie-b-2026/",
     "resultsPdfUrl": "https://docs.google.com/spreadsheets/d/e/2PACX-1vSdAJR-xfu56IvAEhKLWretxCs4W6BFtbuUPa9eJyqFmyjwRcnSc7ipcJwmixnXm3AONshXgSPTDkPk/pub?gid=1110485064&single=true&output=pdf",
     "standingsPdfUrl": "https://docs.google.com/spreadsheets/d/e/2PACX-1vSdAJR-xfu56IvAEhKLWretxCs4W6BFtbuUPa9eJyqFmyjwRcnSc7ipcJwmixnXm3AONshXgSPTDkPk/pub?gid=491172477&single=true&output=pdf",
     "resultsCsvUrl": "https://docs.google.com/spreadsheets/d/e/2PACX-1vSdAJR-xfu56IvAEhKLWretxCs4W6BFtbuUPa9eJyqFmyjwRcnSc7ipcJwmixnXm3AONshXgSPTDkPk/pub?gid=1110485064&single=true&output=csv",
     "standingsCsvUrl": "https://docs.google.com/spreadsheets/d/e/2PACX-1vSdAJR-xfu56IvAEhKLWretxCs4W6BFtbuUPa9eJyqFmyjwRcnSc7ipcJwmixnXm3AONshXgSPTDkPk/pub?gid=491172477&single=true&output=csv",
+    "matchDetailCsvUrls": [
+      "https://docs.google.com/spreadsheets/d/1gPjQsQ9osjcg6xvxCIJhHLHP1ZCeehnIDuShvmRcOvg/export?format=csv&gid=409624493"
+    ],
     "discoveredPdfUrls": [
       "https://docs.google.com/spreadsheets/d/e/2PACX-1vSdAJR-xfu56IvAEhKLWretxCs4W6BFtbuUPa9eJyqFmyjwRcnSc7ipcJwmixnXm3AONshXgSPTDkPk/pub?gid=1110485064&single=true&output=pdf",
       "https://docs.google.com/spreadsheets/d/e/2PACX-1vSPb8Ia3rZxeGNy1FD123YL8-C1YKZeQR2S26j1boqLNXMlGv4cGl7G06snghUenXICkXNi3IYlfAVY/pub?gid=491172477&single=true&output=pdf"
@@ -1937,7 +1940,30 @@
           "home": "ALAS ROJAS",
           "away": "EXPLORADORES",
           "homeGoals": 1,
-          "awayGoals": 3
+          "awayGoals": 3,
+          "details": {
+            "date": "2026-03-06",
+            "venue": "Alas Rojas",
+            "sourceTeam": "EXPLORADORES",
+            "goals": [
+              {
+                "team": "EXPLORADORES",
+                "player": "Manu",
+                "goals": 1
+              },
+              {
+                "team": "EXPLORADORES",
+                "player": "Martin",
+                "goals": 1
+              },
+              {
+                "team": "EXPLORADORES",
+                "player": "Alex",
+                "goals": 1
+              }
+            ],
+            "note": null
+          }
         },
         {
           "round": "1ª fecha",
@@ -1958,7 +1984,30 @@
           "home": "EXPLORADORES",
           "away": "AEBU",
           "homeGoals": 4,
-          "awayGoals": 0
+          "awayGoals": 0,
+          "details": {
+            "date": "2026-03-14",
+            "venue": "Exploradores",
+            "sourceTeam": "EXPLORADORES",
+            "goals": [
+              {
+                "team": "EXPLORADORES",
+                "player": "Manu",
+                "goals": 1
+              },
+              {
+                "team": "EXPLORADORES",
+                "player": "Santi",
+                "goals": 2
+              },
+              {
+                "team": "EXPLORADORES",
+                "player": "Alex",
+                "goals": 1
+              }
+            ],
+            "note": null
+          }
         },
         {
           "round": "2ª fecha",
@@ -2021,7 +2070,30 @@
           "home": "NUEVA PALMIRA",
           "away": "EXPLORADORES",
           "homeGoals": 1,
-          "awayGoals": 7
+          "awayGoals": 7,
+          "details": {
+            "date": "2026-03-24",
+            "venue": "Nueva Palmira",
+            "sourceTeam": "EXPLORADORES",
+            "goals": [
+              {
+                "team": "EXPLORADORES",
+                "player": "Santi",
+                "goals": 3
+              },
+              {
+                "team": "EXPLORADORES",
+                "player": "Bauti",
+                "goals": 3
+              },
+              {
+                "team": "EXPLORADORES",
+                "player": "Manu",
+                "goals": 1
+              }
+            ],
+            "note": null
+          }
         },
         {
           "round": "3ª fecha",
@@ -2056,7 +2128,14 @@
           "home": "EXPLORADORES",
           "away": "DEP.ORIENTAL",
           "homeGoals": 0,
-          "awayGoals": 2
+          "awayGoals": 2,
+          "details": {
+            "date": "2026-04-07",
+            "venue": "Exploradores",
+            "sourceTeam": "EXPLORADORES",
+            "goals": [],
+            "note": null
+          }
         },
         {
           "round": "4ª fecha",
@@ -2112,7 +2191,25 @@
           "home": "R.DEL REDUCTO",
           "away": "EXPLORADORES",
           "homeGoals": 0,
-          "awayGoals": 4
+          "awayGoals": 4,
+          "details": {
+            "date": "2026-04-11",
+            "venue": "Rincon de Reducto",
+            "sourceTeam": "EXPLORADORES",
+            "goals": [
+              {
+                "team": "EXPLORADORES",
+                "player": "Samu",
+                "goals": 1
+              },
+              {
+                "team": "EXPLORADORES",
+                "player": "Bauti",
+                "goals": 3
+              }
+            ],
+            "note": null
+          }
         },
         {
           "round": "5ª fecha",
@@ -2168,7 +2265,14 @@
           "home": "EXPLORADORES",
           "away": "NVO. AMANECER",
           "homeGoals": 2,
-          "awayGoals": 0
+          "awayGoals": 0,
+          "details": {
+            "date": "2026-04-18",
+            "venue": "Exploradores",
+            "sourceTeam": "EXPLORADORES",
+            "goals": [],
+            "note": "No se presentó"
+          }
         },
         {
           "round": "6ª fecha",
@@ -2203,7 +2307,30 @@
           "home": "DRYCO",
           "away": "EXPLORADORES",
           "homeGoals": 2,
-          "awayGoals": 3
+          "awayGoals": 3,
+          "details": {
+            "date": "2026-05-02",
+            "venue": "Dryco",
+            "sourceTeam": "EXPLORADORES",
+            "goals": [
+              {
+                "team": "EXPLORADORES",
+                "player": "Samu",
+                "goals": 1
+              },
+              {
+                "team": "EXPLORADORES",
+                "player": "Santi",
+                "goals": 1
+              },
+              {
+                "team": "EXPLORADORES",
+                "player": "Manu",
+                "goals": 1
+              }
+            ],
+            "note": null
+          }
         },
         {
           "round": "7ª fecha",
@@ -2259,7 +2386,25 @@
           "home": "EXPLORADORES",
           "away": "INTERMEZZO",
           "homeGoals": 2,
-          "awayGoals": 0
+          "awayGoals": 0,
+          "details": {
+            "date": "2026-05-14",
+            "venue": "Exploradores",
+            "sourceTeam": "EXPLORADORES",
+            "goals": [
+              {
+                "team": "EXPLORADORES",
+                "player": "Santi",
+                "goals": 1
+              },
+              {
+                "team": "EXPLORADORES",
+                "player": "Bauti",
+                "goals": 1
+              }
+            ],
+            "note": null
+          }
         },
         {
           "round": "8ª fecha",

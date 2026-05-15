@@ -1,5 +1,5 @@
 ---
-const { rows, results, nextGames } = Astro.props;
+const { rows, results, nextGames, categoryName = 'category' } = Astro.props;
 
 function teamMatches(team) {
   return results.filter((match) => match.home === team || match.away === team);
@@ -17,6 +17,19 @@ function scoreFor(match, team) {
   return match.home === team
     ? `${match.homeGoals} - ${match.awayGoals}`
     : `${match.awayGoals} - ${match.homeGoals}`;
+}
+
+function detailId(team, match, index) {
+  return `match-detail-${slugify(categoryName)}-${slugify(team)}-${slugify(match.round)}-${index}`;
+}
+
+function formatDate(value) {
+  if (!value) return null;
+  return new Intl.DateTimeFormat('es-UY', { dateStyle: 'medium', timeZone: 'UTC' }).format(new Date(value));
+}
+
+function slugify(value) {
+  return String(value).toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
 }
 ---
 
@@ -56,13 +69,76 @@ function scoreFor(match, team) {
               <h4>Jugados</h4>
               {played.length ? (
                 <div class="compact-list">
-                  {played.map((match) => (
-                    <article class="compact-match">
-                      <span>{match.round}</span>
-                      <strong>{opponentFor(match, row.team)}</strong>
-                      <b>{scoreFor(match, row.team)}</b>
-                    </article>
-                  ))}
+                  {played.map((match, index) => {
+                    const details = match.details;
+                    const dialogId = detailId(row.team, match, index);
+                    const date = details ? formatDate(details.date) : null;
+
+                    return (
+                      <>
+                        <article class={`compact-match${details ? ' has-detail' : ''}`}>
+                          <span>{match.round}</span>
+                          <strong>{opponentFor(match, row.team)}</strong>
+                          <b>{scoreFor(match, row.team)}</b>
+                          {details && (
+                            <button
+                              class="detail-button"
+                              type="button"
+                              data-dialog-target={dialogId}
+                              aria-label={`Ver detalle de ${match.home} contra ${match.away}`}
+                            >
+                              i
+                            </button>
+                          )}
+                        </article>
+
+                        {details && (
+                          <dialog id={dialogId} class="match-dialog" aria-label={`Detalle de ${match.home} contra ${match.away}`}>
+                            <div class="dialog-content">
+                              <div class="dialog-header">
+                                <div>
+                                  <p class="eyebrow">{match.round}</p>
+                                  <h3 class="dialog-scoreline">
+                                    <span>{match.home}</span>
+                                    <b><span>{match.homeGoals}</span> - <span>{match.awayGoals}</span></b>
+                                    <span>{match.away}</span>
+                                  </h3>
+                                </div>
+                                <form method="dialog">
+                                  <button class="dialog-close" type="submit" aria-label="Cerrar detalle">×</button>
+                                </form>
+                              </div>
+
+                              {(date || details.venue) && (
+                                <div class="dialog-meta">
+                                  {date && <span>{date}</span>}
+                                  {details.venue && <span>Cancha: {details.venue}</span>}
+                                </div>
+                              )}
+
+                              <section>
+                                <h4>Goles de {details.sourceTeam}</h4>
+                                {details.goals?.length ? (
+                                  <ul class="scorer-list">
+                                    {details.goals.map((goal) => (
+                                      <li>
+                                        <strong>{goal.player}</strong>
+                                        <span aria-label={`${goal.goals} ${goal.goals === 1 ? 'gol' : 'goles'}`}>{'⚽'.repeat(goal.goals)}</span>
+                                      </li>
+                                    ))}
+                                  </ul>
+                                ) : (
+                                  <p class="empty small">Sin detalle de goleadores.</p>
+                                )}
+                              </section>
+
+                              {details.note && <p class="match-note">{details.note}</p>}
+                            </div>
+                          </dialog>
+                        )}
+                      </>
+                    );
+                  })}
                 </div>
               ) : (
                 <p class="empty small">Sin partidos jugados.</p>
