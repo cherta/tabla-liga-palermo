@@ -401,6 +401,8 @@ function normalizeExternalTeam(value) {
     'RAYO ROJO': 'RAYO ROJO',
     'RINCON DE REDUCTO': 'R.DEL REDUCTO',
     STOCKOLMO: 'STOCKOLMO',
+    'SUR 200': 'SUR2000',
+    'SUR 2000': 'SUR2000',
     SUR2000: 'SUR2000',
     TERREMOTO: 'TERREMOTO',
     'URUGUAY BUCEO': 'URUGUAY BUCEO',

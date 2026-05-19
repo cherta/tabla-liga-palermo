@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-17T23:58:45.159Z",
+  "updatedAt": "2026-05-19T13:03:30.342Z",
   "source": {
     "pageUrl": "https://www.ligapalermo.org/serie-b-2026/",
     "resultsPdfUrl": "https://docs.google.com/spreadsheets/d/e/2PACX-1vSdAJR-xfu56IvAEhKLWretxCs4W6BFtbuUPa9eJyqFmyjwRcnSc7ipcJwmixnXm3AONshXgSPTDkPk/pub?gid=1110485064&single=true&output=pdf",
@@ -65,6 +65,18 @@
     },
     {
       "position": 5,
+      "team": "ALAS ROJAS",
+      "played": 64,
+      "won": 41,
+      "drawn": 7,
+      "lost": 16,
+      "goalsFor": 161,
+      "goalsAgainst": 69,
+      "points": 89,
+      "goalDifference": 92
+    },
+    {
+      "position": 6,
       "team": "URUGUAY BUCEO",
       "played": 64,
       "won": 41,
@@ -74,18 +86,6 @@
       "goalsAgainst": 90,
       "points": 87,
       "goalDifference": 71
-    },
-    {
-      "position": 6,
-      "team": "ALAS ROJAS",
-      "played": 61,
-      "won": 38,
-      "drawn": 7,
-      "lost": 16,
-      "goalsFor": 143,
-      "goalsAgainst": 66,
-      "points": 83,
-      "goalDifference": 77
     },
     {
       "position": 7,
@@ -186,14 +186,14 @@
     {
       "position": 15,
       "team": "NVO. AMANECER",
-      "played": 64,
+      "played": 67,
       "won": 1,
       "drawn": 1,
-      "lost": 62,
-      "goalsFor": 11,
-      "goalsAgainst": 253,
+      "lost": 65,
+      "goalsFor": 14,
+      "goalsAgainst": 271,
       "points": 3,
-      "goalDifference": -242
+      "goalDifference": -257
     }
   ],
   "categories": [
@@ -2499,7 +2499,25 @@
           "home": "SUR2000",
           "away": "EXPLORADORES",
           "homeGoals": 1,
-          "awayGoals": 3
+          "awayGoals": 3,
+          "details": {
+            "date": "2026-05-16",
+            "venue": "Aebu",
+            "sourceTeam": "EXPLORADORES",
+            "goals": [
+              {
+                "team": "EXPLORADORES",
+                "player": "Santi",
+                "goals": 2
+              },
+              {
+                "team": "EXPLORADORES",
+                "player": "Samu",
+                "goals": 1
+              }
+            ],
+            "note": null
+          }
         },
         {
           "round": "9ª fecha",
@@ -4403,6 +4421,18 @@
         },
         {
           "position": 12,
+          "team": "ALAS ROJAS",
+          "played": 8,
+          "won": 2,
+          "drawn": 1,
+          "lost": 5,
+          "goalsFor": 8,
+          "goalsAgainst": 22,
+          "points": 5,
+          "goalDifference": -14
+        },
+        {
+          "position": 13,
           "team": "TERREMOTO",
           "played": 8,
           "won": 2,
@@ -4414,28 +4444,16 @@
           "goalDifference": -9
         },
         {
-          "position": 13,
-          "team": "ALAS ROJAS",
-          "played": 7,
-          "won": 1,
-          "drawn": 1,
-          "lost": 5,
-          "goalsFor": 5,
-          "goalsAgainst": 20,
-          "points": 3,
-          "goalDifference": -15
-        },
-        {
           "position": 14,
           "team": "NVO. AMANECER",
-          "played": 8,
+          "played": 9,
           "won": 1,
           "drawn": 0,
-          "lost": 7,
-          "goalsFor": 7,
-          "goalsAgainst": 29,
+          "lost": 8,
+          "goalsFor": 9,
+          "goalsAgainst": 32,
           "points": 2,
-          "goalDifference": -22
+          "goalDifference": -23
         },
         {
           "position": 15,
@@ -4873,6 +4891,13 @@
         },
         {
           "round": "9ª fecha",
+          "home": "NVO. AMANECER",
+          "away": "ALAS ROJAS",
+          "homeGoals": 2,
+          "awayGoals": 3
+        },
+        {
+          "round": "9ª fecha",
           "home": "R.DEL REDUCTO",
           "away": "AEBU",
           "homeGoals": 0,
@@ -4922,10 +4947,6 @@
         {
           "home": "ALAS ROJAS",
           "away": "NUEVO AMERICA"
-        },
-        {
-          "home": "ALAS ROJAS",
-          "away": "NVO. AMANECER"
         },
         {
           "home": "ALAS ROJAS",
@@ -5114,6 +5135,18 @@
         },
         {
           "position": 5,
+          "team": "ALAS ROJAS",
+          "played": 8,
+          "won": 5,
+          "drawn": 2,
+          "lost": 1,
+          "goalsFor": 19,
+          "goalsAgainst": 6,
+          "points": 12,
+          "goalDifference": 13
+        },
+        {
+          "position": 6,
           "team": "SUR2000",
           "played": 8,
           "won": 5,
@@ -5123,18 +5156,6 @@
           "goalsAgainst": 5,
           "points": 11,
           "goalDifference": 16
-        },
-        {
-          "position": 6,
-          "team": "ALAS ROJAS",
-          "played": 7,
-          "won": 4,
-          "drawn": 2,
-          "lost": 1,
-          "goalsFor": 12,
-          "goalsAgainst": 5,
-          "points": 10,
-          "goalDifference": 7
         },
         {
           "position": 7,
@@ -5235,14 +5256,14 @@
         {
           "position": 15,
           "team": "NVO. AMANECER",
-          "played": 8,
+          "played": 9,
           "won": 0,
           "drawn": 0,
-          "lost": 8,
-          "goalsFor": 2,
-          "goalsAgainst": 53,
+          "lost": 9,
+          "goalsFor": 3,
+          "goalsAgainst": 60,
           "points": 0,
-          "goalDifference": -51
+          "goalDifference": -57
         }
       ],
       "results": [
@@ -5668,6 +5689,13 @@
         },
         {
           "round": "9ª fecha",
+          "home": "NVO. AMANECER",
+          "away": "ALAS ROJAS",
+          "homeGoals": 1,
+          "awayGoals": 7
+        },
+        {
+          "round": "9ª fecha",
           "home": "R.DEL REDUCTO",
           "away": "AEBU",
           "homeGoals": 1,
@@ -5717,10 +5745,6 @@
         {
           "home": "ALAS ROJAS",
           "away": "NUEVO AMERICA"
-        },
-        {
-          "home": "ALAS ROJAS",
-          "away": "NVO. AMANECER"
         },
         {
           "home": "ALAS ROJAS",
@@ -5873,6 +5897,18 @@
         },
         {
           "position": 2,
+          "team": "ALAS ROJAS",
+          "played": 8,
+          "won": 6,
+          "drawn": 1,
+          "lost": 1,
+          "goalsFor": 20,
+          "goalsAgainst": 4,
+          "points": 13,
+          "goalDifference": 16
+        },
+        {
+          "position": 3,
           "team": "INTERMEZZO",
           "played": 8,
           "won": 6,
@@ -5884,7 +5920,7 @@
           "goalDifference": 9
         },
         {
-          "position": 3,
+          "position": 4,
           "team": "TERREMOTO",
           "played": 8,
           "won": 3,
@@ -5896,7 +5932,7 @@
           "goalDifference": 16
         },
         {
-          "position": 4,
+          "position": 5,
           "team": "NUEVA PALMIRA",
           "played": 8,
           "won": 5,
@@ -5906,18 +5942,6 @@
           "goalsAgainst": 10,
           "points": 11,
           "goalDifference": 13
-        },
-        {
-          "position": 5,
-          "team": "ALAS ROJAS",
-          "played": 7,
-          "won": 5,
-          "drawn": 1,
-          "lost": 1,
-          "goalsFor": 12,
-          "goalsAgainst": 4,
-          "points": 11,
-          "goalDifference": 8
         },
         {
           "position": 6,
@@ -6030,14 +6054,14 @@
         {
           "position": 15,
           "team": "NVO. AMANECER",
-          "played": 8,
+          "played": 9,
           "won": 0,
           "drawn": 0,
-          "lost": 8,
+          "lost": 9,
           "goalsFor": 1,
-          "goalsAgainst": 48,
+          "goalsAgainst": 56,
           "points": 0,
-          "goalDifference": -47
+          "goalDifference": -55
         }
       ],
       "results": [
@@ -6463,6 +6487,13 @@
         },
         {
           "round": "9ª fecha",
+          "home": "NVO. AMANECER",
+          "away": "ALAS ROJAS",
+          "homeGoals": 0,
+          "awayGoals": 8
+        },
+        {
+          "round": "9ª fecha",
           "home": "R.DEL REDUCTO",
           "away": "AEBU",
           "homeGoals": 2,
@@ -6512,10 +6543,6 @@
         {
           "home": "ALAS ROJAS",
           "away": "NUEVO AMERICA"
-        },
-        {
-          "home": "ALAS ROJAS",
-          "away": "NVO. AMANECER"
         },
         {
           "home": "ALAS ROJAS",
