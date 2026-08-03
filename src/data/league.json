@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-27T14:35:30.240Z",
+  "updatedAt": "2026-08-03T12:18:39.406Z",
   "source": {
     "pageUrl": "https://www.ligapalermo.org/serie-b-2026/",
     "resultsPdfUrl": "https://docs.google.com/spreadsheets/d/e/2PACX-1vSdAJR-xfu56IvAEhKLWretxCs4W6BFtbuUPa9eJyqFmyjwRcnSc7ipcJwmixnXm3AONshXgSPTDkPk/pub?gid=1110485064&single=true&output=pdf",
@@ -18,62 +18,62 @@
     {
       "position": 1,
       "team": "EXPLORADORES",
-      "played": 100,
-      "won": 76,
+      "played": 104,
+      "won": 80,
       "drawn": 6,
       "lost": 18,
-      "goalsFor": 290,
+      "goalsFor": 305,
       "goalsAgainst": 94,
-      "points": 158,
-      "goalDifference": 196
+      "points": 166,
+      "goalDifference": 211
     },
     {
       "position": 2,
       "team": "DEP.ORIENTAL",
-      "played": 96,
-      "won": 68,
-      "drawn": 13,
-      "lost": 15,
-      "goalsFor": 266,
-      "goalsAgainst": 79,
-      "points": 149,
-      "goalDifference": 187
+      "played": 103,
+      "won": 73,
+      "drawn": 14,
+      "lost": 16,
+      "goalsFor": 285,
+      "goalsAgainst": 87,
+      "points": 160,
+      "goalDifference": 198
     },
     {
       "position": 3,
       "team": "STOCKOLMO",
-      "played": 100,
-      "won": 69,
+      "played": 102,
+      "won": 70,
       "drawn": 10,
-      "lost": 21,
-      "goalsFor": 271,
-      "goalsAgainst": 82,
-      "points": 148,
-      "goalDifference": 189
+      "lost": 22,
+      "goalsFor": 273,
+      "goalsAgainst": 85,
+      "points": 150,
+      "goalDifference": 188
     },
     {
       "position": 4,
-      "team": "TERREMOTO",
-      "played": 100,
-      "won": 64,
-      "drawn": 16,
-      "lost": 20,
-      "goalsFor": 289,
-      "goalsAgainst": 92,
-      "points": 144,
-      "goalDifference": 197
+      "team": "ALAS ROJAS",
+      "played": 104,
+      "won": 67,
+      "drawn": 13,
+      "lost": 24,
+      "goalsFor": 257,
+      "goalsAgainst": 107,
+      "points": 147,
+      "goalDifference": 150
     },
     {
       "position": 5,
-      "team": "ALAS ROJAS",
-      "played": 100,
+      "team": "TERREMOTO",
+      "played": 102,
       "won": 65,
-      "drawn": 13,
-      "lost": 22,
-      "goalsFor": 246,
-      "goalsAgainst": 103,
-      "points": 143,
-      "goalDifference": 143
+      "drawn": 16,
+      "lost": 21,
+      "goalsFor": 292,
+      "goalsAgainst": 94,
+      "points": 146,
+      "goalDifference": 198
     },
     {
       "position": 6,
@@ -90,26 +90,26 @@
     {
       "position": 7,
       "team": "URUGUAY BUCEO",
-      "played": 100,
-      "won": 51,
+      "played": 104,
+      "won": 53,
       "drawn": 10,
-      "lost": 39,
-      "goalsFor": 203,
-      "goalsAgainst": 167,
-      "points": 112,
-      "goalDifference": 36
+      "lost": 41,
+      "goalsFor": 207,
+      "goalsAgainst": 178,
+      "points": 116,
+      "goalDifference": 29
     },
     {
       "position": 8,
       "team": "EST. DE LA UNION",
-      "played": 108,
+      "played": 112,
       "won": 43,
       "drawn": 15,
-      "lost": 50,
+      "lost": 54,
       "goalsFor": 163,
-      "goalsAgainst": 202,
+      "goalsAgainst": 217,
       "points": 101,
-      "goalDifference": -39
+      "goalDifference": -54
     },
     {
       "position": 9,
@@ -137,6 +137,18 @@
     },
     {
       "position": 11,
+      "team": "INTERMEZZO",
+      "played": 98,
+      "won": 32,
+      "drawn": 11,
+      "lost": 55,
+      "goalsFor": 141,
+      "goalsAgainst": 200,
+      "points": 74,
+      "goalDifference": -59
+    },
+    {
+      "position": 12,
       "team": "AEBU",
       "played": 96,
       "won": 30,
@@ -146,18 +158,6 @@
       "goalsAgainst": 199,
       "points": 72,
       "goalDifference": -57
-    },
-    {
-      "position": 12,
-      "team": "INTERMEZZO",
-      "played": 91,
-      "won": 31,
-      "drawn": 10,
-      "lost": 50,
-      "goalsFor": 133,
-      "goalsAgainst": 181,
-      "points": 71,
-      "goalDifference": -48
     },
     {
       "position": 13,
@@ -203,14 +203,14 @@
         {
           "position": 1,
           "team": "ALAS ROJAS",
-          "played": 12,
-          "won": 12,
+          "played": 13,
+          "won": 13,
           "drawn": 0,
           "lost": 0,
-          "goalsFor": 43,
+          "goalsFor": 51,
           "goalsAgainst": 2,
-          "points": 24,
-          "goalDifference": 41
+          "points": 26,
+          "goalDifference": 49
         },
         {
           "position": 2,
@@ -227,14 +227,14 @@
         {
           "position": 3,
           "team": "DEP.ORIENTAL",
-          "played": 12,
-          "won": 10,
+          "played": 13,
+          "won": 11,
           "drawn": 0,
           "lost": 2,
-          "goalsFor": 30,
+          "goalsFor": 32,
           "goalsAgainst": 13,
-          "points": 20,
-          "goalDifference": 17
+          "points": 22,
+          "goalDifference": 19
         },
         {
           "position": 4,
@@ -251,14 +251,14 @@
         {
           "position": 5,
           "team": "EXPLORADORES",
-          "played": 12,
-          "won": 8,
+          "played": 13,
+          "won": 9,
           "drawn": 1,
           "lost": 3,
-          "goalsFor": 19,
+          "goalsFor": 27,
           "goalsAgainst": 8,
-          "points": 17,
-          "goalDifference": 11
+          "points": 19,
+          "goalDifference": 19
         },
         {
           "position": 6,
@@ -287,26 +287,26 @@
         {
           "position": 8,
           "team": "URUGUAY BUCEO",
-          "played": 12,
+          "played": 13,
           "won": 6,
           "drawn": 1,
-          "lost": 5,
+          "lost": 6,
           "goalsFor": 15,
-          "goalsAgainst": 23,
+          "goalsAgainst": 31,
           "points": 13,
-          "goalDifference": -8
+          "goalDifference": -16
         },
         {
           "position": 9,
           "team": "EST. DE LA UNION",
-          "played": 13,
+          "played": 14,
           "won": 6,
           "drawn": 0,
-          "lost": 7,
+          "lost": 8,
           "goalsFor": 12,
-          "goalsAgainst": 47,
+          "goalsAgainst": 55,
           "points": 12,
-          "goalDifference": -35
+          "goalDifference": -43
         },
         {
           "position": 10,
@@ -323,14 +323,14 @@
         {
           "position": 11,
           "team": "INTERMEZZO",
-          "played": 7,
+          "played": 8,
           "won": 0,
           "drawn": 0,
-          "lost": 7,
+          "lost": 8,
           "goalsFor": 0,
-          "goalsAgainst": 14,
+          "goalsAgainst": 16,
           "points": 0,
-          "goalDifference": -14
+          "goalDifference": -16
         },
         {
           "position": 12,
@@ -948,6 +948,27 @@
           "away": "DRYCO",
           "homeGoals": 1,
           "awayGoals": 2
+        },
+        {
+          "round": "14ª fecha",
+          "home": "ALAS ROJAS",
+          "away": "URUGUAY BUCEO",
+          "homeGoals": 8,
+          "awayGoals": 0
+        },
+        {
+          "round": "14ª fecha",
+          "home": "EST. DE LA UNION",
+          "away": "EXPLORADORES",
+          "homeGoals": 0,
+          "awayGoals": 8
+        },
+        {
+          "round": "14ª fecha",
+          "home": "DEP.ORIENTAL",
+          "away": "INTERMEZZO",
+          "homeGoals": 2,
+          "awayGoals": 0
         }
       ],
       "nextGames": [
@@ -980,24 +1001,12 @@
           "away": "STOCKOLMO"
         },
         {
-          "home": "ALAS ROJAS",
-          "away": "URUGUAY BUCEO"
-        },
-        {
-          "home": "DEP.ORIENTAL",
-          "away": "INTERMEZZO"
-        },
-        {
           "home": "DEP.ORIENTAL",
           "away": "SUR2000"
         },
         {
           "home": "DRYCO",
           "away": "NVO. AMANECER"
-        },
-        {
-          "home": "EST. DE LA UNION",
-          "away": "EXPLORADORES"
         },
         {
           "home": "EXPLORADORES",
@@ -1066,6 +1075,18 @@
         },
         {
           "position": 2,
+          "team": "DEP.ORIENTAL",
+          "played": 13,
+          "won": 12,
+          "drawn": 0,
+          "lost": 1,
+          "goalsFor": 53,
+          "goalsAgainst": 1,
+          "points": 24,
+          "goalDifference": 52
+        },
+        {
+          "position": 3,
           "team": "ALAS ROJAS",
           "played": 13,
           "won": 11,
@@ -1075,18 +1096,6 @@
           "goalsAgainst": 8,
           "points": 23,
           "goalDifference": 41
-        },
-        {
-          "position": 3,
-          "team": "DEP.ORIENTAL",
-          "played": 12,
-          "won": 11,
-          "drawn": 0,
-          "lost": 1,
-          "goalsFor": 49,
-          "goalsAgainst": 1,
-          "points": 22,
-          "goalDifference": 48
         },
         {
           "position": 4,
@@ -1151,14 +1160,14 @@
         {
           "position": 9,
           "team": "INTERMEZZO",
-          "played": 12,
+          "played": 13,
           "won": 5,
           "drawn": 1,
-          "lost": 6,
+          "lost": 7,
           "goalsFor": 14,
-          "goalsAgainst": 21,
+          "goalsAgainst": 25,
           "points": 11,
-          "goalDifference": -7
+          "goalDifference": -11
         },
         {
           "position": 10,
@@ -1884,6 +1893,13 @@
           "away": "NUEVO AMERICA",
           "homeGoals": 2,
           "awayGoals": 0
+        },
+        {
+          "round": "14ª fecha",
+          "home": "DEP.ORIENTAL",
+          "away": "INTERMEZZO",
+          "homeGoals": 4,
+          "awayGoals": 0
         }
       ],
       "nextGames": [
@@ -1898,10 +1914,6 @@
         {
           "home": "ALAS ROJAS",
           "away": "STOCKOLMO"
-        },
-        {
-          "home": "DEP.ORIENTAL",
-          "away": "INTERMEZZO"
         },
         {
           "home": "DEP.ORIENTAL",
@@ -1966,6 +1978,18 @@
         },
         {
           "position": 3,
+          "team": "DEP.ORIENTAL",
+          "played": 13,
+          "won": 9,
+          "drawn": 3,
+          "lost": 1,
+          "goalsFor": 30,
+          "goalsAgainst": 7,
+          "points": 21,
+          "goalDifference": 23
+        },
+        {
+          "position": 4,
           "team": "STOCKOLMO",
           "played": 13,
           "won": 9,
@@ -1975,18 +1999,6 @@
           "goalsAgainst": 10,
           "points": 20,
           "goalDifference": 35
-        },
-        {
-          "position": 4,
-          "team": "DEP.ORIENTAL",
-          "played": 12,
-          "won": 9,
-          "drawn": 2,
-          "lost": 1,
-          "goalsFor": 29,
-          "goalsAgainst": 6,
-          "points": 20,
-          "goalDifference": 23
         },
         {
           "position": 5,
@@ -2051,13 +2063,13 @@
         {
           "position": 10,
           "team": "INTERMEZZO",
-          "played": 12,
+          "played": 13,
           "won": 4,
-          "drawn": 1,
+          "drawn": 2,
           "lost": 7,
-          "goalsFor": 14,
-          "goalsAgainst": 31,
-          "points": 9,
+          "goalsFor": 15,
+          "goalsAgainst": 32,
+          "points": 10,
           "goalDifference": -17
         },
         {
@@ -3045,6 +3057,13 @@
           "away": "NUEVO AMERICA",
           "homeGoals": 5,
           "awayGoals": 1
+        },
+        {
+          "round": "14ª fecha",
+          "home": "DEP.ORIENTAL",
+          "away": "INTERMEZZO",
+          "homeGoals": 1,
+          "awayGoals": 1
         }
       ],
       "nextGames": [
@@ -3055,10 +3074,6 @@
         {
           "home": "ALAS ROJAS",
           "away": "STOCKOLMO"
-        },
-        {
-          "home": "DEP.ORIENTAL",
-          "away": "INTERMEZZO"
         },
         {
           "home": "DEP.ORIENTAL",
@@ -3127,6 +3142,18 @@
         },
         {
           "position": 4,
+          "team": "DEP.ORIENTAL",
+          "played": 13,
+          "won": 9,
+          "drawn": 2,
+          "lost": 2,
+          "goalsFor": 29,
+          "goalsAgainst": 8,
+          "points": 20,
+          "goalDifference": 21
+        },
+        {
+          "position": 5,
           "team": "DRYCO",
           "played": 13,
           "won": 8,
@@ -3138,7 +3165,7 @@
           "goalDifference": 23
         },
         {
-          "position": 5,
+          "position": 6,
           "team": "TERREMOTO",
           "played": 13,
           "won": 7,
@@ -3148,18 +3175,6 @@
           "goalsAgainst": 12,
           "points": 18,
           "goalDifference": 23
-        },
-        {
-          "position": 6,
-          "team": "DEP.ORIENTAL",
-          "played": 12,
-          "won": 8,
-          "drawn": 2,
-          "lost": 2,
-          "goalsFor": 24,
-          "goalsAgainst": 7,
-          "points": 18,
-          "goalDifference": 17
         },
         {
           "position": 7,
@@ -3176,14 +3191,14 @@
         {
           "position": 8,
           "team": "INTERMEZZO",
-          "played": 12,
+          "played": 13,
           "won": 5,
           "drawn": 2,
-          "lost": 5,
-          "goalsFor": 24,
-          "goalsAgainst": 16,
+          "lost": 6,
+          "goalsFor": 25,
+          "goalsAgainst": 21,
           "points": 12,
-          "goalDifference": 8
+          "goalDifference": 4
         },
         {
           "position": 9,
@@ -3949,6 +3964,13 @@
           "away": "NUEVO AMERICA",
           "homeGoals": 5,
           "awayGoals": 0
+        },
+        {
+          "round": "14ª fecha",
+          "home": "DEP.ORIENTAL",
+          "away": "INTERMEZZO",
+          "homeGoals": 5,
+          "awayGoals": 1
         }
       ],
       "nextGames": [
@@ -3959,10 +3981,6 @@
         {
           "home": "ALAS ROJAS",
           "away": "STOCKOLMO"
-        },
-        {
-          "home": "DEP.ORIENTAL",
-          "away": "INTERMEZZO"
         },
         {
           "home": "DEP.ORIENTAL",
@@ -4027,6 +4045,18 @@
         },
         {
           "position": 4,
+          "team": "DEP.ORIENTAL",
+          "played": 13,
+          "won": 8,
+          "drawn": 2,
+          "lost": 3,
+          "goalsFor": 31,
+          "goalsAgainst": 14,
+          "points": 18,
+          "goalDifference": 17
+        },
+        {
+          "position": 5,
           "team": "DRYCO",
           "played": 13,
           "won": 8,
@@ -4036,18 +4066,6 @@
           "goalsAgainst": 21,
           "points": 18,
           "goalDifference": 14
-        },
-        {
-          "position": 5,
-          "team": "DEP.ORIENTAL",
-          "played": 12,
-          "won": 7,
-          "drawn": 2,
-          "lost": 3,
-          "goalsFor": 29,
-          "goalsAgainst": 13,
-          "points": 16,
-          "goalDifference": 16
         },
         {
           "position": 6,
@@ -4148,14 +4166,14 @@
         {
           "position": 14,
           "team": "INTERMEZZO",
-          "played": 12,
+          "played": 13,
           "won": 1,
           "drawn": 0,
-          "lost": 11,
-          "goalsFor": 9,
-          "goalsAgainst": 45,
+          "lost": 12,
+          "goalsFor": 10,
+          "goalsAgainst": 47,
           "points": 2,
-          "goalDifference": -36
+          "goalDifference": -37
         },
         {
           "position": 15,
@@ -4852,6 +4870,18 @@
       "standings": [
         {
           "position": 1,
+          "team": "EXPLORADORES",
+          "played": 13,
+          "won": 12,
+          "drawn": 0,
+          "lost": 1,
+          "goalsFor": 51,
+          "goalsAgainst": 10,
+          "points": 24,
+          "goalDifference": 41
+        },
+        {
+          "position": 2,
           "team": "STOCKOLMO",
           "played": 12,
           "won": 11,
@@ -4863,28 +4893,16 @@
           "goalDifference": 51
         },
         {
-          "position": 2,
-          "team": "EXPLORADORES",
-          "played": 12,
-          "won": 11,
-          "drawn": 0,
-          "lost": 1,
-          "goalsFor": 50,
-          "goalsAgainst": 10,
-          "points": 22,
-          "goalDifference": 40
-        },
-        {
           "position": 3,
           "team": "DEP.ORIENTAL",
-          "played": 12,
-          "won": 10,
+          "played": 13,
+          "won": 11,
           "drawn": 1,
           "lost": 1,
-          "goalsFor": 56,
-          "goalsAgainst": 11,
-          "points": 21,
-          "goalDifference": 45
+          "goalsFor": 60,
+          "goalsAgainst": 13,
+          "points": 23,
+          "goalDifference": 47
         },
         {
           "position": 4,
@@ -4913,38 +4931,38 @@
         {
           "position": 6,
           "team": "INTERMEZZO",
-          "played": 12,
+          "played": 13,
           "won": 5,
           "drawn": 3,
-          "lost": 4,
-          "goalsFor": 27,
-          "goalsAgainst": 17,
+          "lost": 5,
+          "goalsFor": 29,
+          "goalsAgainst": 21,
           "points": 13,
-          "goalDifference": 10
+          "goalDifference": 8
         },
         {
           "position": 7,
           "team": "EST. DE LA UNION",
-          "played": 13,
+          "played": 14,
           "won": 6,
           "drawn": 1,
-          "lost": 6,
+          "lost": 7,
           "goalsFor": 15,
-          "goalsAgainst": 20,
+          "goalsAgainst": 21,
           "points": 13,
-          "goalDifference": -5
+          "goalDifference": -6
         },
         {
           "position": 8,
           "team": "ALAS ROJAS",
-          "played": 12,
-          "won": 4,
+          "played": 13,
+          "won": 5,
           "drawn": 3,
           "lost": 5,
-          "goalsFor": 19,
+          "goalsFor": 21,
           "goalsAgainst": 28,
-          "points": 11,
-          "goalDifference": -9
+          "points": 13,
+          "goalDifference": -7
         },
         {
           "position": 9,
@@ -4973,14 +4991,14 @@
         {
           "position": 11,
           "team": "URUGUAY BUCEO",
-          "played": 12,
+          "played": 13,
           "won": 4,
           "drawn": 1,
-          "lost": 7,
+          "lost": 8,
           "goalsFor": 19,
-          "goalsAgainst": 16,
+          "goalsAgainst": 18,
           "points": 9,
-          "goalDifference": 3
+          "goalDifference": 1
         },
         {
           "position": 12,
@@ -5678,10 +5696,31 @@
         },
         {
           "round": "14ª fecha",
+          "home": "ALAS ROJAS",
+          "away": "URUGUAY BUCEO",
+          "homeGoals": 2,
+          "awayGoals": 0
+        },
+        {
+          "round": "14ª fecha",
           "home": "NUEVA PALMIRA",
           "away": "SUR2000",
           "homeGoals": 4,
           "awayGoals": 3
+        },
+        {
+          "round": "14ª fecha",
+          "home": "EST. DE LA UNION",
+          "away": "EXPLORADORES",
+          "homeGoals": 0,
+          "awayGoals": 1
+        },
+        {
+          "round": "14ª fecha",
+          "home": "DEP.ORIENTAL",
+          "away": "INTERMEZZO",
+          "homeGoals": 4,
+          "awayGoals": 2
         }
       ],
       "nextGames": [
@@ -5698,24 +5737,12 @@
           "away": "STOCKOLMO"
         },
         {
-          "home": "ALAS ROJAS",
-          "away": "URUGUAY BUCEO"
-        },
-        {
-          "home": "DEP.ORIENTAL",
-          "away": "INTERMEZZO"
-        },
-        {
           "home": "DEP.ORIENTAL",
           "away": "SUR2000"
         },
         {
           "home": "DRYCO",
           "away": "NVO. AMANECER"
-        },
-        {
-          "home": "EST. DE LA UNION",
-          "away": "EXPLORADORES"
         },
         {
           "home": "EXPLORADORES",
@@ -5741,74 +5768,74 @@
         {
           "position": 1,
           "team": "EXPLORADORES",
-          "played": 12,
-          "won": 10,
+          "played": 13,
+          "won": 11,
           "drawn": 1,
           "lost": 1,
-          "goalsFor": 56,
+          "goalsFor": 61,
           "goalsAgainst": 7,
-          "points": 21,
-          "goalDifference": 49
+          "points": 23,
+          "goalDifference": 54
         },
         {
           "position": 2,
           "team": "TERREMOTO",
-          "played": 12,
-          "won": 10,
+          "played": 13,
+          "won": 11,
           "drawn": 1,
           "lost": 1,
-          "goalsFor": 45,
+          "goalsFor": 47,
           "goalsAgainst": 11,
-          "points": 21,
-          "goalDifference": 34
+          "points": 23,
+          "goalDifference": 36
         },
         {
           "position": 3,
           "team": "STOCKOLMO",
-          "played": 12,
+          "played": 13,
           "won": 10,
           "drawn": 1,
-          "lost": 1,
+          "lost": 2,
           "goalsFor": 34,
-          "goalsAgainst": 10,
+          "goalsAgainst": 12,
           "points": 21,
-          "goalDifference": 24
+          "goalDifference": 22
         },
         {
           "position": 4,
           "team": "ALAS ROJAS",
-          "played": 12,
+          "played": 13,
           "won": 8,
           "drawn": 3,
-          "lost": 1,
+          "lost": 2,
           "goalsFor": 28,
-          "goalsAgainst": 8,
+          "goalsAgainst": 9,
           "points": 19,
-          "goalDifference": 20
+          "goalDifference": 19
         },
         {
           "position": 5,
           "team": "URUGUAY BUCEO",
-          "played": 12,
-          "won": 7,
+          "played": 13,
+          "won": 8,
           "drawn": 2,
           "lost": 3,
-          "goalsFor": 31,
+          "goalsFor": 32,
           "goalsAgainst": 14,
-          "points": 16,
-          "goalDifference": 17
+          "points": 18,
+          "goalDifference": 18
         },
         {
           "position": 6,
           "team": "DEP.ORIENTAL",
-          "played": 12,
+          "played": 13,
           "won": 6,
           "drawn": 4,
-          "lost": 2,
-          "goalsFor": 22,
-          "goalsAgainst": 10,
+          "lost": 3,
+          "goalsFor": 23,
+          "goalsAgainst": 13,
           "points": 16,
-          "goalDifference": 12
+          "goalDifference": 10
         },
         {
           "position": 7,
@@ -5849,26 +5876,26 @@
         {
           "position": 10,
           "team": "EST. DE LA UNION",
-          "played": 13,
+          "played": 14,
           "won": 4,
           "drawn": 2,
-          "lost": 7,
+          "lost": 8,
           "goalsFor": 24,
-          "goalsAgainst": 20,
+          "goalsAgainst": 25,
           "points": 10,
-          "goalDifference": 4
+          "goalDifference": -1
         },
         {
           "position": 11,
           "team": "INTERMEZZO",
-          "played": 12,
-          "won": 3,
+          "played": 13,
+          "won": 4,
           "drawn": 1,
           "lost": 8,
-          "goalsFor": 18,
-          "goalsAgainst": 22,
-          "points": 7,
-          "goalDifference": -4
+          "goalsFor": 21,
+          "goalsAgainst": 23,
+          "points": 9,
+          "goalDifference": -2
         },
         {
           "position": 12,
@@ -6559,10 +6586,24 @@
         },
         {
           "round": "14ª fecha",
+          "home": "TERREMOTO",
+          "away": "STOCKOLMO",
+          "homeGoals": 2,
+          "awayGoals": 0
+        },
+        {
+          "round": "14ª fecha",
           "home": "R.DEL REDUCTO",
           "away": "DRYCO",
           "homeGoals": 0,
           "awayGoals": 0
+        },
+        {
+          "round": "14ª fecha",
+          "home": "ALAS ROJAS",
+          "away": "URUGUAY BUCEO",
+          "homeGoals": 0,
+          "awayGoals": 1
         },
         {
           "round": "14ª fecha",
@@ -6573,10 +6614,24 @@
         },
         {
           "round": "14ª fecha",
+          "home": "EST. DE LA UNION",
+          "away": "EXPLORADORES",
+          "homeGoals": 0,
+          "awayGoals": 5
+        },
+        {
+          "round": "14ª fecha",
           "home": "AEBU",
           "away": "NUEVO AMERICA",
           "homeGoals": 3,
           "awayGoals": 1
+        },
+        {
+          "round": "14ª fecha",
+          "home": "DEP.ORIENTAL",
+          "away": "INTERMEZZO",
+          "homeGoals": 1,
+          "awayGoals": 3
         }
       ],
       "nextGames": [
@@ -6589,24 +6644,12 @@
           "away": "STOCKOLMO"
         },
         {
-          "home": "ALAS ROJAS",
-          "away": "URUGUAY BUCEO"
-        },
-        {
-          "home": "DEP.ORIENTAL",
-          "away": "INTERMEZZO"
-        },
-        {
           "home": "DEP.ORIENTAL",
           "away": "SUR2000"
         },
         {
           "home": "DRYCO",
           "away": "NVO. AMANECER"
-        },
-        {
-          "home": "EST. DE LA UNION",
-          "away": "EXPLORADORES"
         },
         {
           "home": "EXPLORADORES",
@@ -6619,10 +6662,6 @@
         {
           "home": "NUEVA PALMIRA",
           "away": "NUEVO AMERICA"
-        },
-        {
-          "home": "STOCKOLMO",
-          "away": "TERREMOTO"
         }
       ]
     },
@@ -6632,14 +6671,14 @@
         {
           "position": 1,
           "team": "EXPLORADORES",
-          "played": 12,
-          "won": 9,
+          "played": 13,
+          "won": 10,
           "drawn": 0,
           "lost": 3,
-          "goalsFor": 37,
+          "goalsFor": 38,
           "goalsAgainst": 13,
-          "points": 18,
-          "goalDifference": 24
+          "points": 20,
+          "goalDifference": 25
         },
         {
           "position": 2,
@@ -6655,6 +6694,18 @@
         },
         {
           "position": 3,
+          "team": "STOCKOLMO",
+          "played": 13,
+          "won": 8,
+          "drawn": 2,
+          "lost": 3,
+          "goalsFor": 24,
+          "goalsAgainst": 5,
+          "points": 18,
+          "goalDifference": 19
+        },
+        {
+          "position": 4,
           "team": "INTERMEZZO",
           "played": 12,
           "won": 8,
@@ -6666,28 +6717,16 @@
           "goalDifference": 12
         },
         {
-          "position": 4,
-          "team": "STOCKOLMO",
-          "played": 12,
-          "won": 7,
-          "drawn": 2,
-          "lost": 3,
-          "goalsFor": 22,
-          "goalsAgainst": 4,
-          "points": 16,
-          "goalDifference": 18
-        },
-        {
           "position": 5,
           "team": "ALAS ROJAS",
-          "played": 12,
+          "played": 13,
           "won": 7,
           "drawn": 2,
-          "lost": 3,
-          "goalsFor": 27,
-          "goalsAgainst": 10,
+          "lost": 4,
+          "goalsFor": 28,
+          "goalsAgainst": 13,
           "points": 16,
-          "goalDifference": 17
+          "goalDifference": 15
         },
         {
           "position": 6,
@@ -6716,14 +6755,14 @@
         {
           "position": 8,
           "team": "TERREMOTO",
-          "played": 12,
+          "played": 13,
           "won": 3,
           "drawn": 8,
-          "lost": 1,
-          "goalsFor": 27,
-          "goalsAgainst": 12,
+          "lost": 2,
+          "goalsFor": 28,
+          "goalsAgainst": 14,
           "points": 14,
-          "goalDifference": 15
+          "goalDifference": 14
         },
         {
           "position": 9,
@@ -6740,26 +6779,26 @@
         {
           "position": 10,
           "team": "EST. DE LA UNION",
-          "played": 13,
+          "played": 14,
           "won": 6,
           "drawn": 0,
-          "lost": 7,
+          "lost": 8,
           "goalsFor": 21,
-          "goalsAgainst": 11,
+          "goalsAgainst": 12,
           "points": 12,
-          "goalDifference": 10
+          "goalDifference": 9
         },
         {
           "position": 11,
           "team": "URUGUAY BUCEO",
-          "played": 12,
-          "won": 5,
+          "played": 13,
+          "won": 6,
           "drawn": 0,
           "lost": 7,
-          "goalsFor": 29,
-          "goalsAgainst": 26,
-          "points": 10,
-          "goalDifference": 3
+          "goalsFor": 32,
+          "goalsAgainst": 27,
+          "points": 12,
+          "goalDifference": 5
         },
         {
           "position": 12,
@@ -7450,6 +7489,13 @@
         },
         {
           "round": "14ª fecha",
+          "home": "TERREMOTO",
+          "away": "STOCKOLMO",
+          "homeGoals": 1,
+          "awayGoals": 2
+        },
+        {
+          "round": "14ª fecha",
           "home": "R.DEL REDUCTO",
           "away": "DRYCO",
           "homeGoals": 0,
@@ -7457,9 +7503,23 @@
         },
         {
           "round": "14ª fecha",
+          "home": "ALAS ROJAS",
+          "away": "URUGUAY BUCEO",
+          "homeGoals": 1,
+          "awayGoals": 3
+        },
+        {
+          "round": "14ª fecha",
           "home": "NUEVA PALMIRA",
           "away": "SUR2000",
           "homeGoals": 2,
+          "awayGoals": 1
+        },
+        {
+          "round": "14ª fecha",
+          "home": "EST. DE LA UNION",
+          "away": "EXPLORADORES",
+          "homeGoals": 0,
           "awayGoals": 1
         }
       ],
@@ -7477,10 +7537,6 @@
           "away": "STOCKOLMO"
         },
         {
-          "home": "ALAS ROJAS",
-          "away": "URUGUAY BUCEO"
-        },
-        {
           "home": "DEP.ORIENTAL",
           "away": "INTERMEZZO"
         },
@@ -7493,10 +7549,6 @@
           "away": "NVO. AMANECER"
         },
         {
-          "home": "EST. DE LA UNION",
-          "away": "EXPLORADORES"
-        },
-        {
           "home": "EXPLORADORES",
           "away": "TERREMOTO"
         },
@@ -7507,10 +7559,6 @@
         {
           "home": "NUEVA PALMIRA",
           "away": "NUEVO AMERICA"
-        },
-        {
-          "home": "STOCKOLMO",
-          "away": "TERREMOTO"
         }
       ]
     }
