@@ -1,18 +1,29 @@
 import { mkdir, writeFile } from 'node:fs/promises';
 import { dirname, resolve } from 'node:path';
 
-const PAGE_URL = 'https://www.ligapalermo.org/serie-b-2026/';
-const SHEET_ID = '2PACX-1vSdAJR-xfu56IvAEhKLWretxCs4W6BFtbuUPa9eJyqFmyjwRcnSc7ipcJwmixnXm3AONshXgSPTDkPk';
 const RESULTS_GID = '1110485064';
 const STANDINGS_GID = '491172477';
-const OUTPUT_PATH = resolve('src/data/league.json');
-
 const CATEGORIES = ['2021', '2020', '2019', '2018', '2017', '2016', '2015', '2014', '2013', 'SUB13', 'SUB11', 'F13', 'F11'];
-const MATCH_DETAIL_SOURCES = [
+const DIVISIONS = [
   {
-    category: '2018',
-    team: 'EXPLORADORES',
-    csvUrl: 'https://docs.google.com/spreadsheets/d/1gPjQsQ9osjcg6xvxCIJhHLHP1ZCeehnIDuShvmRcOvg/export?format=csv&gid=409624493',
+    name: 'Serie A',
+    pageUrl: 'https://www.ligapalermo.org/serie-a-2026/',
+    sheetId: '2PACX-1vSPb8Ia3rZxeGNy1FD123YL8-C1YKZeQR2S26j1boqLNXMlGv4cGl7G06snghUenXICkXNi3IYlfAVY',
+    outputPath: resolve('src/data/serie-a.json'),
+    matchDetailSources: [],
+  },
+  {
+    name: 'Serie B',
+    pageUrl: 'https://www.ligapalermo.org/serie-b-2026/',
+    sheetId: '2PACX-1vSdAJR-xfu56IvAEhKLWretxCs4W6BFtbuUPa9eJyqFmyjwRcnSc7ipcJwmixnXm3AONshXgSPTDkPk',
+    outputPath: resolve('src/data/league.json'),
+    matchDetailSources: [
+      {
+        category: '2018',
+        team: 'EXPLORADORES',
+        csvUrl: 'https://docs.google.com/spreadsheets/d/1gPjQsQ9osjcg6xvxCIJhHLHP1ZCeehnIDuShvmRcOvg/export?format=csv&gid=409624493',
+      },
+    ],
   },
 ];
 
@@ -22,22 +33,30 @@ main().catch((error) => {
 });
 
 async function main() {
-  const pageHtml = await fetchText(PAGE_URL);
-  const source = buildSource(pageHtml);
+  for (const division of DIVISIONS) await updateDivision(division);
+}
+
+async function updateDivision(division) {
+  console.log(`Updating ${division.name}…`);
+  const pageHtml = await fetchText(division.pageUrl);
+  console.log(`Fetched ${division.name} page`);
+  const source = buildSource(division, pageHtml);
   const [resultsCsv, standingsCsv, matchDetailCsvs] = await Promise.all([
     fetchText(source.resultsCsvUrl),
     fetchText(source.standingsCsvUrl),
-    Promise.all(MATCH_DETAIL_SOURCES.map(async (detailSource) => ({
+    Promise.all(division.matchDetailSources.map(async (detailSource) => ({
       ...detailSource,
       csv: await fetchText(detailSource.csvUrl),
     }))),
   ]);
+  console.log(`Fetched ${division.name} data`);
 
   const resultsRows = parseCsv(resultsCsv);
   const standingsRows = parseCsv(standingsCsv);
   const resultsByCategory = parseResults(resultsRows);
   const { standingsByCategory, generalTable } = parseStandings(standingsRows);
   const matchDetailsByCategory = parseMatchDetails(matchDetailCsvs);
+  console.log(`Parsed ${division.name} data`);
   mergeMatchDetails(resultsByCategory, matchDetailsByCategory);
   const categoryNames = [...new Set([...Object.keys(standingsByCategory), ...Object.keys(resultsByCategory)])]
     .sort(compareCategories);
@@ -57,32 +76,34 @@ async function main() {
       nextGames: inferNextGames(teams, results),
     };
   });
+  console.log(`Built ${division.name} categories`);
 
   const data = {
     updatedAt: new Date().toISOString(),
+    division: division.name,
     source,
     generalTable,
     categories,
   };
 
-  await mkdir(dirname(OUTPUT_PATH), { recursive: true });
-  await writeFile(OUTPUT_PATH, `${JSON.stringify(data, null, 2)}\n`);
-  console.log(`Generated ${OUTPUT_PATH}`);
-  console.log(`Categories: ${categories.map((category) => category.name).join(', ')}`);
+  await mkdir(dirname(division.outputPath), { recursive: true });
+  await writeFile(division.outputPath, `${JSON.stringify(data, null, 2)}\n`);
+  console.log(`Generated ${division.outputPath}`);
+  console.log(`${division.name} categories: ${categories.map((category) => category.name).join(', ')}`);
 }
 
-function buildSource(pageHtml) {
-  const base = `https://docs.google.com/spreadsheets/d/e/${SHEET_ID}`;
+function buildSource(division, pageHtml) {
+  const base = `https://docs.google.com/spreadsheets/d/e/${division.sheetId}`;
   const pdfUrls = [...pageHtml.matchAll(/https:\/\/docs\.google\.com\/spreadsheets\/d\/e\/[^"'< ]+output=pdf/g)]
     .map((match) => decodeHtml(match[0]));
 
   return {
-    pageUrl: PAGE_URL,
+    pageUrl: division.pageUrl,
     resultsPdfUrl: `${base}/pub?gid=${RESULTS_GID}&single=true&output=pdf`,
     standingsPdfUrl: `${base}/pub?gid=${STANDINGS_GID}&single=true&output=pdf`,
     resultsCsvUrl: `${base}/pub?gid=${RESULTS_GID}&single=true&output=csv`,
     standingsCsvUrl: `${base}/pub?gid=${STANDINGS_GID}&single=true&output=csv`,
-    matchDetailCsvUrls: MATCH_DETAIL_SOURCES.map((detailSource) => detailSource.csvUrl),
+    matchDetailCsvUrls: division.matchDetailSources.map((detailSource) => detailSource.csvUrl),
     discoveredPdfUrls: unique(pdfUrls),
   };
 }
@@ -90,7 +111,6 @@ function buildSource(pageHtml) {
 function parseResults(rows) {
   const byCategory = {};
   let currentRound = null;
-  let headers = [];
   let headerIndexes = [];
 
   for (let index = 0; index < rows.length; index += 1) {
@@ -99,7 +119,6 @@ function parseResults(rows) {
 
     if (round) {
       currentRound = round;
-      headers = row;
       headerIndexes = row
         .map((cell, cellIndex) => ({ cell: normalizeCategory(cell), cellIndex }))
         .filter(({ cell }) => CATEGORIES.includes(cell));
@@ -278,10 +297,19 @@ function inferNextGames(teams, results) {
   return games;
 }
 
-async function fetchText(url) {
-  const response = await fetch(url);
-  if (!response.ok) throw new Error(`Failed to fetch ${url}: ${response.status} ${response.statusText}`);
-  return response.text();
+async function fetchText(url, retries = 2) {
+  for (let attempt = 0; attempt <= retries; attempt += 1) {
+    try {
+      const response = await fetch(url, { signal: AbortSignal.timeout(15_000) });
+      if (!response.ok) throw new Error(`${response.status} ${response.statusText}`);
+      return await response.text();
+    } catch (error) {
+      if (attempt === retries) throw new Error(`Failed to fetch ${url}`, { cause: error });
+      console.warn(`Retrying ${url} (${attempt + 1}/${retries})…`);
+    }
+  }
+
+  throw new Error(`Failed to fetch ${url}`);
 }
 
 function parseCsv(csv) {

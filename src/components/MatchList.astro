@@ -1,4 +1,11 @@
 ---
+import type { Match } from '../types';
+
+interface Props {
+  matches: Match[];
+  emptyText?: string;
+}
+
 const { matches, emptyText = 'Todavia no hay resultados cargados.' } = Astro.props;
 ---
 

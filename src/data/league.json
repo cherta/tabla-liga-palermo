@@ -1,5 +1,6 @@
 {
-  "updatedAt": "2026-08-03T12:18:39.406Z",
+  "updatedAt": "2026-08-08T15:09:58.435Z",
+  "division": "Serie B",
   "source": {
     "pageUrl": "https://www.ligapalermo.org/serie-b-2026/",
     "resultsPdfUrl": "https://docs.google.com/spreadsheets/d/e/2PACX-1vSdAJR-xfu56IvAEhKLWretxCs4W6BFtbuUPa9eJyqFmyjwRcnSc7ipcJwmixnXm3AONshXgSPTDkPk/pub?gid=1110485064&single=true&output=pdf",
@@ -30,14 +31,14 @@
     {
       "position": 2,
       "team": "DEP.ORIENTAL",
-      "played": 103,
-      "won": 73,
+      "played": 104,
+      "won": 74,
       "drawn": 14,
       "lost": 16,
-      "goalsFor": 285,
-      "goalsAgainst": 87,
-      "points": 160,
-      "goalDifference": 198
+      "goalsFor": 287,
+      "goalsAgainst": 88,
+      "points": 162,
+      "goalDifference": 199
     },
     {
       "position": 3,
@@ -138,14 +139,14 @@
     {
       "position": 11,
       "team": "INTERMEZZO",
-      "played": 98,
+      "played": 99,
       "won": 32,
       "drawn": 11,
-      "lost": 55,
-      "goalsFor": 141,
-      "goalsAgainst": 200,
+      "lost": 56,
+      "goalsFor": 142,
+      "goalsAgainst": 202,
       "points": 74,
-      "goalDifference": -59
+      "goalDifference": -60
     },
     {
       "position": 12,
@@ -6706,18 +6707,30 @@
         },
         {
           "position": 4,
-          "team": "INTERMEZZO",
-          "played": 12,
+          "team": "DEP.ORIENTAL",
+          "played": 13,
           "won": 8,
           "drawn": 2,
-          "lost": 2,
-          "goalsFor": 27,
-          "goalsAgainst": 15,
-          "points": 17,
-          "goalDifference": 12
+          "lost": 3,
+          "goalsFor": 29,
+          "goalsAgainst": 19,
+          "points": 18,
+          "goalDifference": 10
         },
         {
           "position": 5,
+          "team": "INTERMEZZO",
+          "played": 13,
+          "won": 8,
+          "drawn": 2,
+          "lost": 3,
+          "goalsFor": 28,
+          "goalsAgainst": 17,
+          "points": 17,
+          "goalDifference": 11
+        },
+        {
+          "position": 6,
           "team": "ALAS ROJAS",
           "played": 13,
           "won": 7,
@@ -6727,18 +6740,6 @@
           "goalsAgainst": 13,
           "points": 16,
           "goalDifference": 15
-        },
-        {
-          "position": 6,
-          "team": "DEP.ORIENTAL",
-          "played": 12,
-          "won": 7,
-          "drawn": 2,
-          "lost": 3,
-          "goalsFor": 27,
-          "goalsAgainst": 18,
-          "points": 16,
-          "goalDifference": 9
         },
         {
           "position": 7,
@@ -7521,6 +7522,13 @@
           "away": "EXPLORADORES",
           "homeGoals": 0,
           "awayGoals": 1
+        },
+        {
+          "round": "14ª fecha",
+          "home": "DEP.ORIENTAL",
+          "away": "INTERMEZZO",
+          "homeGoals": 2,
+          "awayGoals": 1
         }
       ],
       "nextGames": [
@@ -7535,10 +7543,6 @@
         {
           "home": "ALAS ROJAS",
           "away": "STOCKOLMO"
-        },
-        {
-          "home": "DEP.ORIENTAL",
-          "away": "INTERMEZZO"
         },
         {
           "home": "DEP.ORIENTAL",

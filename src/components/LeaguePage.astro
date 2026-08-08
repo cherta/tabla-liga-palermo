@@ -1,0 +1,707 @@
+---
+import CategoryStandingsTable from './CategoryStandingsTable.astro';
+import StandingsTable from './StandingsTable.astro';
+import type { LeagueData } from '../types';
+
+interface Props {
+  league: LeagueData;
+}
+
+const { league } = Astro.props;
+const division = league.division ?? 'Serie B';
+const baseUrl = `${import.meta.env.BASE_URL}/`.replace(/\/+$/, '/');
+const pageTitle = `${division} 2026 | Liga Palermo`;
+const pageDescription = `Tabla de posiciones, resultados y partidos pendientes de ${division} 2026 Liga Palermo.`;
+const canonicalUrl = new URL(Astro.url.pathname, Astro.site);
+const socialImageUrl = new URL(`${baseUrl}og.png`, Astro.site);
+
+const updatedAt = league.updatedAt
+  ? new Intl.DateTimeFormat('es-UY', {
+      dateStyle: 'medium',
+      timeStyle: 'short',
+      timeZone: 'America/Montevideo',
+    }).format(new Date(league.updatedAt))
+  : 'Sin actualizar';
+
+const tabCss = [
+  '#tab-general:checked ~ .tab-list label[for="tab-general"],',
+  ...league.categories.map((category) => `#tab-${category.name}:checked ~ .tab-list label[for="tab-${category.name}"],`),
+].join('\n').replace(/,$/, '') + ` {
+  background: var(--blue);
+  border-color: var(--blue);
+  color: #fff;
+}
+
+#tab-general:checked ~ .general-panel,
+${league.categories.map((category) => `#tab-${category.name}:checked ~ .panel-${category.name}`).join(',\n')} {
+  display: block;
+}`;
+---
+
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content={pageDescription} />
+    <link rel="canonical" href={canonicalUrl} />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content={pageTitle} />
+    <meta property="og:description" content={pageDescription} />
+    <meta property="og:url" content={canonicalUrl} />
+    <meta property="og:image" content={socialImageUrl} />
+    <meta property="og:image:width" content="1731" />
+    <meta property="og:image:height" content="909" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={pageTitle} />
+    <meta name="twitter:description" content={pageDescription} />
+    <meta name="twitter:image" content={socialImageUrl} />
+    <title>{pageTitle}</title>
+  </head>
+  <body class={division === 'Serie A' ? 'theme-serie-a' : 'theme-serie-b'}>
+    <main class:list={['page-shell', division === 'Serie A' ? 'serie-a' : 'serie-b']}>
+      <nav class="division-nav" aria-label="Divisiones">
+        <a href={baseUrl}>Todas las series</a>
+        <div>
+          <a href={`${baseUrl}serie-a/`} aria-current={division === 'Serie A' ? 'page' : undefined}>Serie A</a>
+          <a href={`${baseUrl}serie-b/`} aria-current={division === 'Serie B' ? 'page' : undefined}>Serie B</a>
+        </div>
+      </nav>
+      <header class="hero">
+        <div>
+          <p class="eyebrow">Liga Palermo</p>
+          <h1>{division} 2026</h1>
+          <p class="hero-copy">Tablas, resultados por equipo y cruces pendientes inferidos.</p>
+        </div>
+        <p class="updated">Actualizado: {updatedAt}</p>
+      </header>
+
+      <section class="tabs" aria-label="Tablas por categoria">
+        <input checked id="tab-general" name="league-tabs" type="radio" />
+        {league.categories.map((category) => <input id={`tab-${category.name}`} name="league-tabs" type="radio" />)}
+
+        <nav class="tab-list" aria-label="Categorias">
+          <label for="tab-general">General</label>
+          {league.categories.map((category) => <label for={`tab-${category.name}`}>{category.name}</label>)}
+        </nav>
+
+        <section class="tab-panel general-panel" aria-labelledby="general-title">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">Apertura</p>
+              <h2 id="general-title">Tabla general</h2>
+            </div>
+          </div>
+          <StandingsTable rows={league.generalTable} />
+        </section>
+
+        {league.categories.map((category) => (
+          <section class={`tab-panel category-panel panel-${category.name}`} aria-labelledby={`title-${category.name}`}>
+            <div class="section-heading">
+              <div>
+                <p class="eyebrow">Categoria</p>
+                <h2 id={`title-${category.name}`}>{category.name}</h2>
+              </div>
+            </div>
+            <p class="tap-hint">Tocá un equipo para abrir su historial y próximos cruces.</p>
+            <CategoryStandingsTable rows={category.standings} results={category.results} nextGames={category.nextGames} categoryName={category.name} />
+          </section>
+        ))}
+      </section>
+
+      <footer class="footer">
+        <a href={league.source.pageUrl}>Fuente Liga Palermo</a>
+        <a href={league.source.resultsPdfUrl}>PDF resultados</a>
+        <a href={league.source.standingsPdfUrl}>PDF posiciones</a>
+      </footer>
+    </main>
+    <script is:inline>
+      const unlockScroll = () => {
+        if (!document.querySelector('.match-dialog[open]')) document.documentElement.classList.remove('dialog-open');
+      };
+
+      document.querySelectorAll('.match-dialog').forEach((dialog) => {
+        dialog.addEventListener('close', unlockScroll);
+        dialog.addEventListener('cancel', unlockScroll);
+      });
+
+      document.addEventListener('click', (event) => {
+        const target = event.target instanceof Element ? event.target : null;
+        const opener = target?.closest('[data-dialog-target]');
+        if (opener) {
+          document.getElementById(opener.dataset.dialogTarget)?.showModal();
+          document.documentElement.classList.add('dialog-open');
+          return;
+        }
+
+        if (target instanceof HTMLDialogElement) target.close();
+      });
+    </script>
+  </body>
+</html>
+
+<style is:global>
+  :root {
+    color-scheme: light;
+    --bg: #eef4f8;
+    --surface: #ffffff;
+    --surface-2: #f7fafc;
+    --ink: #061827;
+    --muted: #66788a;
+    --line: #d8e3ec;
+    --blue: #0b4f8a;
+    --blue-dark: #062b49;
+    --green: #178f58;
+    --green-soft: #e6f5ed;
+    --shadow: 0 14px 30px rgba(6, 43, 73, 0.12);
+    --grid: rgba(11, 79, 138, 0.035);
+    --background-start: #f8fbfd;
+    --hero-border: #123a5c;
+    --hero-copy: #dbeaf5;
+    --expanded: #fbfdff;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    margin: 0;
+    background:
+      linear-gradient(var(--grid) 1px, transparent 1px),
+      linear-gradient(90deg, var(--grid) 1px, transparent 1px),
+      linear-gradient(180deg, var(--background-start) 0%, var(--bg) 100%);
+    background-size: 28px 28px, 28px 28px, auto;
+    color: var(--ink);
+    font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  }
+
+  body.theme-serie-a {
+    --bg: #f0edf7;
+    --surface-2: #faf8fc;
+    --ink: #211a31;
+    --muted: #746c82;
+    --line: #ded7e9;
+    --blue: #65509a;
+    --blue-dark: #352653;
+    --green-soft: #edf6f1;
+    --shadow: 0 14px 30px rgba(53, 38, 83, 0.14);
+    --grid: rgba(101, 80, 154, 0.045);
+    --background-start: #fbfaff;
+    --hero-border: #4d3b75;
+    --hero-copy: #eee8fb;
+    --expanded: #fcfaff;
+  }
+
+  html.dialog-open,
+  html.dialog-open body {
+    overflow: hidden;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  p {
+    margin: 0;
+  }
+
+  .page-shell {
+    width: min(100%, 50rem);
+    margin: 0 auto;
+    padding: 0.85rem;
+  }
+
+  .division-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.75rem;
+    margin: 0.1rem 0 0.75rem;
+  }
+
+  .division-nav div {
+    display: flex;
+    gap: 0.35rem;
+  }
+
+  .division-nav a {
+    padding: 0.42rem 0.58rem;
+    border: 1px solid var(--line);
+    background: var(--surface);
+    color: var(--blue-dark);
+    font-size: 0.74rem;
+    font-weight: 900;
+    text-decoration: none;
+  }
+
+  .division-nav a[aria-current='page'] {
+    border-color: var(--blue);
+    background: var(--blue);
+    color: #fff;
+  }
+
+  .hero {
+    display: grid;
+    gap: 1rem;
+    margin: 0.25rem 0 0.85rem;
+    padding: 1rem;
+    border: 1px solid var(--hero-border);
+    background:
+      linear-gradient(135deg, rgba(23, 143, 88, 0.18), transparent 42%),
+      linear-gradient(135deg, var(--blue-dark), var(--blue));
+    color: #fff;
+    box-shadow: var(--shadow);
+  }
+
+  .hero h1 {
+    margin-top: 0.25rem;
+    font-size: clamp(2.15rem, 11vw, 4rem);
+    line-height: 0.95;
+    letter-spacing: -0.06em;
+  }
+
+  .hero-copy {
+    max-width: 27rem;
+    margin-top: 0.65rem;
+    color: var(--hero-copy);
+    font-size: 0.98rem;
+    line-height: 1.42;
+  }
+
+  .eyebrow {
+    color: var(--green);
+    font-size: 0.72rem;
+    font-weight: 900;
+    letter-spacing: 0.13em;
+    text-transform: uppercase;
+  }
+
+  .hero .eyebrow {
+    color: #8ce6b8;
+  }
+
+  .updated {
+    width: fit-content;
+    padding: 0.42rem 0.55rem;
+    border: 1px solid rgba(255, 255, 255, 0.24);
+    background: rgba(255, 255, 255, 0.08);
+    color: #edf7ff;
+    font-size: 0.76rem;
+    font-weight: 700;
+  }
+
+  .tabs > input {
+    position: absolute;
+    opacity: 0;
+    pointer-events: none;
+  }
+
+  .tab-list {
+    display: flex;
+    gap: 0.45rem;
+    margin: 0.9rem 0 0.75rem;
+    padding-bottom: 0.25rem;
+    overflow-x: auto;
+    scrollbar-width: none;
+  }
+
+  .tab-list::-webkit-scrollbar {
+    display: none;
+  }
+
+  .tab-list label {
+    flex: 0 0 auto;
+    padding: 0.55rem 0.75rem;
+    border: 1px solid var(--line);
+    background: var(--surface);
+    color: var(--blue-dark);
+    cursor: pointer;
+    font-size: 0.82rem;
+    font-weight: 900;
+    letter-spacing: 0.01em;
+  }
+
+  .tab-panel {
+    display: none;
+    padding: 0.85rem;
+    border: 1px solid var(--line);
+    background: rgba(255, 255, 255, 0.92);
+    box-shadow: var(--shadow);
+  }
+
+  .section-heading {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-bottom: 0.75rem;
+  }
+
+  h2 {
+    margin-top: 0.12rem;
+    font-size: 1.48rem;
+    letter-spacing: -0.04em;
+  }
+
+  .tap-hint {
+    margin-bottom: 0.75rem;
+    color: var(--muted);
+    font-size: 0.82rem;
+    line-height: 1.35;
+  }
+
+  .table-wrap {
+    overflow-x: auto;
+    border: 1px solid var(--line);
+  }
+
+  table {
+    width: 100%;
+    min-width: 22rem;
+    border-collapse: collapse;
+    background: var(--surface);
+    font-size: 0.84rem;
+  }
+
+  th,
+  td {
+    padding: 0.65rem 0.55rem;
+    border-bottom: 1px solid var(--line);
+    text-align: left;
+    white-space: nowrap;
+  }
+
+  th {
+    background: var(--surface-2);
+    color: var(--muted);
+    font-size: 0.68rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+
+  td:first-child,
+  th:first-child,
+  td:nth-child(3),
+  th:nth-child(3),
+  td:nth-child(4),
+  th:nth-child(4),
+  td:nth-child(5),
+  th:nth-child(5) {
+    text-align: right;
+  }
+
+  td:nth-child(2) {
+    color: var(--blue-dark);
+    font-weight: 900;
+  }
+
+  .team-table {
+    display: grid;
+    border: 1px solid var(--line);
+    background: var(--surface);
+    overflow: hidden;
+  }
+
+  .team-table-header,
+  .team-row summary {
+    display: grid;
+    grid-template-columns: 2.2rem minmax(0, 1fr) 2.7rem 2.7rem 2.7rem;
+    align-items: center;
+    column-gap: 0.35rem;
+  }
+
+  .team-table-header {
+    padding: 0.62rem 0.55rem;
+    border-bottom: 1px solid var(--line);
+    background: var(--surface-2);
+    color: var(--muted);
+    font-size: 0.68rem;
+    font-weight: 900;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+
+  .team-table-header span:first-child,
+  .team-table-header span:nth-child(3),
+  .team-table-header span:nth-child(4),
+  .team-table-header span:nth-child(5) {
+    text-align: right;
+  }
+
+  .team-row {
+    border-bottom: 1px solid var(--line);
+    background: transparent;
+  }
+
+  .team-row:last-child {
+    border-bottom: 0;
+  }
+
+  .team-row[open] {
+    background: var(--expanded);
+  }
+
+  .team-row summary {
+    padding: 0.68rem 0.55rem;
+    cursor: pointer;
+    list-style: none;
+  }
+
+  .team-row summary::-webkit-details-marker {
+    display: none;
+  }
+
+  .position {
+    color: var(--muted);
+    font-size: 0.82rem;
+    font-weight: 900;
+    text-align: right;
+  }
+
+  .team-name {
+    color: var(--blue-dark);
+    min-width: 0;
+    overflow: hidden;
+    font-size: 0.84rem;
+    font-weight: 950;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .metric {
+    color: var(--ink);
+    font-size: 0.84rem;
+    font-weight: 850;
+    text-align: right;
+  }
+
+  .team-detail {
+    display: grid;
+    gap: 0.85rem;
+    padding: 0 0.55rem 0.8rem;
+    border-top: 1px solid var(--line);
+  }
+
+  .detail-stats {
+    display: flex;
+    gap: 0.35rem;
+    padding-top: 0.65rem;
+    overflow-x: auto;
+  }
+
+  .detail-stats span {
+    flex: 0 0 auto;
+    padding: 0.28rem 0.45rem;
+    background: var(--green-soft);
+    color: #0e6e43;
+    font-size: 0.68rem;
+    font-weight: 900;
+  }
+
+  h4 {
+    margin-bottom: 0.4rem;
+    color: var(--blue-dark);
+    font-size: 0.78rem;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+  }
+
+  .compact-list {
+    display: grid;
+    gap: 0.32rem;
+  }
+
+  .compact-match {
+    display: grid;
+    grid-template-columns: 4.3rem 1fr auto;
+    gap: 0.45rem;
+    align-items: center;
+    padding: 0.45rem;
+    border-left: 3px solid var(--blue);
+    background: var(--surface-2);
+    font-size: 0.78rem;
+  }
+
+  .pending-list .compact-match {
+    grid-template-columns: 2rem 1fr;
+    border-left-color: var(--green);
+  }
+
+  .compact-match span {
+    color: var(--muted);
+    font-size: 0.68rem;
+    font-weight: 800;
+  }
+
+  .compact-match strong {
+    color: var(--ink);
+  }
+
+  .compact-match b {
+    color: var(--blue-dark);
+  }
+
+  .compact-match.has-detail {
+    grid-template-columns: 4.3rem 1fr auto auto;
+  }
+
+  .detail-button,
+  .dialog-close {
+    border: 0;
+    cursor: pointer;
+    font: inherit;
+    font-size: 0.7rem;
+    font-weight: 900;
+  }
+
+  .dialog-close {
+    background: transparent;
+    color:var(--blue);
+  }
+
+  .detail-button {
+    width: 1.45rem;
+    height: 1.45rem;
+    border: 1px solid var(--line);
+    border-radius: 999px;
+    background: transparent;
+    color: var(--muted);
+    line-height: 1;
+  }
+
+  .detail-button:hover,
+  .detail-button:focus-visible {
+    border-color: var(--blue);
+    color: var(--blue);
+  }
+
+  .match-dialog {
+    width: min(calc(100% - 1.5rem), 28rem);
+    border: 1px solid var(--line);
+    padding: 0;
+    background: var(--surface);
+    color: var(--ink);
+    box-shadow: var(--shadow);
+  }
+
+  .match-dialog::backdrop {
+    background: rgba(6, 24, 39, 0.48);
+  }
+
+  .dialog-content {
+    display: grid;
+    gap: 0.9rem;
+    padding: 1rem;
+  }
+
+  .dialog-header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 0.75rem;
+  }
+
+  .dialog-header h3 {
+    margin-top: 0.12rem;
+    font-size: 1.15rem;
+    letter-spacing: -0.03em;
+  }
+
+  .dialog-scoreline {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.2rem 0.45rem;
+    align-items: baseline;
+  }
+
+  .dialog-scoreline b {
+    color: var(--blue-dark);
+  }
+
+  .dialog-close {
+    display: grid;
+    place-items: center;
+    width: 1.8rem;
+    height: 1.8rem;
+    border-radius: 999px;
+    font-size: 1.2rem;
+    line-height: 1;
+    padding: 0;
+  }
+
+  .dialog-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.35rem;
+  }
+
+  .dialog-meta span,
+  .scorer-list li,
+  .match-note {
+    padding: 0.34rem 0.45rem;
+    background: var(--surface-2);
+    font-size: 0.78rem;
+    font-weight: 800;
+  }
+
+  .scorer-list {
+    display: grid;
+    gap: 0.32rem;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .scorer-list li {
+    display: flex;
+    justify-content: space-between;
+    gap: 0.75rem;
+  }
+
+  .match-note {
+    border-left: 3px solid var(--green);
+    color: var(--blue-dark);
+  }
+
+  .empty {
+    color: var(--muted);
+    font-size: 0.86rem;
+  }
+
+  .empty.small {
+    font-size: 0.78rem;
+  }
+
+  .footer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.65rem;
+    padding: 1.1rem 0 0.35rem;
+  }
+
+  .footer a {
+    color: var(--blue);
+    font-size: 0.82rem;
+    font-weight: 900;
+  }
+
+  @media (max-width: 38rem) {
+    .match-dialog {
+      width: 100%;
+      max-width: none;
+      max-height: min(78vh, 34rem);
+      margin: auto 0 0;
+      border-right: 0;
+      border-bottom: 0;
+      border-left: 0;
+    }
+
+    .dialog-content {
+      max-height: min(78vh, 34rem);
+      overflow-y: auto;
+      padding-bottom: max(1rem, env(safe-area-inset-bottom));
+    }
+  }
+</style>
+
+<style is:global set:html={tabCss}></style>

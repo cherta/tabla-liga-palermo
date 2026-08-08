@@ -1,34 +1,43 @@
 ---
+import type { Match, NextGame, Standing } from '../types';
+
+interface Props {
+  rows: Standing[];
+  results: Match[];
+  nextGames: NextGame[];
+  categoryName?: string;
+}
+
 const { rows, results, nextGames, categoryName = 'category' } = Astro.props;
 
-function teamMatches(team) {
+function teamMatches(team: string) {
   return results.filter((match) => match.home === team || match.away === team);
 }
 
-function teamPending(team) {
+function teamPending(team: string) {
   return nextGames.filter((match) => match.home === team || match.away === team);
 }
 
-function opponentFor(match, team) {
+function opponentFor(match: Match | NextGame, team: string) {
   return match.home === team ? match.away : match.home;
 }
 
-function scoreFor(match, team) {
+function scoreFor(match: Match, team: string) {
   return match.home === team
     ? `${match.homeGoals} - ${match.awayGoals}`
     : `${match.awayGoals} - ${match.homeGoals}`;
 }
 
-function detailId(team, match, index) {
+function detailId(team: string, match: Match, index: number) {
   return `match-detail-${slugify(categoryName)}-${slugify(team)}-${slugify(match.round)}-${index}`;
 }
 
-function formatDate(value) {
+function formatDate(value: string | null) {
   if (!value) return null;
   return new Intl.DateTimeFormat('es-UY', { dateStyle: 'medium', timeZone: 'UTC' }).format(new Date(value));
 }
 
-function slugify(value) {
+function slugify(value: string) {
   return String(value).toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
 }
 ---
