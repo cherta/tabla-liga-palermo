@@ -2,7 +2,9 @@ import { mkdir, writeFile } from 'node:fs/promises';
 import { dirname, resolve } from 'node:path';
 
 const RESULTS_GID = '1110485064';
-const STANDINGS_GID = '491172477';
+const APERTURA_STANDINGS_GID = '491172477';
+const SEASON_STANDINGS_GID = '75535354';
+const COMPETITIONS = ['apertura', 'clausura', 'anual'];
 const CATEGORIES = ['2021', '2020', '2019', '2018', '2017', '2016', '2015', '2014', '2013', 'SUB13', 'SUB11', 'F13', 'F11'];
 const DIVISIONS = [
   {
@@ -41,9 +43,10 @@ async function updateDivision(division) {
   const pageHtml = await fetchText(division.pageUrl);
   console.log(`Fetched ${division.name} page`);
   const source = buildSource(division, pageHtml);
-  const [resultsCsv, standingsCsv, matchDetailCsvs] = await Promise.all([
+  const [resultsCsv, aperturaStandingsCsv, seasonStandingsCsv, matchDetailCsvs] = await Promise.all([
     fetchText(source.resultsCsvUrl),
-    fetchText(source.standingsCsvUrl),
+    fetchText(source.standingsCsvUrls.apertura),
+    fetchText(source.standingsCsvUrls.clausura),
     Promise.all(division.matchDetailSources.map(async (detailSource) => ({
       ...detailSource,
       csv: await fetchText(detailSource.csvUrl),
@@ -52,28 +55,45 @@ async function updateDivision(division) {
   console.log(`Fetched ${division.name} data`);
 
   const resultsRows = parseCsv(resultsCsv);
-  const standingsRows = parseCsv(standingsCsv);
-  const resultsByCategory = parseResults(resultsRows);
-  const { standingsByCategory, generalTable } = parseStandings(standingsRows);
+  const resultsByCompetition = parseResults(resultsRows);
+  const aperturaStandings = parseStandings(parseCsv(aperturaStandingsCsv));
+  const seasonStandings = parseSeasonStandings(parseCsv(seasonStandingsCsv));
+  const standingsByCompetition = {
+    apertura: aperturaStandings,
+    clausura: seasonStandings.clausura,
+    anual: seasonStandings.anual,
+  };
   const matchDetailsByCategory = parseMatchDetails(matchDetailCsvs);
   console.log(`Parsed ${division.name} data`);
-  mergeMatchDetails(resultsByCategory, matchDetailsByCategory);
-  const categoryNames = [...new Set([...Object.keys(standingsByCategory), ...Object.keys(resultsByCategory)])]
+  mergeMatchDetails(resultsByCompetition.apertura, matchDetailsByCategory);
+  resultsByCompetition.anual = combineResults(resultsByCompetition);
+  const categoryNames = [...new Set(COMPETITIONS.flatMap((competition) => [
+    ...Object.keys(standingsByCompetition[competition].standingsByCategory),
+    ...Object.keys(resultsByCompetition[competition]),
+  ]))]
+    .filter((category) => COMPETITIONS.some((competition) => {
+      const standings = standingsByCompetition[competition].standingsByCategory[category] ?? [];
+      const results = resultsByCompetition[competition][category] ?? [];
+      return results.length > 0 || standings.some((row) => row.played > 0);
+    }))
     .sort(compareCategories);
 
   const categories = categoryNames.map((name) => {
-    const standings = standingsByCategory[name] ?? [];
-    const results = resultsByCategory[name] ?? [];
-    const teams = unique([
-      ...standings.map((row) => row.team),
-      ...results.flatMap((match) => [match.home, match.away]),
-    ]).sort((a, b) => a.localeCompare(b, 'es'));
-
     return {
       name,
-      standings,
-      results,
-      nextGames: inferNextGames(teams, results),
+      competitions: Object.fromEntries(COMPETITIONS.map((competition) => {
+        const standings = standingsByCompetition[competition].standingsByCategory[name] ?? [];
+        const results = resultsByCompetition[competition][name] ?? [];
+        const teams = unique([
+          ...standings.map((row) => row.team),
+          ...results.flatMap((match) => [match.home, match.away]),
+        ]).sort((a, b) => a.localeCompare(b, 'es'));
+        const nextGames = competition === 'anual'
+          ? inferNextGames(teams, resultsByCompetition.clausura[name] ?? [])
+          : inferNextGames(teams, results);
+
+        return [competition, { standings, results, nextGames }];
+      })),
     };
   });
   console.log(`Built ${division.name} categories`);
@@ -82,7 +102,10 @@ async function updateDivision(division) {
     updatedAt: new Date().toISOString(),
     division: division.name,
     source,
-    generalTable,
+    generalTables: Object.fromEntries(COMPETITIONS.map((competition) => [
+      competition,
+      standingsByCompetition[competition].generalTable,
+    ])),
     categories,
   };
 
@@ -100,21 +123,37 @@ function buildSource(division, pageHtml) {
   return {
     pageUrl: division.pageUrl,
     resultsPdfUrl: `${base}/pub?gid=${RESULTS_GID}&single=true&output=pdf`,
-    standingsPdfUrl: `${base}/pub?gid=${STANDINGS_GID}&single=true&output=pdf`,
+    standingsPdfUrls: {
+      apertura: `${base}/pub?gid=${APERTURA_STANDINGS_GID}&single=true&output=pdf`,
+      clausura: `${base}/pub?gid=${SEASON_STANDINGS_GID}&single=true&output=pdf`,
+      anual: `${base}/pub?gid=${SEASON_STANDINGS_GID}&single=true&output=pdf`,
+    },
     resultsCsvUrl: `${base}/pub?gid=${RESULTS_GID}&single=true&output=csv`,
-    standingsCsvUrl: `${base}/pub?gid=${STANDINGS_GID}&single=true&output=csv`,
+    standingsCsvUrls: {
+      apertura: `${base}/pub?gid=${APERTURA_STANDINGS_GID}&single=true&output=csv`,
+      clausura: `${base}/pub?gid=${SEASON_STANDINGS_GID}&single=true&output=csv`,
+      anual: `${base}/pub?gid=${SEASON_STANDINGS_GID}&single=true&output=csv`,
+    },
     matchDetailCsvUrls: division.matchDetailSources.map((detailSource) => detailSource.csvUrl),
     discoveredPdfUrls: unique(pdfUrls),
   };
 }
 
 function parseResults(rows) {
-  const byCategory = {};
+  const byCompetition = { apertura: {}, clausura: {} };
+  let competition = 'apertura';
   let currentRound = null;
   let headerIndexes = [];
 
   for (let index = 0; index < rows.length; index += 1) {
     const row = rows[index].map(cleanCell);
+    const tournamentHeading = row.find((cell) => /Resultados Torneo (Apertura|Clausura)/i.test(cell));
+    if (tournamentHeading) {
+      competition = /Clausura/i.test(tournamentHeading) ? 'clausura' : 'apertura';
+      currentRound = null;
+      headerIndexes = [];
+      continue;
+    }
     const round = row.find((cell) => /^\d+ª fecha$/i.test(cell));
 
     if (round) {
@@ -137,8 +176,8 @@ function parseResults(rows) {
       const awayGoals = toNumber(nextRow[cellIndex]);
       if (homeGoals === null || awayGoals === null) continue;
 
-      byCategory[category] ??= [];
-      byCategory[category].push({
+      byCompetition[competition][category] ??= [];
+      byCompetition[competition][category].push({
         round: currentRound,
         home: team,
         away: nextTeam,
@@ -150,7 +189,24 @@ function parseResults(rows) {
     index += 1;
   }
 
-  return byCategory;
+  return byCompetition;
+}
+
+function combineResults(resultsByCompetition) {
+  const combined = {};
+  const categoryNames = unique([
+    ...Object.keys(resultsByCompetition.apertura),
+    ...Object.keys(resultsByCompetition.clausura),
+  ]);
+
+  for (const category of categoryNames) {
+    combined[category] = [
+      ...(resultsByCompetition.apertura[category] ?? []).map((match) => ({ ...match, round: `Apertura · ${match.round}` })),
+      ...(resultsByCompetition.clausura[category] ?? []).map((match) => ({ ...match, round: `Clausura · ${match.round}` })),
+    ];
+  }
+
+  return combined;
 }
 
 function parseStandings(rows) {
@@ -196,6 +252,58 @@ function parseStandings(rows) {
   }
 
   return { standingsByCategory, generalTable };
+}
+
+function parseSeasonStandings(rows) {
+  const parsed = {
+    clausura: { standingsByCategory: {}, generalTable: [] },
+    anual: { standingsByCategory: {}, generalTable: [] },
+  };
+  let activeTables = [];
+
+  for (const sourceRow of rows) {
+    const row = sourceRow.map(cleanCell);
+    const markers = [];
+
+    row.forEach((cell, index) => {
+      const categoryMatch = cell.match(/^(CLAUSURA|GENERAL).*Cat\.\s*(\d{4}|SUB\d+)$/i);
+      if (categoryMatch) {
+        markers.push({
+          competition: /^CLAUSURA/i.test(categoryMatch[1]) ? 'clausura' : 'anual',
+          category: normalizeCategory(categoryMatch[2]),
+          index,
+        });
+      } else if (/Tabla General Clausura/i.test(cell)) {
+        markers.push({ competition: 'clausura', category: null, index });
+      } else if (/Tabla General\s+Anual/i.test(cell)) {
+        markers.push({ competition: 'anual', category: null, index });
+      }
+    });
+
+    if (markers.length > 0) {
+      activeTables = markers;
+      for (const marker of markers) {
+        if (marker.category) parsed[marker.competition].standingsByCategory[marker.category] ??= [];
+      }
+      continue;
+    }
+
+    for (const marker of activeTables) {
+      const standing = parseStandingAt(row, marker.index, true);
+      if (!standing) continue;
+      if (marker.category) parsed[marker.competition].standingsByCategory[marker.category].push(standing);
+      else parsed[marker.competition].generalTable.push(standing);
+    }
+  }
+
+  for (const competition of ['clausura', 'anual']) {
+    parsed[competition].generalTable = positionStandings(parsed[competition].generalTable);
+    for (const [category, standings] of Object.entries(parsed[competition].standingsByCategory)) {
+      parsed[competition].standingsByCategory[category] = positionStandings(standings);
+    }
+  }
+
+  return parsed;
 }
 
 function parseMatchDetails(sources) {
@@ -269,7 +377,7 @@ function mergeMatchDetails(resultsByCategory, matchDetailsByCategory) {
   }
 }
 
-function parseStandingAt(row, startIndex) {
+function parseStandingAt(row, startIndex, includeEmpty = false) {
   const team = normalizeTeam(row[startIndex]);
   if (!team || !isTeamName(team)) return null;
 
@@ -277,9 +385,13 @@ function parseStandingAt(row, startIndex) {
   if (values.some((value) => value === null)) return null;
 
   const [played, won, drawn, lost, goalsFor, goalsAgainst, points, goalDifference] = values;
-  if (played === 0 && points === 0 && goalsFor === 0 && goalsAgainst === 0) return null;
+  if (!includeEmpty && played === 0 && points === 0 && goalsFor === 0 && goalsAgainst === 0) return null;
 
   return { team, played, won, drawn, lost, goalsFor, goalsAgainst, points, goalDifference };
+}
+
+function positionStandings(rows) {
+  return dedupeStandings(rows).map((row, index) => ({ position: index + 1, ...row }));
 }
 
 function inferNextGames(teams, results) {

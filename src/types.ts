@@ -41,6 +41,12 @@ export interface NextGame {
 
 export interface LeagueCategory {
   name: string;
+  competitions: Record<Competition, CompetitionCategory>;
+}
+
+export type Competition = 'apertura' | 'clausura' | 'anual';
+
+export interface CompetitionCategory {
   standings: Standing[];
   results: Match[];
   nextGames: NextGame[];
@@ -52,12 +58,12 @@ export interface LeagueData {
   source: {
     pageUrl: string;
     resultsPdfUrl: string;
-    standingsPdfUrl: string;
+    standingsPdfUrls: Record<Competition, string>;
     resultsCsvUrl: string;
-    standingsCsvUrl: string;
+    standingsCsvUrls: Record<Competition, string>;
     matchDetailCsvUrls: string[];
     discoveredPdfUrls: string[];
   };
-  generalTable: Standing[];
+  generalTables: Record<Competition, Standing[]>;
   categories: LeagueCategory[];
 }

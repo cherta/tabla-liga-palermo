@@ -1,7 +1,7 @@
 ---
 import CategoryStandingsTable from './CategoryStandingsTable.astro';
 import StandingsTable from './StandingsTable.astro';
-import type { LeagueData } from '../types';
+import type { Competition, LeagueData } from '../types';
 
 interface Props {
   league: LeagueData;
@@ -14,6 +14,12 @@ const pageTitle = `${division} 2026 | Liga Palermo`;
 const pageDescription = `Tabla de posiciones, resultados y partidos pendientes de ${division} 2026 Liga Palermo.`;
 const canonicalUrl = new URL(Astro.url.pathname, Astro.site);
 const socialImageUrl = new URL(`${baseUrl}og.png`, Astro.site);
+const competitions: { key: Competition; label: string }[] = [
+  { key: 'apertura', label: 'Apertura' },
+  { key: 'clausura', label: 'Clausura' },
+  { key: 'anual', label: 'Anual' },
+];
+const currentCompetition: Competition = 'clausura';
 
 const updatedAt = league.updatedAt
   ? new Intl.DateTimeFormat('es-UY', {
@@ -70,7 +76,7 @@ ${league.categories.map((category) => `#tab-${category.name}:checked ~ .panel-${
         <div>
           <p class="eyebrow">Liga Palermo</p>
           <h1>{division} 2026</h1>
-          <p class="hero-copy">Tablas, resultados por equipo y cruces pendientes inferidos.</p>
+          <p class="hero-copy">Tablas del Apertura, Clausura y acumulado anual, con resultados por equipo.</p>
         </div>
         <p class="updated">Actualizado: {updatedAt}</p>
       </header>
@@ -85,25 +91,54 @@ ${league.categories.map((category) => `#tab-${category.name}:checked ~ .panel-${
         </nav>
 
         <section class="tab-panel general-panel" aria-labelledby="general-title">
-          <div class="section-heading">
-            <div>
-              <p class="eyebrow">Apertura</p>
-              <h2 id="general-title">Tabla general</h2>
+          <div class="competition-switcher">
+            <div class="section-heading">
+              <div>
+                <p class="eyebrow">Todas las categorias</p>
+                <h2 id="general-title">Tabla general</h2>
+              </div>
+              <nav class="competition-tabs" aria-label="Torneo de la tabla general">
+                {competitions.map(({ key, label }) => (
+                  <button type="button" data-competition={key} aria-selected={key === currentCompetition}>{label}</button>
+                ))}
+              </nav>
             </div>
+            {competitions.map(({ key }) => (
+              <section class="competition-panel" data-competition-panel={key} hidden={key !== currentCompetition}>
+                <StandingsTable rows={league.generalTables[key]} />
+              </section>
+            ))}
           </div>
-          <StandingsTable rows={league.generalTable} />
         </section>
 
         {league.categories.map((category) => (
           <section class={`tab-panel category-panel panel-${category.name}`} aria-labelledby={`title-${category.name}`}>
-            <div class="section-heading">
-              <div>
-                <p class="eyebrow">Categoria</p>
-                <h2 id={`title-${category.name}`}>{category.name}</h2>
+            <div class="competition-switcher">
+              <div class="section-heading">
+                <div>
+                  <p class="eyebrow">Categoria</p>
+                  <h2 id={`title-${category.name}`}>{category.name}</h2>
+                </div>
+                <nav class="competition-tabs" aria-label={`Torneo de la categoria ${category.name}`}>
+                  {competitions.map(({ key, label }) => (
+                    <button type="button" data-competition={key} aria-selected={key === currentCompetition}>{label}</button>
+                  ))}
+                </nav>
               </div>
+              {competitions.map(({ key }) => {
+                const table = category.competitions[key];
+                return (
+                  <section class="competition-panel" data-competition-panel={key} hidden={key !== currentCompetition}>
+                    <CategoryStandingsTable
+                      rows={table.standings}
+                      results={table.results}
+                      nextGames={table.nextGames}
+                      categoryName={`${category.name}-${key}`}
+                    />
+                  </section>
+                );
+              })}
             </div>
-            <p class="tap-hint">Tocá un equipo para abrir su historial y próximos cruces.</p>
-            <CategoryStandingsTable rows={category.standings} results={category.results} nextGames={category.nextGames} categoryName={category.name} />
           </section>
         ))}
       </section>
@@ -111,7 +146,8 @@ ${league.categories.map((category) => `#tab-${category.name}:checked ~ .panel-${
       <footer class="footer">
         <a href={league.source.pageUrl}>Fuente Liga Palermo</a>
         <a href={league.source.resultsPdfUrl}>PDF resultados</a>
-        <a href={league.source.standingsPdfUrl}>PDF posiciones</a>
+        <a href={league.source.standingsPdfUrls.apertura}>PDF Apertura</a>
+        <a href={league.source.standingsPdfUrls.clausura}>PDF Clausura y Anual</a>
       </footer>
     </main>
     <script is:inline>
@@ -122,6 +158,22 @@ ${league.categories.map((category) => `#tab-${category.name}:checked ~ .panel-${
       document.querySelectorAll('.match-dialog').forEach((dialog) => {
         dialog.addEventListener('close', unlockScroll);
         dialog.addEventListener('cancel', unlockScroll);
+      });
+
+      document.querySelectorAll('.competition-switcher').forEach((switcher) => {
+        switcher.querySelectorAll('[data-competition]').forEach((button) => {
+          button.addEventListener('click', () => {
+            const competition = button.dataset.competition;
+            document.querySelectorAll('.competition-switcher').forEach((candidateSwitcher) => {
+              candidateSwitcher.querySelectorAll('[data-competition]').forEach((candidate) => {
+                candidate.setAttribute('aria-selected', String(candidate.dataset.competition === competition));
+              });
+              candidateSwitcher.querySelectorAll('[data-competition-panel]').forEach((panel) => {
+                panel.hidden = panel.dataset.competitionPanel !== competition;
+              });
+            });
+          });
+        });
       });
 
       document.addEventListener('click', (event) => {
@@ -337,17 +389,45 @@ ${league.categories.map((category) => `#tab-${category.name}:checked ~ .panel-${
     margin-bottom: 0.75rem;
   }
 
+  .competition-tabs {
+    display: flex;
+    gap: 0.45rem;
+    padding-bottom: 0.25rem;
+    overflow-x: auto;
+    scrollbar-width: none;
+  }
+
+  .competition-tabs::-webkit-scrollbar {
+    display: none;
+  }
+
+  .competition-tabs button {
+    flex: 0 0 auto;
+    padding: 0.55rem 0.75rem;
+    border: 1px solid var(--line);
+    background: var(--surface);
+    color: var(--blue-dark);
+    cursor: pointer;
+    font: inherit;
+    font-size: 0.82rem;
+    font-weight: 900;
+    letter-spacing: 0.01em;
+  }
+
+  .competition-tabs button[aria-selected='true'] {
+    border-color: var(--blue);
+    background: var(--blue);
+    color: #fff;
+  }
+
+  .competition-panel[hidden] {
+    display: none;
+  }
+
   h2 {
     margin-top: 0.12rem;
     font-size: 1.48rem;
     letter-spacing: -0.04em;
-  }
-
-  .tap-hint {
-    margin-bottom: 0.75rem;
-    color: var(--muted);
-    font-size: 0.82rem;
-    line-height: 1.35;
   }
 
   .table-wrap {
