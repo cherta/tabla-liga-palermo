@@ -21,6 +21,12 @@ export interface MatchDetails {
   date: string | null;
   venue: string;
   sourceTeam: string;
+  sourceScore: {
+    home: string;
+    away: string;
+    homeGoals: number;
+    awayGoals: number;
+  };
   goals: Goal[];
   note: string | null;
 }

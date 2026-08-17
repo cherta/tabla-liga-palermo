@@ -1,14 +1,16 @@
 ---
 import type { Standing } from '../types';
+import { sortStandings } from '../utils/standings';
 
 interface Props {
   rows: Standing[];
 }
 
 const { rows } = Astro.props;
+const sortedRows = sortStandings(rows);
 ---
 
-{rows.length ? (
+{sortedRows.length ? (
   <div class="table-wrap">
     <table>
       <thead>
@@ -21,7 +23,7 @@ const { rows } = Astro.props;
         </tr>
       </thead>
       <tbody>
-        {rows.map((row) => (
+        {sortedRows.map((row) => (
           <tr>
             <td>{row.position}</td>
             <td>{row.team}</td>

@@ -1,5 +1,6 @@
 ---
 import type { Match, NextGame, Standing } from '../types';
+import { sortStandings } from '../utils/standings';
 
 interface Props {
   rows: Standing[];
@@ -9,6 +10,7 @@ interface Props {
 }
 
 const { rows, results, nextGames, categoryName = 'category' } = Astro.props;
+const sortedRows = sortStandings(rows);
 
 function teamMatches(team: string) {
   return results.filter((match) => match.home === team || match.away === team);
@@ -28,6 +30,21 @@ function scoreFor(match: Match, team: string) {
     : `${match.awayGoals} - ${match.homeGoals}`;
 }
 
+function sourceScoreFor(match: Match) {
+  const sourceScore = match.details?.sourceScore;
+  if (!sourceScore) return null;
+
+  if (sourceScore.home === match.home && sourceScore.away === match.away) {
+    return { homeGoals: sourceScore.homeGoals, awayGoals: sourceScore.awayGoals };
+  }
+
+  if (sourceScore.home === match.away && sourceScore.away === match.home) {
+    return { homeGoals: sourceScore.awayGoals, awayGoals: sourceScore.homeGoals };
+  }
+
+  return null;
+}
+
 function detailId(team: string, match: Match, index: number) {
   return `match-detail-${slugify(categoryName)}-${slugify(team)}-${slugify(match.round)}-${index}`;
 }
@@ -42,7 +59,7 @@ function slugify(value: string) {
 }
 ---
 
-{rows.length ? (
+{sortedRows.length ? (
   <div class="team-table">
     <div class="team-table-header" aria-hidden="true">
       <span>Pos</span>
@@ -51,7 +68,7 @@ function slugify(value: string) {
       <span>PJ</span>
       <span>Dif</span>
     </div>
-    {rows.map((row) => {
+    {sortedRows.map((row) => {
       const played = teamMatches(row.team);
       const pending = teamPending(row.team);
 
@@ -82,6 +99,9 @@ function slugify(value: string) {
                     const details = match.details;
                     const dialogId = detailId(row.team, match, index);
                     const date = details ? formatDate(details.date) : null;
+                    const sourceScore = sourceScoreFor(match);
+                    const scoreDiffers = sourceScore
+                      && (sourceScore.homeGoals !== match.homeGoals || sourceScore.awayGoals !== match.awayGoals);
 
                     return (
                       <>
@@ -109,7 +129,11 @@ function slugify(value: string) {
                                   <p class="eyebrow">{match.round}</p>
                                   <h3 class="dialog-scoreline">
                                     <span>{match.home}</span>
-                                    <b><span>{match.homeGoals}</span> - <span>{match.awayGoals}</span></b>
+                                    <b>
+                                      <span>{match.homeGoals}{scoreDiffers && ` (${sourceScore.homeGoals})`}</span>
+                                      {' - '}
+                                      <span>{match.awayGoals}{scoreDiffers && ` (${sourceScore.awayGoals})`}</span>
+                                    </b>
                                     <span>{match.away}</span>
                                   </h3>
                                 </div>

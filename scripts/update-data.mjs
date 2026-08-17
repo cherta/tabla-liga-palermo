@@ -63,9 +63,11 @@ async function updateDivision(division) {
     clausura: seasonStandings.clausura,
     anual: seasonStandings.anual,
   };
-  const matchDetailsByCategory = parseMatchDetails(matchDetailCsvs);
+  const matchDetailsByCompetition = parseMatchDetails(matchDetailCsvs);
   console.log(`Parsed ${division.name} data`);
-  mergeMatchDetails(resultsByCompetition.apertura, matchDetailsByCategory);
+  for (const competition of ['apertura', 'clausura']) {
+    mergeMatchDetails(resultsByCompetition[competition], matchDetailsByCompetition[competition]);
+  }
   resultsByCompetition.anual = combineResults(resultsByCompetition);
   const categoryNames = [...new Set(COMPETITIONS.flatMap((competition) => [
     ...Object.keys(standingsByCompetition[competition].standingsByCategory),
@@ -246,9 +248,9 @@ function parseStandings(rows) {
     }
   }
 
-  generalTable = dedupeStandings(generalTable).map((row, index) => ({ position: index + 1, ...row }));
+  generalTable = positionStandings(generalTable);
   for (const [category, rowsForCategory] of Object.entries(standingsByCategory)) {
-    standingsByCategory[category] = dedupeStandings(rowsForCategory).map((row, index) => ({ position: index + 1, ...row }));
+    standingsByCategory[category] = positionStandings(rowsForCategory);
   }
 
   return { standingsByCategory, generalTable };
@@ -307,7 +309,7 @@ function parseSeasonStandings(rows) {
 }
 
 function parseMatchDetails(sources) {
-  const byCategory = {};
+  const byCompetition = { apertura: {}, clausura: {} };
 
   for (const source of sources) {
     const category = normalizeCategory(source.category);
@@ -334,7 +336,13 @@ function parseMatchDetails(sources) {
     for (const sourceRow of rows.slice(headerIndex + 1)) {
       const row = sourceRow.map(cleanCell);
       if (!row.some(Boolean)) continue;
-      if (!/^Apertura$/i.test(row[indexes.tournament])) continue;
+      const tournament = row[indexes.tournament];
+      const competition = /^Apertura$/i.test(tournament)
+        ? 'apertura'
+        : /^Clausura$/i.test(tournament)
+          ? 'clausura'
+          : null;
+      if (!competition) continue;
 
       const home = normalizeExternalTeam(row[indexes.home]);
       const away = normalizeExternalTeam(row[indexes.away]);
@@ -346,8 +354,8 @@ function parseMatchDetails(sources) {
       const sourceTeamGoals = home === sourceTeam ? homeGoals : awayGoals;
       const { goals, note } = parseScorers(row[indexes.scorers], sourceTeam, sourceTeamGoals);
 
-      byCategory[category] ??= [];
-      byCategory[category].push({
+      byCompetition[competition][category] ??= [];
+      byCompetition[competition][category].push({
         home,
         away,
         homeGoals,
@@ -356,6 +364,7 @@ function parseMatchDetails(sources) {
           date: normalizeDate(row[indexes.date]),
           venue: normalizeTeam(row[indexes.venue]),
           sourceTeam,
+          sourceScore: { home, away, homeGoals, awayGoals },
           goals,
           note,
         },
@@ -363,7 +372,7 @@ function parseMatchDetails(sources) {
     }
   }
 
-  return byCategory;
+  return byCompetition;
 }
 
 function mergeMatchDetails(resultsByCategory, matchDetailsByCategory) {
@@ -371,7 +380,9 @@ function mergeMatchDetails(resultsByCategory, matchDetailsByCategory) {
     const matches = resultsByCategory[category] ?? [];
 
     for (const detail of details) {
-      const match = matches.find((candidate) => sameMatch(candidate, detail));
+      const candidates = matches.filter((candidate) => sameTeams(candidate, detail));
+      const match = candidates.find((candidate) => sameScore(candidate, detail))
+        ?? (candidates.length === 1 ? candidates[0] : null);
       if (match) match.details = detail.details;
     }
   }
@@ -391,7 +402,9 @@ function parseStandingAt(row, startIndex, includeEmpty = false) {
 }
 
 function positionStandings(rows) {
-  return dedupeStandings(rows).map((row, index) => ({ position: index + 1, ...row }));
+  return dedupeStandings(rows)
+    .sort((a, b) => b.points - a.points || b.goalDifference - a.goalDifference)
+    .map((row, index) => ({ position: index + 1, ...row }));
 }
 
 function inferNextGames(teams, results) {
@@ -483,11 +496,15 @@ function pairKey(a, b) {
   return [normalizeTeam(a), normalizeTeam(b)].sort((x, y) => x.localeCompare(y, 'es')).join('::');
 }
 
-function sameMatch(match, detail) {
-  return pairKey(match.home, match.away) === pairKey(detail.home, detail.away)
-    && ((match.homeGoals === detail.homeGoals && match.awayGoals === detail.awayGoals)
-      || (match.home === detail.away && match.away === detail.home
-        && match.homeGoals === detail.awayGoals && match.awayGoals === detail.homeGoals));
+function sameTeams(match, detail) {
+  return pairKey(match.home, match.away) === pairKey(detail.home, detail.away);
+}
+
+function sameScore(match, detail) {
+  return (match.home === detail.home && match.away === detail.away
+      && match.homeGoals === detail.homeGoals && match.awayGoals === detail.awayGoals)
+    || (match.home === detail.away && match.away === detail.home
+      && match.homeGoals === detail.awayGoals && match.awayGoals === detail.homeGoals);
 }
 
 function parseScorers(value, team, expectedGoals) {
