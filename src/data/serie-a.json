@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-29T11:00:12.888Z",
+  "updatedAt": "2026-11-01T11:00:19.408Z",
   "division": "Serie A",
   "source": {
     "pageUrl": "https://www.ligapalermo.org/serie-a-2026/",
@@ -316,6 +316,18 @@
       },
       {
         "position": 11,
+        "team": "EST. DEL SUR",
+        "played": 63,
+        "won": 18,
+        "drawn": 9,
+        "lost": 36,
+        "goalsFor": 78,
+        "goalsAgainst": 131,
+        "points": 45,
+        "goalDifference": -53
+      },
+      {
+        "position": 12,
         "team": "LA PICADA",
         "played": 64,
         "won": 18,
@@ -327,28 +339,16 @@
         "goalDifference": -57
       },
       {
-        "position": 12,
-        "team": "EST. DEL SUR",
-        "played": 61,
-        "won": 17,
-        "drawn": 8,
-        "lost": 36,
-        "goalsFor": 75,
-        "goalsAgainst": 130,
-        "points": 42,
-        "goalDifference": -55
-      },
-      {
         "position": 13,
         "team": "POCO SITIO",
-        "played": 62,
+        "played": 64,
         "won": 18,
-        "drawn": 6,
-        "lost": 38,
-        "goalsFor": 63,
-        "goalsAgainst": 195,
-        "points": 42,
-        "goalDifference": -132
+        "drawn": 7,
+        "lost": 39,
+        "goalsFor": 64,
+        "goalsAgainst": 198,
+        "points": 43,
+        "goalDifference": -134
       },
       {
         "position": 14,
@@ -463,14 +463,14 @@
       {
         "position": 9,
         "team": "EST. DEL SUR",
-        "played": 165,
-        "won": 54,
-        "drawn": 32,
+        "played": 167,
+        "won": 55,
+        "drawn": 33,
         "lost": 79,
-        "goalsFor": 216,
-        "goalsAgainst": 319,
-        "points": 140,
-        "goalDifference": -103
+        "goalsFor": 219,
+        "goalsAgainst": 320,
+        "points": 143,
+        "goalDifference": -101
       },
       {
         "position": 10,
@@ -523,14 +523,14 @@
       {
         "position": 14,
         "team": "POCO SITIO",
-        "played": 166,
+        "played": 168,
         "won": 40,
-        "drawn": 15,
-        "lost": 111,
-        "goalsFor": 187,
-        "goalsAgainst": 481,
-        "points": 95,
-        "goalDifference": -294
+        "drawn": 16,
+        "lost": 112,
+        "goalsFor": 188,
+        "goalsAgainst": 484,
+        "points": 96,
+        "goalDifference": -296
       }
     ]
   },
@@ -15764,14 +15764,14 @@
             {
               "position": 8,
               "team": "POCO SITIO",
-              "played": 7,
+              "played": 8,
               "won": 3,
               "drawn": 1,
-              "lost": 3,
-              "goalsFor": 10,
-              "goalsAgainst": 20,
+              "lost": 4,
+              "goalsFor": 11,
+              "goalsAgainst": 23,
               "points": 7,
-              "goalDifference": -10
+              "goalDifference": -12
             },
             {
               "position": 9,
@@ -15787,6 +15787,18 @@
             },
             {
               "position": 10,
+              "team": "EST. DEL SUR",
+              "played": 8,
+              "won": 3,
+              "drawn": 0,
+              "lost": 5,
+              "goalsFor": 13,
+              "goalsAgainst": 24,
+              "points": 6,
+              "goalDifference": -11
+            },
+            {
+              "position": 11,
               "team": "CARABELAS",
               "played": 8,
               "won": 2,
@@ -15796,18 +15808,6 @@
               "goalsAgainst": 17,
               "points": 4,
               "goalDifference": -10
-            },
-            {
-              "position": 11,
-              "team": "EST. DEL SUR",
-              "played": 7,
-              "won": 2,
-              "drawn": 0,
-              "lost": 5,
-              "goalsFor": 10,
-              "goalsAgainst": 23,
-              "points": 4,
-              "goalDifference": -13
             },
             {
               "position": 12,
@@ -16143,6 +16143,13 @@
             },
             {
               "round": "7ª fecha",
+              "home": "POCO SITIO",
+              "away": "EST. DEL SUR",
+              "homeGoals": 1,
+              "awayGoals": 3
+            },
+            {
+              "round": "7ª fecha",
               "home": "RAYO ROJO",
               "away": "UNION VECINAL",
               "homeGoals": 1,
@@ -16293,10 +16300,6 @@
             {
               "home": "EST. DEL SUR",
               "away": "MIRADOR"
-            },
-            {
-              "home": "EST. DEL SUR",
-              "away": "POCO SITIO"
             },
             {
               "home": "EST. DEL SUR",
@@ -16481,14 +16484,14 @@
             {
               "position": 9,
               "team": "EST. DEL SUR",
-              "played": 20,
-              "won": 7,
+              "played": 21,
+              "won": 8,
               "drawn": 3,
               "lost": 10,
-              "goalsFor": 36,
-              "goalsAgainst": 50,
-              "points": 17,
-              "goalDifference": -14
+              "goalsFor": 39,
+              "goalsAgainst": 51,
+              "points": 19,
+              "goalDifference": -12
             },
             {
               "position": 10,
@@ -16541,14 +16544,14 @@
             {
               "position": 14,
               "team": "POCO SITIO",
-              "played": 20,
+              "played": 21,
               "won": 3,
               "drawn": 2,
-              "lost": 15,
-              "goalsFor": 24,
-              "goalsAgainst": 67,
+              "lost": 16,
+              "goalsFor": 25,
+              "goalsAgainst": 70,
               "points": 8,
-              "goalDifference": -43
+              "goalDifference": -45
             }
           ],
           "results": [
@@ -17485,6 +17488,13 @@
             },
             {
               "round": "Clausura · 7ª fecha",
+              "home": "POCO SITIO",
+              "away": "EST. DEL SUR",
+              "homeGoals": 1,
+              "awayGoals": 3
+            },
+            {
+              "round": "Clausura · 7ª fecha",
               "home": "RAYO ROJO",
               "away": "UNION VECINAL",
               "homeGoals": 1,
@@ -17635,10 +17645,6 @@
             {
               "home": "EST. DEL SUR",
               "away": "MIRADOR"
-            },
-            {
-              "home": "EST. DEL SUR",
-              "away": "POCO SITIO"
             },
             {
               "home": "EST. DEL SUR",
@@ -18675,6 +18681,18 @@
             },
             {
               "position": 12,
+              "team": "EST. DEL SUR",
+              "played": 8,
+              "won": 1,
+              "drawn": 1,
+              "lost": 6,
+              "goalsFor": 7,
+              "goalsAgainst": 18,
+              "points": 3,
+              "goalDifference": -11
+            },
+            {
+              "position": 13,
               "team": "MIRADOR",
               "played": 8,
               "won": 1,
@@ -18686,27 +18704,15 @@
               "goalDifference": -14
             },
             {
-              "position": 13,
-              "team": "EST. DEL SUR",
-              "played": 7,
-              "won": 1,
-              "drawn": 0,
-              "lost": 6,
-              "goalsFor": 7,
-              "goalsAgainst": 18,
-              "points": 2,
-              "goalDifference": -11
-            },
-            {
               "position": 14,
               "team": "POCO SITIO",
-              "played": 7,
+              "played": 8,
               "won": 0,
-              "drawn": 0,
+              "drawn": 1,
               "lost": 7,
               "goalsFor": 2,
               "goalsAgainst": 27,
-              "points": 0,
+              "points": 1,
               "goalDifference": -25
             }
           ],
@@ -19007,6 +19013,13 @@
             },
             {
               "round": "7ª fecha",
+              "home": "POCO SITIO",
+              "away": "EST. DEL SUR",
+              "homeGoals": 0,
+              "awayGoals": 0
+            },
+            {
+              "round": "7ª fecha",
               "home": "RAYO ROJO",
               "away": "UNION VECINAL",
               "homeGoals": 2,
@@ -19157,10 +19170,6 @@
             {
               "home": "EST. DEL SUR",
               "away": "MIRADOR"
-            },
-            {
-              "home": "EST. DEL SUR",
-              "away": "POCO SITIO"
             },
             {
               "home": "EST. DEL SUR",
@@ -19369,13 +19378,13 @@
             {
               "position": 11,
               "team": "EST. DEL SUR",
-              "played": 20,
+              "played": 21,
               "won": 5,
-              "drawn": 4,
+              "drawn": 5,
               "lost": 11,
               "goalsFor": 23,
               "goalsAgainst": 45,
-              "points": 14,
+              "points": 15,
               "goalDifference": -22
             },
             {
@@ -19405,13 +19414,13 @@
             {
               "position": 14,
               "team": "POCO SITIO",
-              "played": 20,
+              "played": 21,
               "won": 0,
-              "drawn": 1,
+              "drawn": 2,
               "lost": 19,
               "goalsFor": 10,
               "goalsAgainst": 72,
-              "points": 1,
+              "points": 2,
               "goalDifference": -62
             }
           ],
@@ -20349,6 +20358,13 @@
             },
             {
               "round": "Clausura · 7ª fecha",
+              "home": "POCO SITIO",
+              "away": "EST. DEL SUR",
+              "homeGoals": 0,
+              "awayGoals": 0
+            },
+            {
+              "round": "Clausura · 7ª fecha",
               "home": "RAYO ROJO",
               "away": "UNION VECINAL",
               "homeGoals": 2,
@@ -20499,10 +20515,6 @@
             {
               "home": "EST. DEL SUR",
               "away": "MIRADOR"
-            },
-            {
-              "home": "EST. DEL SUR",
-              "away": "POCO SITIO"
             },
             {
               "home": "EST. DEL SUR",
