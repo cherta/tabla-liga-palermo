@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-03T11:00:14.072Z",
+  "updatedAt": "2026-11-04T11:00:13.965Z",
   "division": "Serie B",
   "source": {
     "pageUrl": "https://www.ligapalermo.org/serie-b-2026/",
@@ -223,14 +223,14 @@
       {
         "position": 2,
         "team": "STOCKOLMO",
-        "played": 68,
-        "won": 48,
+        "played": 70,
+        "won": 50,
         "drawn": 9,
         "lost": 11,
-        "goalsFor": 185,
+        "goalsFor": 189,
         "goalsAgainst": 64,
-        "points": 105,
-        "goalDifference": 121
+        "points": 109,
+        "goalDifference": 125
       },
       {
         "position": 3,
@@ -307,14 +307,14 @@
       {
         "position": 9,
         "team": "INTERMEZZO",
-        "played": 58,
+        "played": 59,
         "won": 27,
         "drawn": 5,
-        "lost": 26,
+        "lost": 27,
         "goalsFor": 136,
-        "goalsAgainst": 118,
+        "goalsAgainst": 120,
         "points": 59,
-        "goalDifference": 18
+        "goalDifference": 16
       },
       {
         "position": 10,
@@ -355,14 +355,14 @@
       {
         "position": 13,
         "team": "SUR2000",
-        "played": 62,
+        "played": 63,
         "won": 15,
         "drawn": 5,
-        "lost": 42,
+        "lost": 43,
         "goalsFor": 77,
-        "goalsAgainst": 159,
+        "goalsAgainst": 161,
         "points": 35,
-        "goalDifference": -82
+        "goalDifference": -84
       },
       {
         "position": 14,
@@ -417,14 +417,14 @@
       {
         "position": 3,
         "team": "STOCKOLMO",
-        "played": 180,
-        "won": 124,
+        "played": 182,
+        "won": 126,
         "drawn": 19,
         "lost": 37,
-        "goalsFor": 485,
+        "goalsFor": 489,
         "goalsAgainst": 166,
-        "points": 267,
-        "goalDifference": 319
+        "points": 271,
+        "goalDifference": 323
       },
       {
         "position": 4,
@@ -513,14 +513,14 @@
       {
         "position": 11,
         "team": "INTERMEZZO",
-        "played": 165,
+        "played": 166,
         "won": 64,
         "drawn": 16,
-        "lost": 85,
+        "lost": 86,
         "goalsFor": 306,
-        "goalsAgainst": 331,
+        "goalsAgainst": 333,
         "points": 143,
-        "goalDifference": -25
+        "goalDifference": -27
       },
       {
         "position": 12,
@@ -537,14 +537,14 @@
       {
         "position": 13,
         "team": "SUR2000",
-        "played": 168,
+        "played": 169,
         "won": 41,
         "drawn": 15,
-        "lost": 112,
+        "lost": 113,
         "goalsFor": 197,
-        "goalsAgainst": 399,
+        "goalsAgainst": 401,
         "points": 97,
-        "goalDifference": -202
+        "goalDifference": -204
       },
       {
         "position": 14,
@@ -1536,6 +1536,18 @@
             },
             {
               "position": 7,
+              "team": "STOCKOLMO",
+              "played": 10,
+              "won": 6,
+              "drawn": 0,
+              "lost": 4,
+              "goalsFor": 13,
+              "goalsAgainst": 21,
+              "points": 12,
+              "goalDifference": -8
+            },
+            {
+              "position": 8,
               "team": "URUGUAY BUCEO",
               "played": 8,
               "won": 5,
@@ -1545,18 +1557,6 @@
               "goalsAgainst": 8,
               "points": 10,
               "goalDifference": 8
-            },
-            {
-              "position": 8,
-              "team": "STOCKOLMO",
-              "played": 9,
-              "won": 5,
-              "drawn": 0,
-              "lost": 4,
-              "goalsFor": 11,
-              "goalsAgainst": 21,
-              "points": 10,
-              "goalDifference": -10
             },
             {
               "position": 9,
@@ -1585,14 +1585,14 @@
             {
               "position": 11,
               "team": "INTERMEZZO",
-              "played": 3,
+              "played": 4,
               "won": 0,
               "drawn": 0,
-              "lost": 3,
+              "lost": 4,
               "goalsFor": 0,
-              "goalsAgainst": 6,
+              "goalsAgainst": 8,
               "points": 0,
-              "goalDifference": -6
+              "goalDifference": -8
             },
             {
               "position": 12,
@@ -1905,6 +1905,13 @@
             },
             {
               "round": "7ª fecha",
+              "home": "STOCKOLMO",
+              "away": "INTERMEZZO",
+              "homeGoals": 2,
+              "awayGoals": 0
+            },
+            {
+              "round": "7ª fecha",
               "home": "EXPLORADORES",
               "away": "DRYCO",
               "homeGoals": 2,
@@ -2167,10 +2174,6 @@
             },
             {
               "home": "INTERMEZZO",
-              "away": "STOCKOLMO"
-            },
-            {
-              "home": "INTERMEZZO",
               "away": "SUR2000"
             },
             {
@@ -2303,6 +2306,18 @@
             },
             {
               "position": 7,
+              "team": "STOCKOLMO",
+              "played": 24,
+              "won": 13,
+              "drawn": 1,
+              "lost": 10,
+              "goalsFor": 32,
+              "goalsAgainst": 46,
+              "points": 27,
+              "goalDifference": -14
+            },
+            {
+              "position": 8,
               "team": "URUGUAY BUCEO",
               "played": 22,
               "won": 12,
@@ -2312,18 +2327,6 @@
               "goalsAgainst": 39,
               "points": 25,
               "goalDifference": -6
-            },
-            {
-              "position": 8,
-              "team": "STOCKOLMO",
-              "played": 23,
-              "won": 12,
-              "drawn": 1,
-              "lost": 10,
-              "goalsFor": 30,
-              "goalsAgainst": 46,
-              "points": 25,
-              "goalDifference": -16
             },
             {
               "position": 9,
@@ -2376,14 +2379,14 @@
             {
               "position": 13,
               "team": "INTERMEZZO",
-              "played": 12,
+              "played": 13,
               "won": 0,
               "drawn": 0,
-              "lost": 12,
+              "lost": 13,
               "goalsFor": 0,
-              "goalsAgainst": 24,
+              "goalsAgainst": 26,
               "points": 0,
-              "goalDifference": -24
+              "goalDifference": -26
             },
             {
               "position": 14,
@@ -3316,6 +3319,13 @@
             },
             {
               "round": "Clausura · 7ª fecha",
+              "home": "STOCKOLMO",
+              "away": "INTERMEZZO",
+              "homeGoals": 2,
+              "awayGoals": 0
+            },
+            {
+              "round": "Clausura · 7ª fecha",
               "home": "EXPLORADORES",
               "away": "DRYCO",
               "homeGoals": 2,
@@ -3575,10 +3585,6 @@
             {
               "home": "INTERMEZZO",
               "away": "R.DEL REDUCTO"
-            },
-            {
-              "home": "INTERMEZZO",
-              "away": "STOCKOLMO"
             },
             {
               "home": "INTERMEZZO",
@@ -4582,6 +4588,18 @@
             },
             {
               "position": 3,
+              "team": "STOCKOLMO",
+              "played": 9,
+              "won": 7,
+              "drawn": 0,
+              "lost": 2,
+              "goalsFor": 24,
+              "goalsAgainst": 5,
+              "points": 14,
+              "goalDifference": 19
+            },
+            {
+              "position": 4,
               "team": "URUGUAY BUCEO",
               "played": 8,
               "won": 6,
@@ -4591,18 +4609,6 @@
               "goalsAgainst": 7,
               "points": 13,
               "goalDifference": 7
-            },
-            {
-              "position": 4,
-              "team": "STOCKOLMO",
-              "played": 8,
-              "won": 6,
-              "drawn": 0,
-              "lost": 2,
-              "goalsFor": 22,
-              "goalsAgainst": 5,
-              "points": 12,
-              "goalDifference": 17
             },
             {
               "position": 5,
@@ -4703,14 +4709,14 @@
             {
               "position": 13,
               "team": "SUR2000",
-              "played": 6,
+              "played": 7,
               "won": 0,
               "drawn": 0,
-              "lost": 6,
+              "lost": 7,
               "goalsFor": 0,
-              "goalsAgainst": 12,
+              "goalsAgainst": 14,
               "points": 0,
-              "goalDifference": -12
+              "goalDifference": -14
             },
             {
               "position": 14,
@@ -5097,6 +5103,13 @@
             },
             {
               "round": "8ª fecha",
+              "home": "SUR2000",
+              "away": "STOCKOLMO",
+              "homeGoals": 0,
+              "awayGoals": 2
+            },
+            {
+              "round": "8ª fecha",
               "home": "NUEVO AMERICA",
               "away": "URUGUAY BUCEO",
               "homeGoals": 0,
@@ -5325,10 +5338,6 @@
             },
             {
               "home": "STOCKOLMO",
-              "away": "SUR2000"
-            },
-            {
-              "home": "STOCKOLMO",
               "away": "TERREMOTO"
             },
             {
@@ -5351,10 +5360,10 @@
               "position": 1,
               "team": "DEP.ORIENTAL",
               "played": 22,
-              "won": 17,
+              "won": 18,
               "drawn": 0,
               "lost": 5,
-              "goalsFor": 60,
+              "goalsFor": 62,
               "goalsAgainst": 16,
               "points": 42,
               "goalDifference": 88
@@ -5386,14 +5395,14 @@
             {
               "position": 4,
               "team": "STOCKOLMO",
-              "played": 22,
+              "played": 23,
               "won": 19,
               "drawn": 1,
               "lost": 3,
               "goalsFor": 95,
               "goalsAgainst": 20,
-              "points": 34,
-              "goalDifference": 44
+              "points": 36,
+              "goalDifference": 46
             },
             {
               "position": 5,
@@ -5493,18 +5502,6 @@
             },
             {
               "position": 13,
-              "team": "SUR2000",
-              "played": 18,
-              "won": 6,
-              "drawn": 4,
-              "lost": 14,
-              "goalsFor": 15,
-              "goalsAgainst": 78,
-              "points": 0,
-              "goalDifference": -36
-            },
-            {
-              "position": 14,
               "team": "NVO. AMANECER",
               "played": 18,
               "won": 12,
@@ -5514,6 +5511,18 @@
               "goalsAgainst": 35,
               "points": 0,
               "goalDifference": -36
+            },
+            {
+              "position": 14,
+              "team": "SUR2000",
+              "played": 19,
+              "won": 6,
+              "drawn": 4,
+              "lost": 14,
+              "goalsFor": 15,
+              "goalsAgainst": 78,
+              "points": 0,
+              "goalDifference": -38
             },
             {
               "position": 15,
@@ -6595,6 +6604,13 @@
             },
             {
               "round": "Clausura · 8ª fecha",
+              "home": "SUR2000",
+              "away": "STOCKOLMO",
+              "homeGoals": 0,
+              "awayGoals": 2
+            },
+            {
+              "round": "Clausura · 8ª fecha",
               "home": "NUEVO AMERICA",
               "away": "URUGUAY BUCEO",
               "homeGoals": 0,
@@ -6819,10 +6835,6 @@
             },
             {
               "home": "NVO. AMANECER",
-              "away": "SUR2000"
-            },
-            {
-              "home": "STOCKOLMO",
               "away": "SUR2000"
             },
             {
