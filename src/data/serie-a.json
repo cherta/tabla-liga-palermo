@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-08T11:00:15.684Z",
+  "updatedAt": "2026-11-09T11:00:20.691Z",
   "division": "Serie A",
   "source": {
     "pageUrl": "https://www.ligapalermo.org/serie-a-2026/",
@@ -209,26 +209,26 @@
       {
         "position": 2,
         "team": "ENRIQUE LOPEZ",
-        "played": 70,
-        "won": 56,
+        "played": 71,
+        "won": 57,
         "drawn": 3,
         "lost": 11,
-        "goalsFor": 241,
+        "goalsFor": 242,
         "goalsAgainst": 76,
-        "points": 115,
-        "goalDifference": 165
+        "points": 117,
+        "goalDifference": 166
       },
       {
         "position": 3,
         "team": "LA ESCALINATA",
-        "played": 71,
+        "played": 72,
         "won": 39,
         "drawn": 14,
-        "lost": 18,
+        "lost": 19,
         "goalsFor": 146,
-        "goalsAgainst": 83,
+        "goalsAgainst": 84,
         "points": 92,
-        "goalDifference": 63
+        "goalDifference": 62
       },
       {
         "position": 4,
@@ -379,26 +379,26 @@
       {
         "position": 2,
         "team": "ENRIQUE LOPEZ",
-        "played": 174,
-        "won": 126,
+        "played": 175,
+        "won": 127,
         "drawn": 19,
         "lost": 29,
-        "goalsFor": 598,
+        "goalsFor": 599,
         "goalsAgainst": 208,
-        "points": 269,
-        "goalDifference": 390
+        "points": 271,
+        "goalDifference": 391
       },
       {
         "position": 3,
         "team": "LA ESCALINATA",
-        "played": 175,
+        "played": 176,
         "won": 93,
         "drawn": 35,
-        "lost": 47,
+        "lost": 48,
         "goalsFor": 377,
-        "goalsAgainst": 221,
+        "goalsAgainst": 222,
         "points": 220,
-        "goalDifference": 156
+        "goalDifference": 155
       },
       {
         "position": 4,
@@ -18867,6 +18867,18 @@
             },
             {
               "position": 4,
+              "team": "ENRIQUE LOPEZ",
+              "played": 9,
+              "won": 6,
+              "drawn": 1,
+              "lost": 2,
+              "goalsFor": 22,
+              "goalsAgainst": 13,
+              "points": 13,
+              "goalDifference": 9
+            },
+            {
+              "position": 5,
               "team": "EUSKAL ERRIA",
               "played": 9,
               "won": 5,
@@ -18878,7 +18890,7 @@
               "goalDifference": 12
             },
             {
-              "position": 5,
+              "position": 6,
               "team": "UNION VECINAL",
               "played": 9,
               "won": 4,
@@ -18890,28 +18902,16 @@
               "goalDifference": 11
             },
             {
-              "position": 6,
-              "team": "ENRIQUE LOPEZ",
-              "played": 8,
-              "won": 5,
-              "drawn": 1,
-              "lost": 2,
-              "goalsFor": 21,
-              "goalsAgainst": 13,
-              "points": 11,
-              "goalDifference": 8
-            },
-            {
               "position": 7,
               "team": "LA ESCALINATA",
-              "played": 8,
+              "played": 9,
               "won": 5,
               "drawn": 0,
-              "lost": 3,
+              "lost": 4,
               "goalsFor": 20,
-              "goalsAgainst": 13,
+              "goalsAgainst": 14,
               "points": 10,
-              "goalDifference": 7
+              "goalDifference": 6
             },
             {
               "position": 8,
@@ -19418,6 +19418,13 @@
               "away": "EUSKAL ERRIA",
               "homeGoals": 5,
               "awayGoals": 3
+            },
+            {
+              "round": "9ª fecha",
+              "home": "LA ESCALINATA",
+              "away": "ENRIQUE LOPEZ",
+              "homeGoals": 0,
+              "awayGoals": 1
             }
           ],
           "nextGames": [
@@ -19460,10 +19467,6 @@
             {
               "home": "ENRIQUE LOPEZ",
               "away": "EST. DEL SUR"
-            },
-            {
-              "home": "ENRIQUE LOPEZ",
-              "away": "LA ESCALINATA"
             },
             {
               "home": "ENRIQUE LOPEZ",
@@ -19563,6 +19566,18 @@
             },
             {
               "position": 2,
+              "team": "ENRIQUE LOPEZ",
+              "played": 22,
+              "won": 15,
+              "drawn": 2,
+              "lost": 5,
+              "goalsFor": 62,
+              "goalsAgainst": 35,
+              "points": 32,
+              "goalDifference": 27
+            },
+            {
+              "position": 3,
               "team": "URUNDAY",
               "played": 22,
               "won": 15,
@@ -19572,18 +19587,6 @@
               "goalsAgainst": 31,
               "points": 32,
               "goalDifference": 22
-            },
-            {
-              "position": 3,
-              "team": "ENRIQUE LOPEZ",
-              "played": 21,
-              "won": 14,
-              "drawn": 2,
-              "lost": 5,
-              "goalsFor": 61,
-              "goalsAgainst": 35,
-              "points": 30,
-              "goalDifference": 26
             },
             {
               "position": 4,
@@ -19624,14 +19627,14 @@
             {
               "position": 7,
               "team": "LA ESCALINATA",
-              "played": 21,
+              "played": 22,
               "won": 10,
               "drawn": 4,
-              "lost": 7,
+              "lost": 8,
               "goalsFor": 49,
-              "goalsAgainst": 34,
+              "goalsAgainst": 35,
               "points": 24,
-              "goalDifference": 15
+              "goalDifference": 14
             },
             {
               "position": 8,
@@ -20775,6 +20778,13 @@
               "away": "EUSKAL ERRIA",
               "homeGoals": 5,
               "awayGoals": 3
+            },
+            {
+              "round": "Clausura · 9ª fecha",
+              "home": "LA ESCALINATA",
+              "away": "ENRIQUE LOPEZ",
+              "homeGoals": 0,
+              "awayGoals": 1
             }
           ],
           "nextGames": [
@@ -20817,10 +20827,6 @@
             {
               "home": "ENRIQUE LOPEZ",
               "away": "EST. DEL SUR"
-            },
-            {
-              "home": "ENRIQUE LOPEZ",
-              "away": "LA ESCALINATA"
             },
             {
               "home": "ENRIQUE LOPEZ",
