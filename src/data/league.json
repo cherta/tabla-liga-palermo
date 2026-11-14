@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-13T11:00:20.067Z",
+  "updatedAt": "2026-11-14T11:00:22.345Z",
   "division": "Serie B",
   "source": {
     "pageUrl": "https://www.ligapalermo.org/serie-b-2026/",
@@ -234,6 +234,18 @@
       },
       {
         "position": 3,
+        "team": "DEP.ORIENTAL",
+        "played": 84,
+        "won": 52,
+        "drawn": 12,
+        "lost": 20,
+        "goalsFor": 231,
+        "goalsAgainst": 87,
+        "points": 116,
+        "goalDifference": 144
+      },
+      {
+        "position": 4,
         "team": "TERREMOTO",
         "played": 82,
         "won": 53,
@@ -243,18 +255,6 @@
         "goalsAgainst": 92,
         "points": 116,
         "goalDifference": 141
-      },
-      {
-        "position": 4,
-        "team": "DEP.ORIENTAL",
-        "played": 79,
-        "won": 51,
-        "drawn": 10,
-        "lost": 18,
-        "goalsFor": 223,
-        "goalsAgainst": 76,
-        "points": 112,
-        "goalDifference": 147
       },
       {
         "position": 5,
@@ -330,6 +330,18 @@
       },
       {
         "position": 11,
+        "team": "NUEVA PALMIRA",
+        "played": 84,
+        "won": 32,
+        "drawn": 11,
+        "lost": 41,
+        "goalsFor": 132,
+        "goalsAgainst": 185,
+        "points": 75,
+        "goalDifference": -53
+      },
+      {
+        "position": 12,
         "team": "AEBU",
         "played": 84,
         "won": 32,
@@ -339,18 +351,6 @@
         "goalsAgainst": 158,
         "points": 72,
         "goalDifference": -51
-      },
-      {
-        "position": 12,
-        "team": "NUEVA PALMIRA",
-        "played": 79,
-        "won": 30,
-        "drawn": 9,
-        "lost": 40,
-        "goalsFor": 121,
-        "goalsAgainst": 177,
-        "points": 69,
-        "goalDifference": -56
       },
       {
         "position": 13,
@@ -417,14 +417,14 @@
       {
         "position": 3,
         "team": "DEP.ORIENTAL",
-        "played": 191,
-        "won": 133,
-        "drawn": 24,
-        "lost": 34,
-        "goalsFor": 533,
-        "goalsAgainst": 166,
-        "points": 277,
-        "goalDifference": 367
+        "played": 196,
+        "won": 134,
+        "drawn": 26,
+        "lost": 36,
+        "goalsFor": 541,
+        "goalsAgainst": 177,
+        "points": 281,
+        "goalDifference": 364
       },
       {
         "position": 4,
@@ -501,14 +501,14 @@
       {
         "position": 10,
         "team": "NUEVA PALMIRA",
-        "played": 187,
-        "won": 72,
-        "drawn": 22,
-        "lost": 93,
-        "goalsFor": 298,
-        "goalsAgainst": 385,
-        "points": 165,
-        "goalDifference": -87
+        "played": 192,
+        "won": 74,
+        "drawn": 24,
+        "lost": 94,
+        "goalsFor": 309,
+        "goalsAgainst": 393,
+        "points": 171,
+        "goalDifference": -84
       },
       {
         "position": 11,
@@ -4661,14 +4661,14 @@
             {
               "position": 2,
               "team": "DEP.ORIENTAL",
-              "played": 9,
+              "played": 10,
               "won": 9,
               "drawn": 0,
-              "lost": 0,
+              "lost": 1,
               "goalsFor": 44,
-              "goalsAgainst": 6,
+              "goalsAgainst": 8,
               "points": 18,
-              "goalDifference": 38
+              "goalDifference": 36
             },
             {
               "position": 3,
@@ -4697,14 +4697,14 @@
             {
               "position": 5,
               "team": "NUEVA PALMIRA",
-              "played": 10,
-              "won": 6,
+              "played": 11,
+              "won": 7,
               "drawn": 2,
               "lost": 2,
-              "goalsFor": 30,
+              "goalsFor": 32,
               "goalsAgainst": 13,
-              "points": 14,
-              "goalDifference": 17
+              "points": 16,
+              "goalDifference": 19
             },
             {
               "position": 6,
@@ -5235,6 +5235,13 @@
               "awayGoals": 0
             },
             {
+              "round": "9ª fecha",
+              "home": "NUEVA PALMIRA",
+              "away": "DEP.ORIENTAL",
+              "homeGoals": 2,
+              "awayGoals": 0
+            },
+            {
               "round": "10ª fecha",
               "home": "R.DEL REDUCTO",
               "away": "NUEVA PALMIRA",
@@ -5407,10 +5414,6 @@
             },
             {
               "home": "DEP.ORIENTAL",
-              "away": "NUEVA PALMIRA"
-            },
-            {
-              "home": "DEP.ORIENTAL",
               "away": "NVO. AMANECER"
             },
             {
@@ -5488,14 +5491,14 @@
             {
               "position": 1,
               "team": "DEP.ORIENTAL",
-              "played": 23,
+              "played": 24,
               "won": 20,
               "drawn": 0,
               "lost": 5,
               "goalsFor": 70,
               "goalsAgainst": 17,
               "points": 44,
-              "goalDifference": 92
+              "goalDifference": 90
             },
             {
               "position": 2,
@@ -5548,14 +5551,14 @@
             {
               "position": 6,
               "team": "NUEVA PALMIRA",
-              "played": 24,
+              "played": 25,
               "won": 0,
               "drawn": 0,
               "lost": 21,
               "goalsFor": 0,
               "goalsAgainst": 50,
-              "points": 31,
-              "goalDifference": 23
+              "points": 33,
+              "goalDifference": 25
             },
             {
               "position": 7,
@@ -5623,9 +5626,9 @@
               "played": 23,
               "won": 22,
               "drawn": 0,
-              "lost": 1,
+              "lost": 2,
               "goalsFor": 99,
-              "goalsAgainst": 7,
+              "goalsAgainst": 9,
               "points": 7,
               "goalDifference": -49
             },
@@ -5645,10 +5648,10 @@
               "position": 14,
               "team": "NVO. AMANECER",
               "played": 21,
-              "won": 13,
+              "won": 14,
               "drawn": 5,
               "lost": 6,
-              "goalsFor": 60,
+              "goalsFor": 62,
               "goalsAgainst": 37,
               "points": 0,
               "goalDifference": -42
@@ -6781,6 +6784,13 @@
               "awayGoals": 0
             },
             {
+              "round": "Clausura · 9ª fecha",
+              "home": "NUEVA PALMIRA",
+              "away": "DEP.ORIENTAL",
+              "homeGoals": 2,
+              "awayGoals": 0
+            },
+            {
               "round": "Clausura · 10ª fecha",
               "home": "R.DEL REDUCTO",
               "away": "NUEVA PALMIRA",
@@ -6950,10 +6960,6 @@
             {
               "home": "DEP.ORIENTAL",
               "away": "INTERMEZZO"
-            },
-            {
-              "home": "DEP.ORIENTAL",
-              "away": "NUEVA PALMIRA"
             },
             {
               "home": "DEP.ORIENTAL",
@@ -16031,6 +16037,18 @@
             },
             {
               "position": 2,
+              "team": "NUEVA PALMIRA",
+              "played": 11,
+              "won": 8,
+              "drawn": 2,
+              "lost": 1,
+              "goalsFor": 29,
+              "goalsAgainst": 10,
+              "points": 18,
+              "goalDifference": 19
+            },
+            {
+              "position": 3,
               "team": "STOCKOLMO",
               "played": 11,
               "won": 8,
@@ -16040,18 +16058,6 @@
               "goalsAgainst": 3,
               "points": 18,
               "goalDifference": 14
-            },
-            {
-              "position": 3,
-              "team": "NUEVA PALMIRA",
-              "played": 10,
-              "won": 8,
-              "drawn": 1,
-              "lost": 1,
-              "goalsFor": 28,
-              "goalsAgainst": 9,
-              "points": 17,
-              "goalDifference": 19
             },
             {
               "position": 4,
@@ -16068,13 +16074,13 @@
             {
               "position": 5,
               "team": "DEP.ORIENTAL",
-              "played": 10,
+              "played": 11,
               "won": 6,
-              "drawn": 1,
+              "drawn": 2,
               "lost": 3,
-              "goalsFor": 24,
-              "goalsAgainst": 9,
-              "points": 13,
+              "goalsFor": 25,
+              "goalsAgainst": 10,
+              "points": 14,
               "goalDifference": 15
             },
             {
@@ -16627,6 +16633,13 @@
               "awayGoals": 0
             },
             {
+              "round": "9ª fecha",
+              "home": "NUEVA PALMIRA",
+              "away": "DEP.ORIENTAL",
+              "homeGoals": 1,
+              "awayGoals": 1
+            },
+            {
               "round": "10ª fecha",
               "home": "R.DEL REDUCTO",
               "away": "NUEVA PALMIRA",
@@ -16798,10 +16811,6 @@
             },
             {
               "home": "DEP.ORIENTAL",
-              "away": "NUEVA PALMIRA"
-            },
-            {
-              "home": "DEP.ORIENTAL",
               "away": "NVO. AMANECER"
             },
             {
@@ -16894,6 +16903,18 @@
             },
             {
               "position": 3,
+              "team": "NUEVA PALMIRA",
+              "played": 25,
+              "won": 16,
+              "drawn": 4,
+              "lost": 5,
+              "goalsFor": 64,
+              "goalsAgainst": 26,
+              "points": 35,
+              "goalDifference": 38
+            },
+            {
+              "position": 4,
               "team": "DRYCO",
               "played": 25,
               "won": 15,
@@ -16903,18 +16924,6 @@
               "goalsAgainst": 33,
               "points": 35,
               "goalDifference": 34
-            },
-            {
-              "position": 4,
-              "team": "NUEVA PALMIRA",
-              "played": 24,
-              "won": 16,
-              "drawn": 3,
-              "lost": 5,
-              "goalsFor": 63,
-              "goalsAgainst": 25,
-              "points": 34,
-              "goalDifference": 38
             },
             {
               "position": 5,
@@ -16943,13 +16952,13 @@
             {
               "position": 7,
               "team": "DEP.ORIENTAL",
-              "played": 24,
+              "played": 25,
               "won": 15,
-              "drawn": 3,
+              "drawn": 4,
               "lost": 6,
-              "goalsFor": 57,
-              "goalsAgainst": 24,
-              "points": 23,
+              "goalsFor": 58,
+              "goalsAgainst": 25,
+              "points": 24,
               "goalDifference": 33
             },
             {
@@ -18213,6 +18222,13 @@
               "awayGoals": 0
             },
             {
+              "round": "Clausura · 9ª fecha",
+              "home": "NUEVA PALMIRA",
+              "away": "DEP.ORIENTAL",
+              "homeGoals": 1,
+              "awayGoals": 1
+            },
+            {
               "round": "Clausura · 10ª fecha",
               "home": "R.DEL REDUCTO",
               "away": "NUEVA PALMIRA",
@@ -18381,10 +18397,6 @@
             {
               "home": "DEP.ORIENTAL",
               "away": "INTERMEZZO"
-            },
-            {
-              "home": "DEP.ORIENTAL",
-              "away": "NUEVA PALMIRA"
             },
             {
               "home": "DEP.ORIENTAL",
@@ -19407,6 +19419,18 @@
             },
             {
               "position": 3,
+              "team": "DEP.ORIENTAL",
+              "played": 11,
+              "won": 6,
+              "drawn": 4,
+              "lost": 1,
+              "goalsFor": 34,
+              "goalsAgainst": 9,
+              "points": 16,
+              "goalDifference": 25
+            },
+            {
+              "position": 4,
               "team": "INTERMEZZO",
               "played": 11,
               "won": 8,
@@ -19416,18 +19440,6 @@
               "goalsAgainst": 13,
               "points": 16,
               "goalDifference": 16
-            },
-            {
-              "position": 4,
-              "team": "DEP.ORIENTAL",
-              "played": 10,
-              "won": 6,
-              "drawn": 3,
-              "lost": 1,
-              "goalsFor": 30,
-              "goalsAgainst": 5,
-              "points": 15,
-              "goalDifference": 25
             },
             {
               "position": 5,
@@ -19444,13 +19456,13 @@
             {
               "position": 6,
               "team": "NUEVA PALMIRA",
-              "played": 9,
+              "played": 10,
               "won": 6,
-              "drawn": 1,
+              "drawn": 2,
               "lost": 2,
-              "goalsFor": 19,
-              "goalsAgainst": 11,
-              "points": 13,
+              "goalsFor": 23,
+              "goalsAgainst": 15,
+              "points": 14,
               "goalDifference": 8
             },
             {
@@ -19991,6 +20003,13 @@
               "awayGoals": 0
             },
             {
+              "round": "9ª fecha",
+              "home": "NUEVA PALMIRA",
+              "away": "DEP.ORIENTAL",
+              "homeGoals": 4,
+              "awayGoals": 4
+            },
+            {
               "round": "10ª fecha",
               "home": "R.DEL REDUCTO",
               "away": "NUEVA PALMIRA",
@@ -20152,10 +20171,6 @@
             },
             {
               "home": "DEP.ORIENTAL",
-              "away": "NUEVA PALMIRA"
-            },
-            {
-              "home": "DEP.ORIENTAL",
               "away": "NVO. AMANECER"
             },
             {
@@ -20253,25 +20268,25 @@
             {
               "position": 3,
               "team": "DEP.ORIENTAL",
-              "played": 24,
+              "played": 25,
               "won": 18,
-              "drawn": 4,
+              "drawn": 5,
               "lost": 2,
-              "goalsFor": 96,
-              "goalsAgainst": 18,
-              "points": 40,
+              "goalsFor": 100,
+              "goalsAgainst": 22,
+              "points": 41,
               "goalDifference": 78
             },
             {
               "position": 4,
               "team": "NUEVA PALMIRA",
-              "played": 23,
+              "played": 24,
               "won": 15,
-              "drawn": 2,
+              "drawn": 3,
               "lost": 6,
-              "goalsFor": 47,
-              "goalsAgainst": 35,
-              "points": 32,
+              "goalsFor": 51,
+              "goalsAgainst": 39,
+              "points": 33,
               "goalDifference": 12
             },
             {
@@ -21571,6 +21586,13 @@
               "awayGoals": 0
             },
             {
+              "round": "Clausura · 9ª fecha",
+              "home": "NUEVA PALMIRA",
+              "away": "DEP.ORIENTAL",
+              "homeGoals": 4,
+              "awayGoals": 4
+            },
+            {
               "round": "Clausura · 10ª fecha",
               "home": "R.DEL REDUCTO",
               "away": "NUEVA PALMIRA",
@@ -21729,10 +21751,6 @@
             {
               "home": "DEP.ORIENTAL",
               "away": "INTERMEZZO"
-            },
-            {
-              "home": "DEP.ORIENTAL",
-              "away": "NUEVA PALMIRA"
             },
             {
               "home": "DEP.ORIENTAL",
@@ -22844,14 +22862,14 @@
             {
               "position": 10,
               "team": "DEP.ORIENTAL",
-              "played": 9,
+              "played": 10,
               "won": 3,
               "drawn": 1,
-              "lost": 5,
-              "goalsFor": 14,
-              "goalsAgainst": 16,
+              "lost": 6,
+              "goalsFor": 15,
+              "goalsAgainst": 19,
               "points": 7,
-              "goalDifference": -2
+              "goalDifference": -4
             },
             {
               "position": 11,
@@ -22880,14 +22898,14 @@
             {
               "position": 13,
               "team": "NUEVA PALMIRA",
-              "played": 10,
-              "won": 1,
+              "played": 11,
+              "won": 2,
               "drawn": 0,
               "lost": 9,
-              "goalsFor": 6,
-              "goalsAgainst": 48,
-              "points": 2,
-              "goalDifference": -42
+              "goalsFor": 9,
+              "goalsAgainst": 49,
+              "points": 4,
+              "goalDifference": -40
             },
             {
               "position": 14,
@@ -23350,6 +23368,13 @@
               "awayGoals": 2
             },
             {
+              "round": "9ª fecha",
+              "home": "NUEVA PALMIRA",
+              "away": "DEP.ORIENTAL",
+              "homeGoals": 3,
+              "awayGoals": 1
+            },
+            {
               "round": "10ª fecha",
               "home": "R.DEL REDUCTO",
               "away": "NUEVA PALMIRA",
@@ -23491,10 +23516,6 @@
             {
               "home": "DEP.ORIENTAL",
               "away": "INTERMEZZO"
-            },
-            {
-              "home": "DEP.ORIENTAL",
-              "away": "NUEVA PALMIRA"
             },
             {
               "home": "DEP.ORIENTAL",
@@ -23659,14 +23680,14 @@
             {
               "position": 8,
               "team": "DEP.ORIENTAL",
-              "played": 23,
+              "played": 24,
               "won": 10,
               "drawn": 5,
-              "lost": 8,
-              "goalsFor": 38,
-              "goalsAgainst": 29,
+              "lost": 9,
+              "goalsFor": 39,
+              "goalsAgainst": 32,
               "points": 23,
-              "goalDifference": 9
+              "goalDifference": 7
             },
             {
               "position": 9,
@@ -23719,14 +23740,14 @@
             {
               "position": 13,
               "team": "NUEVA PALMIRA",
-              "played": 24,
-              "won": 5,
+              "played": 25,
+              "won": 6,
               "drawn": 0,
               "lost": 19,
-              "goalsFor": 20,
-              "goalsAgainst": 80,
-              "points": 10,
-              "goalDifference": -60
+              "goalsFor": 23,
+              "goalsAgainst": 81,
+              "points": 12,
+              "goalDifference": -58
             },
             {
               "position": 14,
@@ -24924,6 +24945,13 @@
               "awayGoals": 2
             },
             {
+              "round": "Clausura · 9ª fecha",
+              "home": "NUEVA PALMIRA",
+              "away": "DEP.ORIENTAL",
+              "homeGoals": 3,
+              "awayGoals": 1
+            },
+            {
               "round": "Clausura · 10ª fecha",
               "home": "R.DEL REDUCTO",
               "away": "NUEVA PALMIRA",
@@ -25065,10 +25093,6 @@
             {
               "home": "DEP.ORIENTAL",
               "away": "INTERMEZZO"
-            },
-            {
-              "home": "DEP.ORIENTAL",
-              "away": "NUEVA PALMIRA"
             },
             {
               "home": "DEP.ORIENTAL",
@@ -26159,6 +26183,18 @@
             },
             {
               "position": 8,
+              "team": "DEP.ORIENTAL",
+              "played": 10,
+              "won": 4,
+              "drawn": 3,
+              "lost": 3,
+              "goalsFor": 17,
+              "goalsAgainst": 13,
+              "points": 11,
+              "goalDifference": 4
+            },
+            {
+              "position": 9,
               "team": "R.DEL REDUCTO",
               "played": 11,
               "won": 4,
@@ -26170,26 +26206,14 @@
               "goalDifference": -1
             },
             {
-              "position": 9,
+              "position": 10,
               "team": "NUEVA PALMIRA",
-              "played": 10,
+              "played": 11,
               "won": 4,
               "drawn": 1,
-              "lost": 5,
-              "goalsFor": 21,
-              "goalsAgainst": 17,
-              "points": 9,
-              "goalDifference": 4
-            },
-            {
-              "position": 10,
-              "team": "DEP.ORIENTAL",
-              "played": 9,
-              "won": 3,
-              "drawn": 3,
-              "lost": 3,
-              "goalsFor": 15,
-              "goalsAgainst": 12,
+              "lost": 6,
+              "goalsFor": 22,
+              "goalsAgainst": 19,
               "points": 9,
               "goalDifference": 3
             },
@@ -26690,6 +26714,13 @@
               "awayGoals": 4
             },
             {
+              "round": "9ª fecha",
+              "home": "NUEVA PALMIRA",
+              "away": "DEP.ORIENTAL",
+              "homeGoals": 1,
+              "awayGoals": 2
+            },
+            {
               "round": "10ª fecha",
               "home": "R.DEL REDUCTO",
               "away": "NUEVA PALMIRA",
@@ -26844,10 +26875,6 @@
             },
             {
               "home": "DEP.ORIENTAL",
-              "away": "NUEVA PALMIRA"
-            },
-            {
-              "home": "DEP.ORIENTAL",
               "away": "NVO. AMANECER"
             },
             {
@@ -26957,26 +26984,26 @@
             {
               "position": 4,
               "team": "DEP.ORIENTAL",
-              "played": 23,
-              "won": 12,
+              "played": 24,
+              "won": 13,
               "drawn": 5,
               "lost": 6,
-              "goalsFor": 46,
-              "goalsAgainst": 31,
-              "points": 29,
-              "goalDifference": 15
+              "goalsFor": 48,
+              "goalsAgainst": 32,
+              "points": 31,
+              "goalDifference": 16
             },
             {
               "position": 5,
               "team": "NUEVA PALMIRA",
-              "played": 24,
+              "played": 25,
               "won": 12,
               "drawn": 3,
-              "lost": 9,
-              "goalsFor": 59,
-              "goalsAgainst": 35,
+              "lost": 10,
+              "goalsFor": 60,
+              "goalsAgainst": 37,
               "points": 27,
-              "goalDifference": 24
+              "goalDifference": 23
             },
             {
               "position": 6,
@@ -28270,6 +28297,13 @@
               "awayGoals": 4
             },
             {
+              "round": "Clausura · 9ª fecha",
+              "home": "NUEVA PALMIRA",
+              "away": "DEP.ORIENTAL",
+              "homeGoals": 1,
+              "awayGoals": 2
+            },
+            {
               "round": "Clausura · 10ª fecha",
               "home": "R.DEL REDUCTO",
               "away": "NUEVA PALMIRA",
@@ -28421,10 +28455,6 @@
             {
               "home": "DEP.ORIENTAL",
               "away": "INTERMEZZO"
-            },
-            {
-              "home": "DEP.ORIENTAL",
-              "away": "NUEVA PALMIRA"
             },
             {
               "home": "DEP.ORIENTAL",
