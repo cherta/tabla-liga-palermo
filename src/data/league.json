@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-16T11:00:19.610Z",
+  "updatedAt": "2026-11-17T11:00:21.745Z",
   "division": "Serie B",
   "source": {
     "pageUrl": "https://www.ligapalermo.org/serie-b-2026/",
@@ -9431,7 +9431,26 @@
               "home": "STOCKOLMO",
               "away": "EXPLORADORES",
               "homeGoals": 1,
-              "awayGoals": 1
+              "awayGoals": 1,
+              "details": {
+                "date": "2026-11-14",
+                "venue": "Stockolmo",
+                "sourceTeam": "EXPLORADORES",
+                "sourceScore": {
+                  "home": "STOCKOLMO",
+                  "away": "EXPLORADORES",
+                  "homeGoals": 1,
+                  "awayGoals": 1
+                },
+                "goals": [
+                  {
+                    "team": "EXPLORADORES",
+                    "player": "Manu",
+                    "goals": 1
+                  }
+                ],
+                "note": null
+              }
             },
             {
               "round": "12ª fecha",
@@ -11698,7 +11717,26 @@
               "home": "STOCKOLMO",
               "away": "EXPLORADORES",
               "homeGoals": 1,
-              "awayGoals": 1
+              "awayGoals": 1,
+              "details": {
+                "date": "2026-11-14",
+                "venue": "Stockolmo",
+                "sourceTeam": "EXPLORADORES",
+                "sourceScore": {
+                  "home": "STOCKOLMO",
+                  "away": "EXPLORADORES",
+                  "homeGoals": 1,
+                  "awayGoals": 1
+                },
+                "goals": [
+                  {
+                    "team": "EXPLORADORES",
+                    "player": "Manu",
+                    "goals": 1
+                  }
+                ],
+                "note": null
+              }
             },
             {
               "round": "Clausura · 12ª fecha",
