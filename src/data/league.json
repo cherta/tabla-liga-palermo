@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-21T11:00:24.715Z",
+  "updatedAt": "2026-11-22T11:00:22.965Z",
   "division": "Serie B",
   "source": {
     "pageUrl": "https://www.ligapalermo.org/serie-b-2026/",
@@ -217,7 +217,7 @@
         "lost": 16,
         "goalsFor": 247,
         "goalsAgainst": 87,
-        "points": 149,
+        "points": 148,
         "goalDifference": 160
       },
       {
@@ -241,7 +241,7 @@
         "lost": 21,
         "goalsFor": 282,
         "goalsAgainst": 95,
-        "points": 144,
+        "points": 142,
         "goalDifference": 187
       },
       {
@@ -313,7 +313,7 @@
         "lost": 46,
         "goalsFor": 188,
         "goalsAgainst": 181,
-        "points": 84,
+        "points": 85,
         "goalDifference": 7
       },
       {
@@ -325,7 +325,7 @@
         "lost": 48,
         "goalsFor": 124,
         "goalsAgainst": 175,
-        "points": 83,
+        "points": 82,
         "goalDifference": -51
       },
       {
@@ -404,18 +404,6 @@
       },
       {
         "position": 2,
-        "team": "DEP.ORIENTAL",
-        "played": 212,
-        "won": 147,
-        "drawn": 28,
-        "lost": 37,
-        "goalsFor": 592,
-        "goalsAgainst": 185,
-        "points": 309,
-        "goalDifference": 407
-      },
-      {
-        "position": 3,
         "team": "STOCKOLMO",
         "played": 208,
         "won": 145,
@@ -423,8 +411,20 @@
         "lost": 42,
         "goalsFor": 547,
         "goalsAgainst": 189,
-        "points": 309,
+        "points": 308,
         "goalDifference": 358
+      },
+      {
+        "position": 3,
+        "team": "DEP.ORIENTAL",
+        "played": 212,
+        "won": 147,
+        "drawn": 28,
+        "lost": 37,
+        "goalsFor": 592,
+        "goalsAgainst": 185,
+        "points": 307,
+        "goalDifference": 407
       },
       {
         "position": 4,
@@ -519,7 +519,7 @@
         "lost": 105,
         "goalsFor": 358,
         "goalsAgainst": 394,
-        "points": 168,
+        "points": 169,
         "goalDifference": -36
       },
       {
@@ -531,7 +531,7 @@
         "lost": 108,
         "goalsFor": 284,
         "goalsAgainst": 408,
-        "points": 161,
+        "points": 160,
         "goalDifference": -124
       },
       {
@@ -8498,18 +8498,6 @@
             },
             {
               "position": 6,
-              "team": "AEBU",
-              "played": 12,
-              "won": 6,
-              "drawn": 3,
-              "lost": 3,
-              "goalsFor": 24,
-              "goalsAgainst": 13,
-              "points": 15,
-              "goalDifference": 11
-            },
-            {
-              "position": 7,
               "team": "EST. DE LA UNION",
               "played": 13,
               "won": 7,
@@ -8519,6 +8507,18 @@
               "goalsAgainst": 17,
               "points": 15,
               "goalDifference": 6
+            },
+            {
+              "position": 7,
+              "team": "AEBU",
+              "played": 12,
+              "won": 6,
+              "drawn": 3,
+              "lost": 3,
+              "goalsFor": 24,
+              "goalsAgainst": 13,
+              "points": 14,
+              "goalDifference": 11
             },
             {
               "position": 8,
@@ -9721,7 +9721,7 @@
               "lost": 8,
               "goalsFor": 53,
               "goalsAgainst": 35,
-              "points": 31,
+              "points": 30,
               "goalDifference": 18
             },
             {
@@ -16303,18 +16303,6 @@
             },
             {
               "position": 3,
-              "team": "DEP.ORIENTAL",
-              "played": 13,
-              "won": 8,
-              "drawn": 2,
-              "lost": 3,
-              "goalsFor": 31,
-              "goalsAgainst": 11,
-              "points": 18,
-              "goalDifference": 20
-            },
-            {
-              "position": 4,
               "team": "NUEVA PALMIRA",
               "played": 12,
               "won": 8,
@@ -16326,7 +16314,7 @@
               "goalDifference": 17
             },
             {
-              "position": 5,
+              "position": 4,
               "team": "DRYCO",
               "played": 12,
               "won": 7,
@@ -16336,6 +16324,18 @@
               "goalsAgainst": 13,
               "points": 17,
               "goalDifference": 14
+            },
+            {
+              "position": 5,
+              "team": "DEP.ORIENTAL",
+              "played": 13,
+              "won": 8,
+              "drawn": 2,
+              "lost": 3,
+              "goalsFor": 31,
+              "goalsAgainst": 11,
+              "points": 16,
+              "goalDifference": 20
             },
             {
               "position": 6,
@@ -16442,7 +16442,7 @@
               "lost": 10,
               "goalsFor": 17,
               "goalsAgainst": 47,
-              "points": 3,
+              "points": 5,
               "goalDifference": -30
             },
             {
@@ -17220,18 +17220,6 @@
             },
             {
               "position": 6,
-              "team": "DEP.ORIENTAL",
-              "played": 27,
-              "won": 17,
-              "drawn": 4,
-              "lost": 6,
-              "goalsFor": 64,
-              "goalsAgainst": 26,
-              "points": 28,
-              "goalDifference": 38
-            },
-            {
-              "position": 7,
               "team": "R.DEL REDUCTO",
               "played": 26,
               "won": 11,
@@ -17241,6 +17229,18 @@
               "goalsAgainst": 25,
               "points": 27,
               "goalDifference": 20
+            },
+            {
+              "position": 7,
+              "team": "DEP.ORIENTAL",
+              "played": 27,
+              "won": 17,
+              "drawn": 4,
+              "lost": 6,
+              "goalsFor": 64,
+              "goalsAgainst": 26,
+              "points": 26,
+              "goalDifference": 38
             },
             {
               "position": 8,
@@ -17323,7 +17323,7 @@
               "lost": 23,
               "goalsFor": 27,
               "goalsAgainst": 96,
-              "points": 5,
+              "points": 7,
               "goalDifference": -69
             },
             {
@@ -23152,7 +23152,7 @@
               "lost": 2,
               "goalsFor": 42,
               "goalsAgainst": 10,
-              "points": 21,
+              "points": 20,
               "goalDifference": 32
             },
             {
@@ -23193,18 +23193,6 @@
             },
             {
               "position": 6,
-              "team": "STOCKOLMO",
-              "played": 11,
-              "won": 8,
-              "drawn": 2,
-              "lost": 1,
-              "goalsFor": 29,
-              "goalsAgainst": 8,
-              "points": 18,
-              "goalDifference": 21
-            },
-            {
-              "position": 7,
               "team": "R.DEL REDUCTO",
               "played": 12,
               "won": 8,
@@ -23214,6 +23202,18 @@
               "goalsAgainst": 12,
               "points": 18,
               "goalDifference": 15
+            },
+            {
+              "position": 7,
+              "team": "STOCKOLMO",
+              "played": 11,
+              "won": 8,
+              "drawn": 2,
+              "lost": 1,
+              "goalsFor": 29,
+              "goalsAgainst": 8,
+              "points": 17,
+              "goalDifference": 21
             },
             {
               "position": 8,
@@ -24042,7 +24042,7 @@
               "lost": 3,
               "goalsFor": 67,
               "goalsAgainst": 21,
-              "points": 40,
+              "points": 39,
               "goalDifference": 46
             },
             {
@@ -24090,7 +24090,7 @@
               "lost": 11,
               "goalsFor": 64,
               "goalsAgainst": 36,
-              "points": 30,
+              "points": 29,
               "goalDifference": 28
             },
             {

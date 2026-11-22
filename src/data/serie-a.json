@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-21T11:00:21.837Z",
+  "updatedAt": "2026-11-22T11:00:20.558Z",
   "division": "Serie A",
   "source": {
     "pageUrl": "https://www.ligapalermo.org/serie-a-2026/",
@@ -251,7 +251,7 @@
         "lost": 30,
         "goalsFor": 190,
         "goalsAgainst": 146,
-        "points": 104,
+        "points": 103,
         "goalDifference": 44
       },
       {
@@ -263,7 +263,7 @@
         "lost": 30,
         "goalsFor": 146,
         "goalsAgainst": 125,
-        "points": 96,
+        "points": 95,
         "goalDifference": 21
       },
       {
@@ -280,18 +280,6 @@
       },
       {
         "position": 8,
-        "team": "RAYO ROJO",
-        "played": 88,
-        "won": 29,
-        "drawn": 18,
-        "lost": 41,
-        "goalsFor": 112,
-        "goalsAgainst": 170,
-        "points": 76,
-        "goalDifference": -58
-      },
-      {
-        "position": 9,
         "team": "EUSKAL ERRIA",
         "played": 88,
         "won": 27,
@@ -299,8 +287,20 @@
         "lost": 45,
         "goalsFor": 142,
         "goalsAgainst": 198,
-        "points": 70,
+        "points": 72,
         "goalDifference": -56
+      },
+      {
+        "position": 9,
+        "team": "RAYO ROJO",
+        "played": 88,
+        "won": 29,
+        "drawn": 18,
+        "lost": 41,
+        "goalsFor": 112,
+        "goalsAgainst": 170,
+        "points": 72,
+        "goalDifference": -58
       },
       {
         "position": 10,
@@ -311,7 +311,7 @@
         "lost": 49,
         "goalsFor": 136,
         "goalsAgainst": 189,
-        "points": 68,
+        "points": 67,
         "goalDifference": -53
       },
       {
@@ -323,7 +323,7 @@
         "lost": 48,
         "goalsFor": 122,
         "goalsAgainst": 187,
-        "points": 65,
+        "points": 62,
         "goalDifference": -65
       },
       {
@@ -409,7 +409,7 @@
         "lost": 61,
         "goalsFor": 467,
         "goalsAgainst": 325,
-        "points": 230,
+        "points": 229,
         "goalDifference": 142
       },
       {
@@ -433,7 +433,7 @@
         "lost": 75,
         "goalsFor": 306,
         "goalsAgainst": 324,
-        "points": 193,
+        "points": 192,
         "goalDifference": -18
       },
       {
@@ -445,7 +445,7 @@
         "lost": 91,
         "goalsFor": 312,
         "goalsAgainst": 376,
-        "points": 175,
+        "points": 172,
         "goalDifference": -64
       },
       {
@@ -457,7 +457,7 @@
         "lost": 97,
         "goalsFor": 324,
         "goalsAgainst": 436,
-        "points": 159,
+        "points": 161,
         "goalDifference": -112
       },
       {
@@ -493,23 +493,11 @@
         "lost": 99,
         "goalsFor": 233,
         "goalsAgainst": 418,
-        "points": 148,
+        "points": 144,
         "goalDifference": -185
       },
       {
         "position": 12,
-        "team": "LA PICADA",
-        "played": 192,
-        "won": 57,
-        "drawn": 32,
-        "lost": 103,
-        "goalsFor": 291,
-        "goalsAgainst": 450,
-        "points": 143,
-        "goalDifference": -159
-      },
-      {
-        "position": 13,
         "team": "DON BOSCO",
         "played": 191,
         "won": 57,
@@ -519,6 +507,18 @@
         "goalsAgainst": 408,
         "points": 143,
         "goalDifference": -167
+      },
+      {
+        "position": 13,
+        "team": "LA PICADA",
+        "played": 192,
+        "won": 57,
+        "drawn": 32,
+        "lost": 103,
+        "goalsFor": 291,
+        "goalsAgainst": 450,
+        "points": 142,
+        "goalDifference": -159
       },
       {
         "position": 14,
@@ -1964,77 +1964,105 @@
               "awayGoals": 4
             },
             {
-              "round": "9ª fecha",
+              "round": "10ª fecha",
+              "home": "LA PICADA",
+              "away": "POCO SITIO",
+              "homeGoals": 0,
+              "awayGoals": 1
+            },
+            {
+              "round": "10ª fecha",
+              "home": "MIRADOR",
+              "away": "DON BOSCO",
+              "homeGoals": 5,
+              "awayGoals": 0
+            },
+            {
+              "round": "10ª fecha",
               "home": "MAESO",
               "away": "UNION VECINAL",
               "homeGoals": 7,
               "awayGoals": 2
             },
             {
-              "round": "9ª fecha",
+              "round": "10ª fecha",
               "home": "EST. DEL SUR",
               "away": "CARABELAS",
               "homeGoals": 4,
               "awayGoals": 0
             },
             {
-              "round": "9ª fecha",
+              "round": "10ª fecha",
               "home": "RAYO ROJO",
               "away": "URUNDAY",
               "homeGoals": 0,
               "awayGoals": 4
             },
             {
-              "round": "9ª fecha",
+              "round": "10ª fecha",
               "home": "LA RINCONADA",
               "away": "ENRIQUE LOPEZ",
               "homeGoals": 2,
               "awayGoals": 1
             },
             {
-              "round": "9ª fecha",
+              "round": "10ª fecha",
               "home": "EUSKAL ERRIA",
               "away": "LA ESCALINATA",
               "homeGoals": 1,
               "awayGoals": 2
             },
             {
-              "round": "9ª fecha",
+              "round": "11ª fecha",
+              "home": "POCO SITIO",
+              "away": "MIRADOR",
+              "homeGoals": 1,
+              "awayGoals": 1
+            },
+            {
+              "round": "11ª fecha",
+              "home": "LA PICADA",
+              "away": "MAESO",
+              "homeGoals": 0,
+              "awayGoals": 3
+            },
+            {
+              "round": "11ª fecha",
               "home": "DON BOSCO",
               "away": "CARABELAS",
               "homeGoals": 0,
               "awayGoals": 1
             },
             {
-              "round": "9ª fecha",
+              "round": "11ª fecha",
               "home": "URUNDAY",
               "away": "UNION VECINAL",
               "homeGoals": 2,
               "awayGoals": 4
             },
             {
-              "round": "9ª fecha",
+              "round": "11ª fecha",
               "home": "ENRIQUE LOPEZ",
               "away": "EST. DEL SUR",
               "homeGoals": 2,
               "awayGoals": 0
             },
             {
-              "round": "9ª fecha",
+              "round": "11ª fecha",
               "home": "LA ESCALINATA",
               "away": "RAYO ROJO",
               "homeGoals": 5,
               "awayGoals": 0
             },
             {
-              "round": "9ª fecha",
+              "round": "11ª fecha",
               "home": "LA RINCONADA",
               "away": "EUSKAL ERRIA",
               "homeGoals": 2,
               "awayGoals": 2
             },
             {
-              "round": "9ª fecha",
+              "round": "12ª fecha",
               "home": "UNION VECINAL",
               "away": "LA ESCALINATA",
               "homeGoals": 0,
@@ -2059,10 +2087,6 @@
               "away": "EUSKAL ERRIA"
             },
             {
-              "home": "DON BOSCO",
-              "away": "MIRADOR"
-            },
-            {
               "home": "ENRIQUE LOPEZ",
               "away": "MIRADOR"
             },
@@ -2077,14 +2101,6 @@
             {
               "home": "LA ESCALINATA",
               "away": "LA PICADA"
-            },
-            {
-              "home": "LA PICADA",
-              "away": "MAESO"
-            },
-            {
-              "home": "LA PICADA",
-              "away": "POCO SITIO"
             },
             {
               "home": "LA PICADA",
@@ -2105,10 +2121,6 @@
             {
               "home": "MAESO",
               "away": "URUNDAY"
-            },
-            {
-              "home": "MIRADOR",
-              "away": "POCO SITIO"
             }
           ]
         },
@@ -3363,77 +3375,105 @@
               "awayGoals": 4
             },
             {
-              "round": "Clausura · 9ª fecha",
+              "round": "Clausura · 10ª fecha",
+              "home": "LA PICADA",
+              "away": "POCO SITIO",
+              "homeGoals": 0,
+              "awayGoals": 1
+            },
+            {
+              "round": "Clausura · 10ª fecha",
+              "home": "MIRADOR",
+              "away": "DON BOSCO",
+              "homeGoals": 5,
+              "awayGoals": 0
+            },
+            {
+              "round": "Clausura · 10ª fecha",
               "home": "MAESO",
               "away": "UNION VECINAL",
               "homeGoals": 7,
               "awayGoals": 2
             },
             {
-              "round": "Clausura · 9ª fecha",
+              "round": "Clausura · 10ª fecha",
               "home": "EST. DEL SUR",
               "away": "CARABELAS",
               "homeGoals": 4,
               "awayGoals": 0
             },
             {
-              "round": "Clausura · 9ª fecha",
+              "round": "Clausura · 10ª fecha",
               "home": "RAYO ROJO",
               "away": "URUNDAY",
               "homeGoals": 0,
               "awayGoals": 4
             },
             {
-              "round": "Clausura · 9ª fecha",
+              "round": "Clausura · 10ª fecha",
               "home": "LA RINCONADA",
               "away": "ENRIQUE LOPEZ",
               "homeGoals": 2,
               "awayGoals": 1
             },
             {
-              "round": "Clausura · 9ª fecha",
+              "round": "Clausura · 10ª fecha",
               "home": "EUSKAL ERRIA",
               "away": "LA ESCALINATA",
               "homeGoals": 1,
               "awayGoals": 2
             },
             {
-              "round": "Clausura · 9ª fecha",
+              "round": "Clausura · 11ª fecha",
+              "home": "POCO SITIO",
+              "away": "MIRADOR",
+              "homeGoals": 1,
+              "awayGoals": 1
+            },
+            {
+              "round": "Clausura · 11ª fecha",
+              "home": "LA PICADA",
+              "away": "MAESO",
+              "homeGoals": 0,
+              "awayGoals": 3
+            },
+            {
+              "round": "Clausura · 11ª fecha",
               "home": "DON BOSCO",
               "away": "CARABELAS",
               "homeGoals": 0,
               "awayGoals": 1
             },
             {
-              "round": "Clausura · 9ª fecha",
+              "round": "Clausura · 11ª fecha",
               "home": "URUNDAY",
               "away": "UNION VECINAL",
               "homeGoals": 2,
               "awayGoals": 4
             },
             {
-              "round": "Clausura · 9ª fecha",
+              "round": "Clausura · 11ª fecha",
               "home": "ENRIQUE LOPEZ",
               "away": "EST. DEL SUR",
               "homeGoals": 2,
               "awayGoals": 0
             },
             {
-              "round": "Clausura · 9ª fecha",
+              "round": "Clausura · 11ª fecha",
               "home": "LA ESCALINATA",
               "away": "RAYO ROJO",
               "homeGoals": 5,
               "awayGoals": 0
             },
             {
-              "round": "Clausura · 9ª fecha",
+              "round": "Clausura · 11ª fecha",
               "home": "LA RINCONADA",
               "away": "EUSKAL ERRIA",
               "homeGoals": 2,
               "awayGoals": 2
             },
             {
-              "round": "Clausura · 9ª fecha",
+              "round": "Clausura · 12ª fecha",
               "home": "UNION VECINAL",
               "away": "LA ESCALINATA",
               "homeGoals": 0,
@@ -3458,10 +3498,6 @@
               "away": "EUSKAL ERRIA"
             },
             {
-              "home": "DON BOSCO",
-              "away": "MIRADOR"
-            },
-            {
               "home": "ENRIQUE LOPEZ",
               "away": "MIRADOR"
             },
@@ -3476,14 +3512,6 @@
             {
               "home": "LA ESCALINATA",
               "away": "LA PICADA"
-            },
-            {
-              "home": "LA PICADA",
-              "away": "MAESO"
-            },
-            {
-              "home": "LA PICADA",
-              "away": "POCO SITIO"
             },
             {
               "home": "LA PICADA",
@@ -3504,10 +3532,6 @@
             {
               "home": "MAESO",
               "away": "URUNDAY"
-            },
-            {
-              "home": "MIRADOR",
-              "away": "POCO SITIO"
             }
           ]
         }
@@ -4380,18 +4404,6 @@
             },
             {
               "position": 5,
-              "team": "LA PICADA",
-              "played": 11,
-              "won": 7,
-              "drawn": 0,
-              "lost": 4,
-              "goalsFor": 38,
-              "goalsAgainst": 14,
-              "points": 14,
-              "goalDifference": 24
-            },
-            {
-              "position": 6,
               "team": "MIRADOR",
               "played": 11,
               "won": 6,
@@ -4401,6 +4413,18 @@
               "goalsAgainst": 10,
               "points": 14,
               "goalDifference": 18
+            },
+            {
+              "position": 6,
+              "team": "LA PICADA",
+              "played": 11,
+              "won": 7,
+              "drawn": 0,
+              "lost": 4,
+              "goalsFor": 38,
+              "goalsAgainst": 14,
+              "points": 13,
+              "goalDifference": 24
             },
             {
               "position": 7,
@@ -4942,77 +4966,105 @@
               "awayGoals": 5
             },
             {
-              "round": "9ª fecha",
+              "round": "10ª fecha",
+              "home": "LA PICADA",
+              "away": "POCO SITIO",
+              "homeGoals": 8,
+              "awayGoals": 0
+            },
+            {
+              "round": "10ª fecha",
+              "home": "MIRADOR",
+              "away": "DON BOSCO",
+              "homeGoals": 2,
+              "awayGoals": 1
+            },
+            {
+              "round": "10ª fecha",
               "home": "MAESO",
               "away": "UNION VECINAL",
               "homeGoals": 0,
               "awayGoals": 5
             },
             {
-              "round": "9ª fecha",
+              "round": "10ª fecha",
               "home": "EST. DEL SUR",
               "away": "CARABELAS",
               "homeGoals": 0,
               "awayGoals": 5
             },
             {
-              "round": "9ª fecha",
+              "round": "10ª fecha",
               "home": "RAYO ROJO",
               "away": "URUNDAY",
               "homeGoals": 0,
               "awayGoals": 1
             },
             {
-              "round": "9ª fecha",
+              "round": "10ª fecha",
               "home": "LA RINCONADA",
               "away": "ENRIQUE LOPEZ",
               "homeGoals": 3,
               "awayGoals": 1
             },
             {
-              "round": "9ª fecha",
+              "round": "10ª fecha",
               "home": "EUSKAL ERRIA",
               "away": "LA ESCALINATA",
               "homeGoals": 0,
               "awayGoals": 5
             },
             {
-              "round": "9ª fecha",
+              "round": "11ª fecha",
+              "home": "POCO SITIO",
+              "away": "MIRADOR",
+              "homeGoals": 2,
+              "awayGoals": 7
+            },
+            {
+              "round": "11ª fecha",
+              "home": "LA PICADA",
+              "away": "MAESO",
+              "homeGoals": 5,
+              "awayGoals": 0
+            },
+            {
+              "round": "11ª fecha",
               "home": "DON BOSCO",
               "away": "CARABELAS",
               "homeGoals": 0,
               "awayGoals": 3
             },
             {
-              "round": "9ª fecha",
+              "round": "11ª fecha",
               "home": "URUNDAY",
               "away": "UNION VECINAL",
               "homeGoals": 0,
               "awayGoals": 4
             },
             {
-              "round": "9ª fecha",
+              "round": "11ª fecha",
               "home": "ENRIQUE LOPEZ",
               "away": "EST. DEL SUR",
               "homeGoals": 5,
               "awayGoals": 0
             },
             {
-              "round": "9ª fecha",
+              "round": "11ª fecha",
               "home": "LA ESCALINATA",
               "away": "RAYO ROJO",
               "homeGoals": 5,
               "awayGoals": 0
             },
             {
-              "round": "9ª fecha",
+              "round": "11ª fecha",
               "home": "LA RINCONADA",
               "away": "EUSKAL ERRIA",
               "homeGoals": 4,
               "awayGoals": 0
             },
             {
-              "round": "9ª fecha",
+              "round": "12ª fecha",
               "home": "UNION VECINAL",
               "away": "LA ESCALINATA",
               "homeGoals": 3,
@@ -5037,10 +5089,6 @@
               "away": "EUSKAL ERRIA"
             },
             {
-              "home": "DON BOSCO",
-              "away": "MIRADOR"
-            },
-            {
               "home": "ENRIQUE LOPEZ",
               "away": "MIRADOR"
             },
@@ -5055,14 +5103,6 @@
             {
               "home": "LA ESCALINATA",
               "away": "LA PICADA"
-            },
-            {
-              "home": "LA PICADA",
-              "away": "MAESO"
-            },
-            {
-              "home": "LA PICADA",
-              "away": "POCO SITIO"
             },
             {
               "home": "LA PICADA",
@@ -5083,10 +5123,6 @@
             {
               "home": "MAESO",
               "away": "URUNDAY"
-            },
-            {
-              "home": "MIRADOR",
-              "away": "POCO SITIO"
             }
           ]
         },
@@ -5161,7 +5197,7 @@
               "lost": 8,
               "goalsFor": 64,
               "goalsAgainst": 30,
-              "points": 30,
+              "points": 29,
               "goalDifference": 34
             },
             {
@@ -6341,77 +6377,105 @@
               "awayGoals": 5
             },
             {
-              "round": "Clausura · 9ª fecha",
+              "round": "Clausura · 10ª fecha",
+              "home": "LA PICADA",
+              "away": "POCO SITIO",
+              "homeGoals": 8,
+              "awayGoals": 0
+            },
+            {
+              "round": "Clausura · 10ª fecha",
+              "home": "MIRADOR",
+              "away": "DON BOSCO",
+              "homeGoals": 2,
+              "awayGoals": 1
+            },
+            {
+              "round": "Clausura · 10ª fecha",
               "home": "MAESO",
               "away": "UNION VECINAL",
               "homeGoals": 0,
               "awayGoals": 5
             },
             {
-              "round": "Clausura · 9ª fecha",
+              "round": "Clausura · 10ª fecha",
               "home": "EST. DEL SUR",
               "away": "CARABELAS",
               "homeGoals": 0,
               "awayGoals": 5
             },
             {
-              "round": "Clausura · 9ª fecha",
+              "round": "Clausura · 10ª fecha",
               "home": "RAYO ROJO",
               "away": "URUNDAY",
               "homeGoals": 0,
               "awayGoals": 1
             },
             {
-              "round": "Clausura · 9ª fecha",
+              "round": "Clausura · 10ª fecha",
               "home": "LA RINCONADA",
               "away": "ENRIQUE LOPEZ",
               "homeGoals": 3,
               "awayGoals": 1
             },
             {
-              "round": "Clausura · 9ª fecha",
+              "round": "Clausura · 10ª fecha",
               "home": "EUSKAL ERRIA",
               "away": "LA ESCALINATA",
               "homeGoals": 0,
               "awayGoals": 5
             },
             {
-              "round": "Clausura · 9ª fecha",
+              "round": "Clausura · 11ª fecha",
+              "home": "POCO SITIO",
+              "away": "MIRADOR",
+              "homeGoals": 2,
+              "awayGoals": 7
+            },
+            {
+              "round": "Clausura · 11ª fecha",
+              "home": "LA PICADA",
+              "away": "MAESO",
+              "homeGoals": 5,
+              "awayGoals": 0
+            },
+            {
+              "round": "Clausura · 11ª fecha",
               "home": "DON BOSCO",
               "away": "CARABELAS",
               "homeGoals": 0,
               "awayGoals": 3
             },
             {
-              "round": "Clausura · 9ª fecha",
+              "round": "Clausura · 11ª fecha",
               "home": "URUNDAY",
               "away": "UNION VECINAL",
               "homeGoals": 0,
               "awayGoals": 4
             },
             {
-              "round": "Clausura · 9ª fecha",
+              "round": "Clausura · 11ª fecha",
               "home": "ENRIQUE LOPEZ",
               "away": "EST. DEL SUR",
               "homeGoals": 5,
               "awayGoals": 0
             },
             {
-              "round": "Clausura · 9ª fecha",
+              "round": "Clausura · 11ª fecha",
               "home": "LA ESCALINATA",
               "away": "RAYO ROJO",
               "homeGoals": 5,
               "awayGoals": 0
             },
             {
-              "round": "Clausura · 9ª fecha",
+              "round": "Clausura · 11ª fecha",
               "home": "LA RINCONADA",
               "away": "EUSKAL ERRIA",
               "homeGoals": 4,
               "awayGoals": 0
             },
             {
-              "round": "Clausura · 9ª fecha",
+              "round": "Clausura · 12ª fecha",
               "home": "UNION VECINAL",
               "away": "LA ESCALINATA",
               "homeGoals": 3,
@@ -6436,10 +6500,6 @@
               "away": "EUSKAL ERRIA"
             },
             {
-              "home": "DON BOSCO",
-              "away": "MIRADOR"
-            },
-            {
               "home": "ENRIQUE LOPEZ",
               "away": "MIRADOR"
             },
@@ -6454,14 +6514,6 @@
             {
               "home": "LA ESCALINATA",
               "away": "LA PICADA"
-            },
-            {
-              "home": "LA PICADA",
-              "away": "MAESO"
-            },
-            {
-              "home": "LA PICADA",
-              "away": "POCO SITIO"
             },
             {
               "home": "LA PICADA",
@@ -6482,10 +6534,6 @@
             {
               "home": "MAESO",
               "away": "URUNDAY"
-            },
-            {
-              "home": "MIRADOR",
-              "away": "POCO SITIO"
             }
           ]
         }
@@ -7334,18 +7382,6 @@
             },
             {
               "position": 3,
-              "team": "MIRADOR",
-              "played": 11,
-              "won": 6,
-              "drawn": 2,
-              "lost": 3,
-              "goalsFor": 16,
-              "goalsAgainst": 12,
-              "points": 14,
-              "goalDifference": 4
-            },
-            {
-              "position": 4,
               "team": "CARABELAS",
               "played": 11,
               "won": 6,
@@ -7355,6 +7391,18 @@
               "goalsAgainst": 13,
               "points": 14,
               "goalDifference": 2
+            },
+            {
+              "position": 4,
+              "team": "MIRADOR",
+              "played": 11,
+              "won": 6,
+              "drawn": 2,
+              "lost": 3,
+              "goalsFor": 16,
+              "goalsAgainst": 12,
+              "points": 13,
+              "goalDifference": 4
             },
             {
               "position": 5,
@@ -7920,70 +7968,98 @@
               "awayGoals": 4
             },
             {
-              "round": "9ª fecha",
+              "round": "10ª fecha",
+              "home": "LA PICADA",
+              "away": "POCO SITIO",
+              "homeGoals": 5,
+              "awayGoals": 2
+            },
+            {
+              "round": "10ª fecha",
+              "home": "MIRADOR",
+              "away": "DON BOSCO",
+              "homeGoals": 2,
+              "awayGoals": 0
+            },
+            {
+              "round": "10ª fecha",
               "home": "MAESO",
               "away": "UNION VECINAL",
               "homeGoals": 1,
               "awayGoals": 1
             },
             {
-              "round": "9ª fecha",
+              "round": "10ª fecha",
               "home": "EST. DEL SUR",
               "away": "CARABELAS",
               "homeGoals": 0,
               "awayGoals": 2
             },
             {
-              "round": "9ª fecha",
+              "round": "10ª fecha",
               "home": "RAYO ROJO",
               "away": "URUNDAY",
               "homeGoals": 0,
               "awayGoals": 2
             },
             {
-              "round": "9ª fecha",
+              "round": "10ª fecha",
               "home": "LA RINCONADA",
               "away": "ENRIQUE LOPEZ",
               "homeGoals": 0,
               "awayGoals": 1
             },
             {
-              "round": "9ª fecha",
+              "round": "10ª fecha",
               "home": "EUSKAL ERRIA",
               "away": "LA ESCALINATA",
               "homeGoals": 0,
               "awayGoals": 2
             },
             {
-              "round": "9ª fecha",
+              "round": "11ª fecha",
+              "home": "POCO SITIO",
+              "away": "MIRADOR",
+              "homeGoals": 1,
+              "awayGoals": 3
+            },
+            {
+              "round": "11ª fecha",
+              "home": "LA PICADA",
+              "away": "MAESO",
+              "homeGoals": 1,
+              "awayGoals": 3
+            },
+            {
+              "round": "11ª fecha",
               "home": "DON BOSCO",
               "away": "CARABELAS",
               "homeGoals": 0,
               "awayGoals": 0
             },
             {
-              "round": "9ª fecha",
+              "round": "11ª fecha",
               "home": "URUNDAY",
               "away": "UNION VECINAL",
               "homeGoals": 4,
               "awayGoals": 1
             },
             {
-              "round": "9ª fecha",
+              "round": "11ª fecha",
               "home": "ENRIQUE LOPEZ",
               "away": "EST. DEL SUR",
               "homeGoals": 4,
               "awayGoals": 0
             },
             {
-              "round": "9ª fecha",
+              "round": "11ª fecha",
               "home": "LA ESCALINATA",
               "away": "RAYO ROJO",
               "homeGoals": 2,
               "awayGoals": 1
             },
             {
-              "round": "9ª fecha",
+              "round": "11ª fecha",
               "home": "LA RINCONADA",
               "away": "EUSKAL ERRIA",
               "homeGoals": 6,
@@ -8008,10 +8084,6 @@
               "away": "EUSKAL ERRIA"
             },
             {
-              "home": "DON BOSCO",
-              "away": "MIRADOR"
-            },
-            {
               "home": "ENRIQUE LOPEZ",
               "away": "MIRADOR"
             },
@@ -8033,14 +8105,6 @@
             },
             {
               "home": "LA PICADA",
-              "away": "MAESO"
-            },
-            {
-              "home": "LA PICADA",
-              "away": "POCO SITIO"
-            },
-            {
-              "home": "LA PICADA",
               "away": "URUNDAY"
             },
             {
@@ -8058,10 +8122,6 @@
             {
               "home": "MAESO",
               "away": "URUNDAY"
-            },
-            {
-              "home": "MIRADOR",
-              "away": "POCO SITIO"
             }
           ]
         },
@@ -8124,7 +8184,7 @@
               "lost": 10,
               "goalsFor": 35,
               "goalsAgainst": 39,
-              "points": 24,
+              "points": 23,
               "goalDifference": -4
             },
             {
@@ -9316,70 +9376,98 @@
               "awayGoals": 4
             },
             {
-              "round": "Clausura · 9ª fecha",
+              "round": "Clausura · 10ª fecha",
+              "home": "LA PICADA",
+              "away": "POCO SITIO",
+              "homeGoals": 5,
+              "awayGoals": 2
+            },
+            {
+              "round": "Clausura · 10ª fecha",
+              "home": "MIRADOR",
+              "away": "DON BOSCO",
+              "homeGoals": 2,
+              "awayGoals": 0
+            },
+            {
+              "round": "Clausura · 10ª fecha",
               "home": "MAESO",
               "away": "UNION VECINAL",
               "homeGoals": 1,
               "awayGoals": 1
             },
             {
-              "round": "Clausura · 9ª fecha",
+              "round": "Clausura · 10ª fecha",
               "home": "EST. DEL SUR",
               "away": "CARABELAS",
               "homeGoals": 0,
               "awayGoals": 2
             },
             {
-              "round": "Clausura · 9ª fecha",
+              "round": "Clausura · 10ª fecha",
               "home": "RAYO ROJO",
               "away": "URUNDAY",
               "homeGoals": 0,
               "awayGoals": 2
             },
             {
-              "round": "Clausura · 9ª fecha",
+              "round": "Clausura · 10ª fecha",
               "home": "LA RINCONADA",
               "away": "ENRIQUE LOPEZ",
               "homeGoals": 0,
               "awayGoals": 1
             },
             {
-              "round": "Clausura · 9ª fecha",
+              "round": "Clausura · 10ª fecha",
               "home": "EUSKAL ERRIA",
               "away": "LA ESCALINATA",
               "homeGoals": 0,
               "awayGoals": 2
             },
             {
-              "round": "Clausura · 9ª fecha",
+              "round": "Clausura · 11ª fecha",
+              "home": "POCO SITIO",
+              "away": "MIRADOR",
+              "homeGoals": 1,
+              "awayGoals": 3
+            },
+            {
+              "round": "Clausura · 11ª fecha",
+              "home": "LA PICADA",
+              "away": "MAESO",
+              "homeGoals": 1,
+              "awayGoals": 3
+            },
+            {
+              "round": "Clausura · 11ª fecha",
               "home": "DON BOSCO",
               "away": "CARABELAS",
               "homeGoals": 0,
               "awayGoals": 0
             },
             {
-              "round": "Clausura · 9ª fecha",
+              "round": "Clausura · 11ª fecha",
               "home": "URUNDAY",
               "away": "UNION VECINAL",
               "homeGoals": 4,
               "awayGoals": 1
             },
             {
-              "round": "Clausura · 9ª fecha",
+              "round": "Clausura · 11ª fecha",
               "home": "ENRIQUE LOPEZ",
               "away": "EST. DEL SUR",
               "homeGoals": 4,
               "awayGoals": 0
             },
             {
-              "round": "Clausura · 9ª fecha",
+              "round": "Clausura · 11ª fecha",
               "home": "LA ESCALINATA",
               "away": "RAYO ROJO",
               "homeGoals": 2,
               "awayGoals": 1
             },
             {
-              "round": "Clausura · 9ª fecha",
+              "round": "Clausura · 11ª fecha",
               "home": "LA RINCONADA",
               "away": "EUSKAL ERRIA",
               "homeGoals": 6,
@@ -9404,10 +9492,6 @@
               "away": "EUSKAL ERRIA"
             },
             {
-              "home": "DON BOSCO",
-              "away": "MIRADOR"
-            },
-            {
               "home": "ENRIQUE LOPEZ",
               "away": "MIRADOR"
             },
@@ -9429,14 +9513,6 @@
             },
             {
               "home": "LA PICADA",
-              "away": "MAESO"
-            },
-            {
-              "home": "LA PICADA",
-              "away": "POCO SITIO"
-            },
-            {
-              "home": "LA PICADA",
               "away": "URUNDAY"
             },
             {
@@ -9454,10 +9530,6 @@
             {
               "home": "MAESO",
               "away": "URUNDAY"
-            },
-            {
-              "home": "MIRADOR",
-              "away": "POCO SITIO"
             }
           ]
         }
@@ -9554,18 +9626,6 @@
             },
             {
               "position": 8,
-              "team": "UNION VECINAL",
-              "played": 13,
-              "won": 5,
-              "drawn": 1,
-              "lost": 7,
-              "goalsFor": 22,
-              "goalsAgainst": 29,
-              "points": 11,
-              "goalDifference": -7
-            },
-            {
-              "position": 9,
               "team": "LA ESCALINATA",
               "played": 13,
               "won": 4,
@@ -9573,6 +9633,18 @@
               "lost": 6,
               "goalsFor": 20,
               "goalsAgainst": 27,
+              "points": 11,
+              "goalDifference": -7
+            },
+            {
+              "position": 9,
+              "team": "UNION VECINAL",
+              "played": 13,
+              "won": 5,
+              "drawn": 1,
+              "lost": 7,
+              "goalsFor": 22,
+              "goalsAgainst": 29,
               "points": 11,
               "goalDifference": -7
             },
@@ -10892,70 +10964,98 @@
               "awayGoals": 5
             },
             {
-              "round": "9ª fecha",
+              "round": "10ª fecha",
+              "home": "LA PICADA",
+              "away": "POCO SITIO",
+              "homeGoals": 1,
+              "awayGoals": 0
+            },
+            {
+              "round": "10ª fecha",
+              "home": "MIRADOR",
+              "away": "DON BOSCO",
+              "homeGoals": 2,
+              "awayGoals": 0
+            },
+            {
+              "round": "10ª fecha",
               "home": "MAESO",
               "away": "UNION VECINAL",
               "homeGoals": 0,
               "awayGoals": 1
             },
             {
-              "round": "9ª fecha",
+              "round": "10ª fecha",
               "home": "EST. DEL SUR",
               "away": "CARABELAS",
               "homeGoals": 0,
               "awayGoals": 1
             },
             {
-              "round": "9ª fecha",
+              "round": "10ª fecha",
               "home": "RAYO ROJO",
               "away": "URUNDAY",
               "homeGoals": 1,
               "awayGoals": 1
             },
             {
-              "round": "9ª fecha",
+              "round": "10ª fecha",
               "home": "LA RINCONADA",
               "away": "ENRIQUE LOPEZ",
               "homeGoals": 7,
               "awayGoals": 0
             },
             {
-              "round": "9ª fecha",
+              "round": "10ª fecha",
               "home": "EUSKAL ERRIA",
               "away": "LA ESCALINATA",
               "homeGoals": 1,
               "awayGoals": 1
             },
             {
-              "round": "9ª fecha",
+              "round": "11ª fecha",
+              "home": "POCO SITIO",
+              "away": "MIRADOR",
+              "homeGoals": 0,
+              "awayGoals": 2
+            },
+            {
+              "round": "11ª fecha",
+              "home": "LA PICADA",
+              "away": "MAESO",
+              "homeGoals": 1,
+              "awayGoals": 1
+            },
+            {
+              "round": "11ª fecha",
               "home": "DON BOSCO",
               "away": "CARABELAS",
               "homeGoals": 0,
               "awayGoals": 1
             },
             {
-              "round": "9ª fecha",
+              "round": "11ª fecha",
               "home": "URUNDAY",
               "away": "UNION VECINAL",
               "homeGoals": 4,
               "awayGoals": 0
             },
             {
-              "round": "9ª fecha",
+              "round": "11ª fecha",
               "home": "ENRIQUE LOPEZ",
               "away": "EST. DEL SUR",
               "homeGoals": 5,
               "awayGoals": 1
             },
             {
-              "round": "9ª fecha",
+              "round": "11ª fecha",
               "home": "LA ESCALINATA",
               "away": "RAYO ROJO",
               "homeGoals": 1,
               "awayGoals": 2
             },
             {
-              "round": "9ª fecha",
+              "round": "11ª fecha",
               "home": "LA RINCONADA",
               "away": "EUSKAL ERRIA",
               "homeGoals": 1,
@@ -10980,10 +11080,6 @@
               "away": "EUSKAL ERRIA"
             },
             {
-              "home": "DON BOSCO",
-              "away": "MIRADOR"
-            },
-            {
               "home": "ENRIQUE LOPEZ",
               "away": "MIRADOR"
             },
@@ -11005,14 +11101,6 @@
             },
             {
               "home": "LA PICADA",
-              "away": "MAESO"
-            },
-            {
-              "home": "LA PICADA",
-              "away": "POCO SITIO"
-            },
-            {
-              "home": "LA PICADA",
               "away": "URUNDAY"
             },
             {
@@ -11030,10 +11118,6 @@
             {
               "home": "MAESO",
               "away": "URUNDAY"
-            },
-            {
-              "home": "MIRADOR",
-              "away": "POCO SITIO"
             }
           ]
         },
@@ -12288,70 +12372,98 @@
               "awayGoals": 5
             },
             {
-              "round": "Clausura · 9ª fecha",
+              "round": "Clausura · 10ª fecha",
+              "home": "LA PICADA",
+              "away": "POCO SITIO",
+              "homeGoals": 1,
+              "awayGoals": 0
+            },
+            {
+              "round": "Clausura · 10ª fecha",
+              "home": "MIRADOR",
+              "away": "DON BOSCO",
+              "homeGoals": 2,
+              "awayGoals": 0
+            },
+            {
+              "round": "Clausura · 10ª fecha",
               "home": "MAESO",
               "away": "UNION VECINAL",
               "homeGoals": 0,
               "awayGoals": 1
             },
             {
-              "round": "Clausura · 9ª fecha",
+              "round": "Clausura · 10ª fecha",
               "home": "EST. DEL SUR",
               "away": "CARABELAS",
               "homeGoals": 0,
               "awayGoals": 1
             },
             {
-              "round": "Clausura · 9ª fecha",
+              "round": "Clausura · 10ª fecha",
               "home": "RAYO ROJO",
               "away": "URUNDAY",
               "homeGoals": 1,
               "awayGoals": 1
             },
             {
-              "round": "Clausura · 9ª fecha",
+              "round": "Clausura · 10ª fecha",
               "home": "LA RINCONADA",
               "away": "ENRIQUE LOPEZ",
               "homeGoals": 7,
               "awayGoals": 0
             },
             {
-              "round": "Clausura · 9ª fecha",
+              "round": "Clausura · 10ª fecha",
               "home": "EUSKAL ERRIA",
               "away": "LA ESCALINATA",
               "homeGoals": 1,
               "awayGoals": 1
             },
             {
-              "round": "Clausura · 9ª fecha",
+              "round": "Clausura · 11ª fecha",
+              "home": "POCO SITIO",
+              "away": "MIRADOR",
+              "homeGoals": 0,
+              "awayGoals": 2
+            },
+            {
+              "round": "Clausura · 11ª fecha",
+              "home": "LA PICADA",
+              "away": "MAESO",
+              "homeGoals": 1,
+              "awayGoals": 1
+            },
+            {
+              "round": "Clausura · 11ª fecha",
               "home": "DON BOSCO",
               "away": "CARABELAS",
               "homeGoals": 0,
               "awayGoals": 1
             },
             {
-              "round": "Clausura · 9ª fecha",
+              "round": "Clausura · 11ª fecha",
               "home": "URUNDAY",
               "away": "UNION VECINAL",
               "homeGoals": 4,
               "awayGoals": 0
             },
             {
-              "round": "Clausura · 9ª fecha",
+              "round": "Clausura · 11ª fecha",
               "home": "ENRIQUE LOPEZ",
               "away": "EST. DEL SUR",
               "homeGoals": 5,
               "awayGoals": 1
             },
             {
-              "round": "Clausura · 9ª fecha",
+              "round": "Clausura · 11ª fecha",
               "home": "LA ESCALINATA",
               "away": "RAYO ROJO",
               "homeGoals": 1,
               "awayGoals": 2
             },
             {
-              "round": "Clausura · 9ª fecha",
+              "round": "Clausura · 11ª fecha",
               "home": "LA RINCONADA",
               "away": "EUSKAL ERRIA",
               "homeGoals": 1,
@@ -12376,10 +12488,6 @@
               "away": "EUSKAL ERRIA"
             },
             {
-              "home": "DON BOSCO",
-              "away": "MIRADOR"
-            },
-            {
               "home": "ENRIQUE LOPEZ",
               "away": "MIRADOR"
             },
@@ -12401,14 +12509,6 @@
             },
             {
               "home": "LA PICADA",
-              "away": "MAESO"
-            },
-            {
-              "home": "LA PICADA",
-              "away": "POCO SITIO"
-            },
-            {
-              "home": "LA PICADA",
               "away": "URUNDAY"
             },
             {
@@ -12426,10 +12526,6 @@
             {
               "home": "MAESO",
               "away": "URUNDAY"
-            },
-            {
-              "home": "MIRADOR",
-              "away": "POCO SITIO"
             }
           ]
         }
@@ -13345,18 +13441,6 @@
             },
             {
               "position": 9,
-              "team": "RAYO ROJO",
-              "played": 11,
-              "won": 3,
-              "drawn": 3,
-              "lost": 5,
-              "goalsFor": 10,
-              "goalsAgainst": 19,
-              "points": 9,
-              "goalDifference": -9
-            },
-            {
-              "position": 10,
               "team": "LA ESCALINATA",
               "played": 11,
               "won": 2,
@@ -13365,6 +13449,18 @@
               "goalsFor": 5,
               "goalsAgainst": 14,
               "points": 8,
+              "goalDifference": -9
+            },
+            {
+              "position": 10,
+              "team": "RAYO ROJO",
+              "played": 11,
+              "won": 3,
+              "drawn": 3,
+              "lost": 5,
+              "goalsFor": 10,
+              "goalsAgainst": 19,
+              "points": 7,
               "goalDifference": -9
             },
             {
@@ -13859,81 +13955,112 @@
               "awayGoals": 2
             },
             {
-              "round": "9ª fecha",
+              "round": "10ª fecha",
+              "home": "LA PICADA",
+              "away": "POCO SITIO",
+              "homeGoals": 2,
+              "awayGoals": 2
+            },
+            {
+              "round": "10ª fecha",
+              "home": "MIRADOR",
+              "away": "DON BOSCO",
+              "homeGoals": 1,
+              "awayGoals": 4
+            },
+            {
+              "round": "10ª fecha",
               "home": "MAESO",
               "away": "UNION VECINAL",
               "homeGoals": 0,
               "awayGoals": 3
             },
             {
-              "round": "9ª fecha",
+              "round": "10ª fecha",
               "home": "EST. DEL SUR",
               "away": "CARABELAS",
               "homeGoals": 0,
               "awayGoals": 1
             },
             {
-              "round": "9ª fecha",
+              "round": "10ª fecha",
               "home": "RAYO ROJO",
               "away": "URUNDAY",
               "homeGoals": 4,
               "awayGoals": 0
             },
             {
-              "round": "9ª fecha",
+              "round": "10ª fecha",
               "home": "LA RINCONADA",
               "away": "ENRIQUE LOPEZ",
               "homeGoals": 1,
               "awayGoals": 2
             },
             {
-              "round": "9ª fecha",
+              "round": "10ª fecha",
               "home": "EUSKAL ERRIA",
               "away": "LA ESCALINATA",
               "homeGoals": 2,
               "awayGoals": 0
             },
             {
-              "round": "9ª fecha",
+              "round": "11ª fecha",
+              "home": "POCO SITIO",
+              "away": "MIRADOR",
+              "homeGoals": 1,
+              "awayGoals": 0
+            },
+            {
+              "round": "11ª fecha",
+              "home": "LA PICADA",
+              "away": "MAESO",
+              "homeGoals": 1,
+              "awayGoals": 0
+            },
+            {
+              "round": "11ª fecha",
               "home": "DON BOSCO",
               "away": "CARABELAS",
               "homeGoals": 1,
               "awayGoals": 3
             },
             {
-              "round": "9ª fecha",
+              "round": "11ª fecha",
               "home": "URUNDAY",
               "away": "UNION VECINAL",
               "homeGoals": 2,
               "awayGoals": 2
             },
             {
-              "round": "9ª fecha",
+              "round": "11ª fecha",
               "home": "ENRIQUE LOPEZ",
               "away": "EST. DEL SUR",
               "homeGoals": 4,
               "awayGoals": 0
             },
             {
-              "round": "9ª fecha",
+              "round": "11ª fecha",
               "home": "LA ESCALINATA",
               "away": "RAYO ROJO",
               "homeGoals": 0,
               "awayGoals": 0
             },
             {
-              "round": "9ª fecha",
+              "round": "11ª fecha",
               "home": "LA RINCONADA",
               "away": "EUSKAL ERRIA",
               "homeGoals": 9,
               "awayGoals": 1
+            },
+            {
+              "round": "12ª fecha",
+              "home": "CARABELAS",
+              "away": "MIRADOR",
+              "homeGoals": 2,
+              "awayGoals": 2
             }
           ],
           "nextGames": [
-            {
-              "home": "CARABELAS",
-              "away": "MIRADOR"
-            },
             {
               "home": "CARABELAS",
               "away": "POCO SITIO"
@@ -13945,10 +14072,6 @@
             {
               "home": "DON BOSCO",
               "away": "EUSKAL ERRIA"
-            },
-            {
-              "home": "DON BOSCO",
-              "away": "MIRADOR"
             },
             {
               "home": "ENRIQUE LOPEZ",
@@ -13972,14 +14095,6 @@
             },
             {
               "home": "LA PICADA",
-              "away": "MAESO"
-            },
-            {
-              "home": "LA PICADA",
-              "away": "POCO SITIO"
-            },
-            {
-              "home": "LA PICADA",
               "away": "URUNDAY"
             },
             {
@@ -13997,10 +14112,6 @@
             {
               "home": "MAESO",
               "away": "URUNDAY"
-            },
-            {
-              "home": "MIRADOR",
-              "away": "POCO SITIO"
             }
           ]
         },
@@ -14116,18 +14227,6 @@
             },
             {
               "position": 10,
-              "team": "RAYO ROJO",
-              "played": 24,
-              "won": 5,
-              "drawn": 6,
-              "lost": 13,
-              "goalsFor": 19,
-              "goalsAgainst": 43,
-              "points": 16,
-              "goalDifference": -24
-            },
-            {
-              "position": 11,
               "team": "DON BOSCO",
               "played": 24,
               "won": 6,
@@ -14137,6 +14236,18 @@
               "goalsAgainst": 47,
               "points": 15,
               "goalDifference": -30
+            },
+            {
+              "position": 11,
+              "team": "RAYO ROJO",
+              "played": 24,
+              "won": 5,
+              "drawn": 6,
+              "lost": 13,
+              "goalsFor": 19,
+              "goalsAgainst": 43,
+              "points": 14,
+              "goalDifference": -24
             },
             {
               "position": 12,
@@ -15241,81 +15352,112 @@
               "awayGoals": 2
             },
             {
-              "round": "Clausura · 9ª fecha",
+              "round": "Clausura · 10ª fecha",
+              "home": "LA PICADA",
+              "away": "POCO SITIO",
+              "homeGoals": 2,
+              "awayGoals": 2
+            },
+            {
+              "round": "Clausura · 10ª fecha",
+              "home": "MIRADOR",
+              "away": "DON BOSCO",
+              "homeGoals": 1,
+              "awayGoals": 4
+            },
+            {
+              "round": "Clausura · 10ª fecha",
               "home": "MAESO",
               "away": "UNION VECINAL",
               "homeGoals": 0,
               "awayGoals": 3
             },
             {
-              "round": "Clausura · 9ª fecha",
+              "round": "Clausura · 10ª fecha",
               "home": "EST. DEL SUR",
               "away": "CARABELAS",
               "homeGoals": 0,
               "awayGoals": 1
             },
             {
-              "round": "Clausura · 9ª fecha",
+              "round": "Clausura · 10ª fecha",
               "home": "RAYO ROJO",
               "away": "URUNDAY",
               "homeGoals": 4,
               "awayGoals": 0
             },
             {
-              "round": "Clausura · 9ª fecha",
+              "round": "Clausura · 10ª fecha",
               "home": "LA RINCONADA",
               "away": "ENRIQUE LOPEZ",
               "homeGoals": 1,
               "awayGoals": 2
             },
             {
-              "round": "Clausura · 9ª fecha",
+              "round": "Clausura · 10ª fecha",
               "home": "EUSKAL ERRIA",
               "away": "LA ESCALINATA",
               "homeGoals": 2,
               "awayGoals": 0
             },
             {
-              "round": "Clausura · 9ª fecha",
+              "round": "Clausura · 11ª fecha",
+              "home": "POCO SITIO",
+              "away": "MIRADOR",
+              "homeGoals": 1,
+              "awayGoals": 0
+            },
+            {
+              "round": "Clausura · 11ª fecha",
+              "home": "LA PICADA",
+              "away": "MAESO",
+              "homeGoals": 1,
+              "awayGoals": 0
+            },
+            {
+              "round": "Clausura · 11ª fecha",
               "home": "DON BOSCO",
               "away": "CARABELAS",
               "homeGoals": 1,
               "awayGoals": 3
             },
             {
-              "round": "Clausura · 9ª fecha",
+              "round": "Clausura · 11ª fecha",
               "home": "URUNDAY",
               "away": "UNION VECINAL",
               "homeGoals": 2,
               "awayGoals": 2
             },
             {
-              "round": "Clausura · 9ª fecha",
+              "round": "Clausura · 11ª fecha",
               "home": "ENRIQUE LOPEZ",
               "away": "EST. DEL SUR",
               "homeGoals": 4,
               "awayGoals": 0
             },
             {
-              "round": "Clausura · 9ª fecha",
+              "round": "Clausura · 11ª fecha",
               "home": "LA ESCALINATA",
               "away": "RAYO ROJO",
               "homeGoals": 0,
               "awayGoals": 0
             },
             {
-              "round": "Clausura · 9ª fecha",
+              "round": "Clausura · 11ª fecha",
               "home": "LA RINCONADA",
               "away": "EUSKAL ERRIA",
               "homeGoals": 9,
               "awayGoals": 1
+            },
+            {
+              "round": "Clausura · 12ª fecha",
+              "home": "CARABELAS",
+              "away": "MIRADOR",
+              "homeGoals": 2,
+              "awayGoals": 2
             }
           ],
           "nextGames": [
-            {
-              "home": "CARABELAS",
-              "away": "MIRADOR"
-            },
             {
               "home": "CARABELAS",
               "away": "POCO SITIO"
@@ -15327,10 +15469,6 @@
             {
               "home": "DON BOSCO",
               "away": "EUSKAL ERRIA"
-            },
-            {
-              "home": "DON BOSCO",
-              "away": "MIRADOR"
             },
             {
               "home": "ENRIQUE LOPEZ",
@@ -15354,14 +15492,6 @@
             },
             {
               "home": "LA PICADA",
-              "away": "MAESO"
-            },
-            {
-              "home": "LA PICADA",
-              "away": "POCO SITIO"
-            },
-            {
-              "home": "LA PICADA",
               "away": "URUNDAY"
             },
             {
@@ -15379,10 +15509,6 @@
             {
               "home": "MAESO",
               "away": "URUNDAY"
-            },
-            {
-              "home": "MIRADOR",
-              "away": "POCO SITIO"
             }
           ]
         }
@@ -16315,18 +16441,6 @@
             },
             {
               "position": 10,
-              "team": "MAESO",
-              "played": 11,
-              "won": 3,
-              "drawn": 1,
-              "lost": 7,
-              "goalsFor": 13,
-              "goalsAgainst": 28,
-              "points": 7,
-              "goalDifference": -15
-            },
-            {
-              "position": 11,
               "team": "POCO SITIO",
               "played": 11,
               "won": 3,
@@ -16338,6 +16452,18 @@
               "goalDifference": -20
             },
             {
+              "position": 11,
+              "team": "CARABELAS",
+              "played": 10,
+              "won": 3,
+              "drawn": 0,
+              "lost": 7,
+              "goalsFor": 8,
+              "goalsAgainst": 23,
+              "points": 5,
+              "goalDifference": -15
+            },
+            {
               "position": 12,
               "team": "RAYO ROJO",
               "played": 11,
@@ -16346,19 +16472,19 @@
               "lost": 7,
               "goalsFor": 13,
               "goalsAgainst": 27,
-              "points": 6,
+              "points": 4,
               "goalDifference": -14
             },
             {
               "position": 13,
-              "team": "CARABELAS",
-              "played": 10,
+              "team": "MAESO",
+              "played": 11,
               "won": 3,
-              "drawn": 0,
+              "drawn": 1,
               "lost": 7,
-              "goalsFor": 8,
-              "goalsAgainst": 23,
-              "points": 6,
+              "goalsFor": 13,
+              "goalsAgainst": 28,
+              "points": 4,
               "goalDifference": -15
             },
             {
@@ -16817,70 +16943,98 @@
               "awayGoals": 6
             },
             {
-              "round": "9ª fecha",
+              "round": "10ª fecha",
+              "home": "LA PICADA",
+              "away": "POCO SITIO",
+              "homeGoals": 7,
+              "awayGoals": 2
+            },
+            {
+              "round": "10ª fecha",
+              "home": "MIRADOR",
+              "away": "DON BOSCO",
+              "homeGoals": 0,
+              "awayGoals": 2
+            },
+            {
+              "round": "10ª fecha",
               "home": "MAESO",
               "away": "UNION VECINAL",
               "homeGoals": 1,
               "awayGoals": 6
             },
             {
-              "round": "9ª fecha",
+              "round": "10ª fecha",
               "home": "EST. DEL SUR",
               "away": "CARABELAS",
               "homeGoals": 0,
               "awayGoals": 1
             },
             {
-              "round": "9ª fecha",
+              "round": "10ª fecha",
               "home": "RAYO ROJO",
               "away": "URUNDAY",
               "homeGoals": 1,
               "awayGoals": 1
             },
             {
-              "round": "9ª fecha",
+              "round": "10ª fecha",
               "home": "LA RINCONADA",
               "away": "ENRIQUE LOPEZ",
               "homeGoals": 5,
               "awayGoals": 1
             },
             {
-              "round": "9ª fecha",
+              "round": "10ª fecha",
               "home": "EUSKAL ERRIA",
               "away": "LA ESCALINATA",
               "homeGoals": 2,
               "awayGoals": 3
             },
             {
-              "round": "9ª fecha",
+              "round": "11ª fecha",
+              "home": "POCO SITIO",
+              "away": "MIRADOR",
+              "homeGoals": 1,
+              "awayGoals": 3
+            },
+            {
+              "round": "11ª fecha",
+              "home": "LA PICADA",
+              "away": "MAESO",
+              "homeGoals": 2,
+              "awayGoals": 1
+            },
+            {
+              "round": "11ª fecha",
               "home": "URUNDAY",
               "away": "UNION VECINAL",
               "homeGoals": 1,
               "awayGoals": 5
             },
             {
-              "round": "9ª fecha",
+              "round": "11ª fecha",
               "home": "ENRIQUE LOPEZ",
               "away": "EST. DEL SUR",
               "homeGoals": 2,
               "awayGoals": 2
             },
             {
-              "round": "9ª fecha",
+              "round": "11ª fecha",
               "home": "LA ESCALINATA",
               "away": "RAYO ROJO",
               "homeGoals": 7,
               "awayGoals": 1
             },
             {
-              "round": "9ª fecha",
+              "round": "11ª fecha",
               "home": "LA RINCONADA",
               "away": "EUSKAL ERRIA",
               "homeGoals": 2,
               "awayGoals": 4
             },
             {
-              "round": "9ª fecha",
+              "round": "12ª fecha",
               "home": "UNION VECINAL",
               "away": "LA ESCALINATA",
               "homeGoals": 4,
@@ -16909,10 +17063,6 @@
               "away": "EUSKAL ERRIA"
             },
             {
-              "home": "DON BOSCO",
-              "away": "MIRADOR"
-            },
-            {
               "home": "ENRIQUE LOPEZ",
               "away": "MIRADOR"
             },
@@ -16927,14 +17077,6 @@
             {
               "home": "LA ESCALINATA",
               "away": "LA PICADA"
-            },
-            {
-              "home": "LA PICADA",
-              "away": "MAESO"
-            },
-            {
-              "home": "LA PICADA",
-              "away": "POCO SITIO"
             },
             {
               "home": "LA PICADA",
@@ -16955,10 +17097,6 @@
             {
               "home": "MAESO",
               "away": "URUNDAY"
-            },
-            {
-              "home": "MIRADOR",
-              "away": "POCO SITIO"
             }
           ]
         },
@@ -17038,18 +17176,6 @@
             },
             {
               "position": 7,
-              "team": "MAESO",
-              "played": 24,
-              "won": 10,
-              "drawn": 3,
-              "lost": 11,
-              "goalsFor": 38,
-              "goalsAgainst": 51,
-              "points": 23,
-              "goalDifference": -13
-            },
-            {
-              "position": 8,
               "team": "CARABELAS",
               "played": 23,
               "won": 11,
@@ -17057,8 +17183,20 @@
               "lost": 12,
               "goalsFor": 42,
               "goalsAgainst": 44,
-              "points": 22,
+              "points": 21,
               "goalDifference": -2
+            },
+            {
+              "position": 8,
+              "team": "MAESO",
+              "played": 24,
+              "won": 10,
+              "drawn": 3,
+              "lost": 11,
+              "goalsFor": 38,
+              "goalsAgainst": 51,
+              "points": 20,
+              "goalDifference": -13
             },
             {
               "position": 9,
@@ -17105,7 +17243,7 @@
               "lost": 16,
               "goalsFor": 24,
               "goalsAgainst": 66,
-              "points": 11,
+              "points": 9,
               "goalDifference": -42
             },
             {
@@ -18213,70 +18351,98 @@
               "awayGoals": 6
             },
             {
-              "round": "Clausura · 9ª fecha",
+              "round": "Clausura · 10ª fecha",
+              "home": "LA PICADA",
+              "away": "POCO SITIO",
+              "homeGoals": 7,
+              "awayGoals": 2
+            },
+            {
+              "round": "Clausura · 10ª fecha",
+              "home": "MIRADOR",
+              "away": "DON BOSCO",
+              "homeGoals": 0,
+              "awayGoals": 2
+            },
+            {
+              "round": "Clausura · 10ª fecha",
               "home": "MAESO",
               "away": "UNION VECINAL",
               "homeGoals": 1,
               "awayGoals": 6
             },
             {
-              "round": "Clausura · 9ª fecha",
+              "round": "Clausura · 10ª fecha",
               "home": "EST. DEL SUR",
               "away": "CARABELAS",
               "homeGoals": 0,
               "awayGoals": 1
             },
             {
-              "round": "Clausura · 9ª fecha",
+              "round": "Clausura · 10ª fecha",
               "home": "RAYO ROJO",
               "away": "URUNDAY",
               "homeGoals": 1,
               "awayGoals": 1
             },
             {
-              "round": "Clausura · 9ª fecha",
+              "round": "Clausura · 10ª fecha",
               "home": "LA RINCONADA",
               "away": "ENRIQUE LOPEZ",
               "homeGoals": 5,
               "awayGoals": 1
             },
             {
-              "round": "Clausura · 9ª fecha",
+              "round": "Clausura · 10ª fecha",
               "home": "EUSKAL ERRIA",
               "away": "LA ESCALINATA",
               "homeGoals": 2,
               "awayGoals": 3
             },
             {
-              "round": "Clausura · 9ª fecha",
+              "round": "Clausura · 11ª fecha",
+              "home": "POCO SITIO",
+              "away": "MIRADOR",
+              "homeGoals": 1,
+              "awayGoals": 3
+            },
+            {
+              "round": "Clausura · 11ª fecha",
+              "home": "LA PICADA",
+              "away": "MAESO",
+              "homeGoals": 2,
+              "awayGoals": 1
+            },
+            {
+              "round": "Clausura · 11ª fecha",
               "home": "URUNDAY",
               "away": "UNION VECINAL",
               "homeGoals": 1,
               "awayGoals": 5
             },
             {
-              "round": "Clausura · 9ª fecha",
+              "round": "Clausura · 11ª fecha",
               "home": "ENRIQUE LOPEZ",
               "away": "EST. DEL SUR",
               "homeGoals": 2,
               "awayGoals": 2
             },
             {
-              "round": "Clausura · 9ª fecha",
+              "round": "Clausura · 11ª fecha",
               "home": "LA ESCALINATA",
               "away": "RAYO ROJO",
               "homeGoals": 7,
               "awayGoals": 1
             },
             {
-              "round": "Clausura · 9ª fecha",
+              "round": "Clausura · 11ª fecha",
               "home": "LA RINCONADA",
               "away": "EUSKAL ERRIA",
               "homeGoals": 2,
               "awayGoals": 4
             },
             {
-              "round": "Clausura · 9ª fecha",
+              "round": "Clausura · 12ª fecha",
               "home": "UNION VECINAL",
               "away": "LA ESCALINATA",
               "homeGoals": 4,
@@ -18305,10 +18471,6 @@
               "away": "EUSKAL ERRIA"
             },
             {
-              "home": "DON BOSCO",
-              "away": "MIRADOR"
-            },
-            {
               "home": "ENRIQUE LOPEZ",
               "away": "MIRADOR"
             },
@@ -18323,14 +18485,6 @@
             {
               "home": "LA ESCALINATA",
               "away": "LA PICADA"
-            },
-            {
-              "home": "LA PICADA",
-              "away": "MAESO"
-            },
-            {
-              "home": "LA PICADA",
-              "away": "POCO SITIO"
             },
             {
               "home": "LA PICADA",
@@ -18351,10 +18505,6 @@
             {
               "home": "MAESO",
               "away": "URUNDAY"
-            },
-            {
-              "home": "MIRADOR",
-              "away": "POCO SITIO"
             }
           ]
         }
@@ -19234,7 +19384,7 @@
               "lost": 4,
               "goalsFor": 34,
               "goalsAgainst": 23,
-              "points": 13,
+              "points": 15,
               "goalDifference": 11
             },
             {
@@ -19789,77 +19939,105 @@
               "awayGoals": 3
             },
             {
-              "round": "9ª fecha",
+              "round": "10ª fecha",
+              "home": "LA PICADA",
+              "away": "POCO SITIO",
+              "homeGoals": 5,
+              "awayGoals": 2
+            },
+            {
+              "round": "10ª fecha",
+              "home": "MIRADOR",
+              "away": "DON BOSCO",
+              "homeGoals": 1,
+              "awayGoals": 1
+            },
+            {
+              "round": "10ª fecha",
               "home": "MAESO",
               "away": "UNION VECINAL",
               "homeGoals": 1,
               "awayGoals": 2
             },
             {
-              "round": "9ª fecha",
+              "round": "10ª fecha",
               "home": "EST. DEL SUR",
               "away": "CARABELAS",
               "homeGoals": 1,
               "awayGoals": 6
             },
             {
-              "round": "9ª fecha",
+              "round": "10ª fecha",
               "home": "RAYO ROJO",
               "away": "URUNDAY",
               "homeGoals": 3,
               "awayGoals": 3
             },
             {
-              "round": "9ª fecha",
+              "round": "10ª fecha",
               "home": "LA RINCONADA",
               "away": "ENRIQUE LOPEZ",
               "homeGoals": 1,
               "awayGoals": 2
             },
             {
-              "round": "9ª fecha",
+              "round": "10ª fecha",
               "home": "EUSKAL ERRIA",
               "away": "LA ESCALINATA",
               "homeGoals": 2,
               "awayGoals": 0
             },
             {
-              "round": "9ª fecha",
+              "round": "11ª fecha",
+              "home": "POCO SITIO",
+              "away": "MIRADOR",
+              "homeGoals": 2,
+              "awayGoals": 2
+            },
+            {
+              "round": "11ª fecha",
+              "home": "LA PICADA",
+              "away": "MAESO",
+              "homeGoals": 0,
+              "awayGoals": 6
+            },
+            {
+              "round": "11ª fecha",
               "home": "DON BOSCO",
               "away": "CARABELAS",
               "homeGoals": 5,
               "awayGoals": 2
             },
             {
-              "round": "9ª fecha",
+              "round": "11ª fecha",
               "home": "URUNDAY",
               "away": "UNION VECINAL",
               "homeGoals": 3,
               "awayGoals": 1
             },
             {
-              "round": "9ª fecha",
+              "round": "11ª fecha",
               "home": "ENRIQUE LOPEZ",
               "away": "EST. DEL SUR",
               "homeGoals": 9,
               "awayGoals": 2
             },
             {
-              "round": "9ª fecha",
+              "round": "11ª fecha",
               "home": "LA ESCALINATA",
               "away": "RAYO ROJO",
               "homeGoals": 0,
               "awayGoals": 2
             },
             {
-              "round": "9ª fecha",
+              "round": "11ª fecha",
               "home": "LA RINCONADA",
               "away": "EUSKAL ERRIA",
               "homeGoals": 4,
               "awayGoals": 1
             },
             {
-              "round": "9ª fecha",
+              "round": "12ª fecha",
               "home": "UNION VECINAL",
               "away": "LA ESCALINATA",
               "homeGoals": 0,
@@ -19884,10 +20062,6 @@
               "away": "EUSKAL ERRIA"
             },
             {
-              "home": "DON BOSCO",
-              "away": "MIRADOR"
-            },
-            {
               "home": "ENRIQUE LOPEZ",
               "away": "MIRADOR"
             },
@@ -19902,14 +20076,6 @@
             {
               "home": "LA ESCALINATA",
               "away": "LA PICADA"
-            },
-            {
-              "home": "LA PICADA",
-              "away": "MAESO"
-            },
-            {
-              "home": "LA PICADA",
-              "away": "POCO SITIO"
             },
             {
               "home": "LA PICADA",
@@ -19930,10 +20096,6 @@
             {
               "home": "MAESO",
               "away": "URUNDAY"
-            },
-            {
-              "home": "MIRADOR",
-              "away": "POCO SITIO"
             }
           ]
         },
@@ -19984,7 +20146,7 @@
               "lost": 8,
               "goalsFor": 68,
               "goalsAgainst": 50,
-              "points": 28,
+              "points": 30,
               "goalDifference": 18
             },
             {
@@ -20001,18 +20163,6 @@
             },
             {
               "position": 6,
-              "team": "CARABELAS",
-              "played": 24,
-              "won": 12,
-              "drawn": 4,
-              "lost": 8,
-              "goalsFor": 64,
-              "goalsAgainst": 51,
-              "points": 26,
-              "goalDifference": 13
-            },
-            {
-              "position": 7,
               "team": "LA ESCALINATA",
               "played": 25,
               "won": 11,
@@ -20020,6 +20170,18 @@
               "lost": 10,
               "goalsFor": 52,
               "goalsAgainst": 39,
+              "points": 26,
+              "goalDifference": 13
+            },
+            {
+              "position": 7,
+              "team": "CARABELAS",
+              "played": 24,
+              "won": 12,
+              "drawn": 4,
+              "lost": 8,
+              "goalsFor": 64,
+              "goalsAgainst": 51,
               "points": 26,
               "goalDifference": 13
             },
@@ -21188,77 +21350,105 @@
               "awayGoals": 3
             },
             {
-              "round": "Clausura · 9ª fecha",
+              "round": "Clausura · 10ª fecha",
+              "home": "LA PICADA",
+              "away": "POCO SITIO",
+              "homeGoals": 5,
+              "awayGoals": 2
+            },
+            {
+              "round": "Clausura · 10ª fecha",
+              "home": "MIRADOR",
+              "away": "DON BOSCO",
+              "homeGoals": 1,
+              "awayGoals": 1
+            },
+            {
+              "round": "Clausura · 10ª fecha",
               "home": "MAESO",
               "away": "UNION VECINAL",
               "homeGoals": 1,
               "awayGoals": 2
             },
             {
-              "round": "Clausura · 9ª fecha",
+              "round": "Clausura · 10ª fecha",
               "home": "EST. DEL SUR",
               "away": "CARABELAS",
               "homeGoals": 1,
               "awayGoals": 6
             },
             {
-              "round": "Clausura · 9ª fecha",
+              "round": "Clausura · 10ª fecha",
               "home": "RAYO ROJO",
               "away": "URUNDAY",
               "homeGoals": 3,
               "awayGoals": 3
             },
             {
-              "round": "Clausura · 9ª fecha",
+              "round": "Clausura · 10ª fecha",
               "home": "LA RINCONADA",
               "away": "ENRIQUE LOPEZ",
               "homeGoals": 1,
               "awayGoals": 2
             },
             {
-              "round": "Clausura · 9ª fecha",
+              "round": "Clausura · 10ª fecha",
               "home": "EUSKAL ERRIA",
               "away": "LA ESCALINATA",
               "homeGoals": 2,
               "awayGoals": 0
             },
             {
-              "round": "Clausura · 9ª fecha",
+              "round": "Clausura · 11ª fecha",
+              "home": "POCO SITIO",
+              "away": "MIRADOR",
+              "homeGoals": 2,
+              "awayGoals": 2
+            },
+            {
+              "round": "Clausura · 11ª fecha",
+              "home": "LA PICADA",
+              "away": "MAESO",
+              "homeGoals": 0,
+              "awayGoals": 6
+            },
+            {
+              "round": "Clausura · 11ª fecha",
               "home": "DON BOSCO",
               "away": "CARABELAS",
               "homeGoals": 5,
               "awayGoals": 2
             },
             {
-              "round": "Clausura · 9ª fecha",
+              "round": "Clausura · 11ª fecha",
               "home": "URUNDAY",
               "away": "UNION VECINAL",
               "homeGoals": 3,
               "awayGoals": 1
             },
             {
-              "round": "Clausura · 9ª fecha",
+              "round": "Clausura · 11ª fecha",
               "home": "ENRIQUE LOPEZ",
               "away": "EST. DEL SUR",
               "homeGoals": 9,
               "awayGoals": 2
             },
             {
-              "round": "Clausura · 9ª fecha",
+              "round": "Clausura · 11ª fecha",
               "home": "LA ESCALINATA",
               "away": "RAYO ROJO",
               "homeGoals": 0,
               "awayGoals": 2
             },
             {
-              "round": "Clausura · 9ª fecha",
+              "round": "Clausura · 11ª fecha",
               "home": "LA RINCONADA",
               "away": "EUSKAL ERRIA",
               "homeGoals": 4,
               "awayGoals": 1
             },
             {
-              "round": "Clausura · 9ª fecha",
+              "round": "Clausura · 12ª fecha",
               "home": "UNION VECINAL",
               "away": "LA ESCALINATA",
               "homeGoals": 0,
@@ -21283,10 +21473,6 @@
               "away": "EUSKAL ERRIA"
             },
             {
-              "home": "DON BOSCO",
-              "away": "MIRADOR"
-            },
-            {
               "home": "ENRIQUE LOPEZ",
               "away": "MIRADOR"
             },
@@ -21301,14 +21487,6 @@
             {
               "home": "LA ESCALINATA",
               "away": "LA PICADA"
-            },
-            {
-              "home": "LA PICADA",
-              "away": "MAESO"
-            },
-            {
-              "home": "LA PICADA",
-              "away": "POCO SITIO"
             },
             {
               "home": "LA PICADA",
@@ -21329,10 +21507,6 @@
             {
               "home": "MAESO",
               "away": "URUNDAY"
-            },
-            {
-              "home": "MIRADOR",
-              "away": "POCO SITIO"
             }
           ]
         }
@@ -22767,70 +22941,98 @@
               "awayGoals": 0
             },
             {
-              "round": "9ª fecha",
+              "round": "10ª fecha",
+              "home": "LA PICADA",
+              "away": "POCO SITIO",
+              "homeGoals": 6,
+              "awayGoals": 0
+            },
+            {
+              "round": "10ª fecha",
+              "home": "MIRADOR",
+              "away": "DON BOSCO",
+              "homeGoals": 2,
+              "awayGoals": 2
+            },
+            {
+              "round": "10ª fecha",
               "home": "MAESO",
               "away": "UNION VECINAL",
               "homeGoals": 0,
               "awayGoals": 2
             },
             {
-              "round": "9ª fecha",
+              "round": "10ª fecha",
               "home": "EST. DEL SUR",
               "away": "CARABELAS",
               "homeGoals": 1,
               "awayGoals": 2
             },
             {
-              "round": "9ª fecha",
+              "round": "10ª fecha",
               "home": "RAYO ROJO",
               "away": "URUNDAY",
               "homeGoals": 1,
               "awayGoals": 1
             },
             {
-              "round": "9ª fecha",
+              "round": "10ª fecha",
               "home": "LA RINCONADA",
               "away": "ENRIQUE LOPEZ",
               "homeGoals": 0,
               "awayGoals": 8
             },
             {
-              "round": "9ª fecha",
+              "round": "10ª fecha",
               "home": "EUSKAL ERRIA",
               "away": "LA ESCALINATA",
               "homeGoals": 1,
               "awayGoals": 4
             },
             {
-              "round": "9ª fecha",
+              "round": "11ª fecha",
+              "home": "POCO SITIO",
+              "away": "MIRADOR",
+              "homeGoals": 3,
+              "awayGoals": 2
+            },
+            {
+              "round": "11ª fecha",
+              "home": "LA PICADA",
+              "away": "MAESO",
+              "homeGoals": 2,
+              "awayGoals": 3
+            },
+            {
+              "round": "11ª fecha",
               "home": "DON BOSCO",
               "away": "CARABELAS",
               "homeGoals": 5,
               "awayGoals": 2
             },
             {
-              "round": "9ª fecha",
+              "round": "11ª fecha",
               "home": "URUNDAY",
               "away": "UNION VECINAL",
               "homeGoals": 5,
               "awayGoals": 0
             },
             {
-              "round": "9ª fecha",
+              "round": "11ª fecha",
               "home": "ENRIQUE LOPEZ",
               "away": "EST. DEL SUR",
               "homeGoals": 3,
               "awayGoals": 0
             },
             {
-              "round": "9ª fecha",
+              "round": "11ª fecha",
               "home": "LA ESCALINATA",
               "away": "RAYO ROJO",
               "homeGoals": 2,
               "awayGoals": 3
             },
             {
-              "round": "9ª fecha",
+              "round": "11ª fecha",
               "home": "LA RINCONADA",
               "away": "EUSKAL ERRIA",
               "homeGoals": 4,
@@ -22855,10 +23057,6 @@
               "away": "EUSKAL ERRIA"
             },
             {
-              "home": "DON BOSCO",
-              "away": "MIRADOR"
-            },
-            {
               "home": "ENRIQUE LOPEZ",
               "away": "MIRADOR"
             },
@@ -22880,14 +23078,6 @@
             },
             {
               "home": "LA PICADA",
-              "away": "MAESO"
-            },
-            {
-              "home": "LA PICADA",
-              "away": "POCO SITIO"
-            },
-            {
-              "home": "LA PICADA",
               "away": "URUNDAY"
             },
             {
@@ -22905,10 +23095,6 @@
             {
               "home": "MAESO",
               "away": "URUNDAY"
-            },
-            {
-              "home": "MIRADOR",
-              "away": "POCO SITIO"
             }
           ]
         },
@@ -24163,70 +24349,98 @@
               "awayGoals": 0
             },
             {
-              "round": "Clausura · 9ª fecha",
+              "round": "Clausura · 10ª fecha",
+              "home": "LA PICADA",
+              "away": "POCO SITIO",
+              "homeGoals": 6,
+              "awayGoals": 0
+            },
+            {
+              "round": "Clausura · 10ª fecha",
+              "home": "MIRADOR",
+              "away": "DON BOSCO",
+              "homeGoals": 2,
+              "awayGoals": 2
+            },
+            {
+              "round": "Clausura · 10ª fecha",
               "home": "MAESO",
               "away": "UNION VECINAL",
               "homeGoals": 0,
               "awayGoals": 2
             },
             {
-              "round": "Clausura · 9ª fecha",
+              "round": "Clausura · 10ª fecha",
               "home": "EST. DEL SUR",
               "away": "CARABELAS",
               "homeGoals": 1,
               "awayGoals": 2
             },
             {
-              "round": "Clausura · 9ª fecha",
+              "round": "Clausura · 10ª fecha",
               "home": "RAYO ROJO",
               "away": "URUNDAY",
               "homeGoals": 1,
               "awayGoals": 1
             },
             {
-              "round": "Clausura · 9ª fecha",
+              "round": "Clausura · 10ª fecha",
               "home": "LA RINCONADA",
               "away": "ENRIQUE LOPEZ",
               "homeGoals": 0,
               "awayGoals": 8
             },
             {
-              "round": "Clausura · 9ª fecha",
+              "round": "Clausura · 10ª fecha",
               "home": "EUSKAL ERRIA",
               "away": "LA ESCALINATA",
               "homeGoals": 1,
               "awayGoals": 4
             },
             {
-              "round": "Clausura · 9ª fecha",
+              "round": "Clausura · 11ª fecha",
+              "home": "POCO SITIO",
+              "away": "MIRADOR",
+              "homeGoals": 3,
+              "awayGoals": 2
+            },
+            {
+              "round": "Clausura · 11ª fecha",
+              "home": "LA PICADA",
+              "away": "MAESO",
+              "homeGoals": 2,
+              "awayGoals": 3
+            },
+            {
+              "round": "Clausura · 11ª fecha",
               "home": "DON BOSCO",
               "away": "CARABELAS",
               "homeGoals": 5,
               "awayGoals": 2
             },
             {
-              "round": "Clausura · 9ª fecha",
+              "round": "Clausura · 11ª fecha",
               "home": "URUNDAY",
               "away": "UNION VECINAL",
               "homeGoals": 5,
               "awayGoals": 0
             },
             {
-              "round": "Clausura · 9ª fecha",
+              "round": "Clausura · 11ª fecha",
               "home": "ENRIQUE LOPEZ",
               "away": "EST. DEL SUR",
               "homeGoals": 3,
               "awayGoals": 0
             },
             {
-              "round": "Clausura · 9ª fecha",
+              "round": "Clausura · 11ª fecha",
               "home": "LA ESCALINATA",
               "away": "RAYO ROJO",
               "homeGoals": 2,
               "awayGoals": 3
             },
             {
-              "round": "Clausura · 9ª fecha",
+              "round": "Clausura · 11ª fecha",
               "home": "LA RINCONADA",
               "away": "EUSKAL ERRIA",
               "homeGoals": 4,
@@ -24251,10 +24465,6 @@
               "away": "EUSKAL ERRIA"
             },
             {
-              "home": "DON BOSCO",
-              "away": "MIRADOR"
-            },
-            {
               "home": "ENRIQUE LOPEZ",
               "away": "MIRADOR"
             },
@@ -24276,14 +24486,6 @@
             },
             {
               "home": "LA PICADA",
-              "away": "MAESO"
-            },
-            {
-              "home": "LA PICADA",
-              "away": "POCO SITIO"
-            },
-            {
-              "home": "LA PICADA",
               "away": "URUNDAY"
             },
             {
@@ -24301,10 +24503,6 @@
             {
               "home": "MAESO",
               "away": "URUNDAY"
-            },
-            {
-              "home": "MIRADOR",
-              "away": "POCO SITIO"
             }
           ]
         }
