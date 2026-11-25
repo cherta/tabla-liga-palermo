@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-24T11:00:27.026Z",
+  "updatedAt": "2026-11-25T11:00:23.893Z",
   "division": "Serie A",
   "source": {
     "pageUrl": "https://www.ligapalermo.org/serie-a-2026/",
@@ -50,18 +50,6 @@
       },
       {
         "position": 3,
-        "team": "CARABELAS",
-        "played": 104,
-        "won": 56,
-        "drawn": 17,
-        "lost": 31,
-        "goalsFor": 277,
-        "goalsAgainst": 179,
-        "points": 128,
-        "goalDifference": 98
-      },
-      {
-        "position": 4,
         "team": "LA ESCALINATA",
         "played": 104,
         "won": 54,
@@ -71,6 +59,18 @@
         "goalsAgainst": 138,
         "points": 128,
         "goalDifference": 93
+      },
+      {
+        "position": 4,
+        "team": "CARABELAS",
+        "played": 104,
+        "won": 56,
+        "drawn": 17,
+        "lost": 31,
+        "goalsFor": 277,
+        "goalsAgainst": 179,
+        "points": 127,
+        "goalDifference": 98
       },
       {
         "position": 5,
@@ -215,7 +215,7 @@
         "lost": 16,
         "goalsFor": 329,
         "goalsAgainst": 101,
-        "points": 151,
+        "points": 149,
         "goalDifference": 228
       },
       {
@@ -239,7 +239,7 @@
         "lost": 31,
         "goalsFor": 207,
         "goalsAgainst": 158,
-        "points": 112,
+        "points": 110,
         "goalDifference": 49
       },
       {
@@ -251,7 +251,7 @@
         "lost": 31,
         "goalsFor": 211,
         "goalsAgainst": 159,
-        "points": 110,
+        "points": 108,
         "goalDifference": 52
       },
       {
@@ -304,18 +304,6 @@
       },
       {
         "position": 10,
-        "team": "LA PICADA",
-        "played": 93,
-        "won": 32,
-        "drawn": 10,
-        "lost": 51,
-        "goalsFor": 145,
-        "goalsAgainst": 199,
-        "points": 73,
-        "goalDifference": -54
-      },
-      {
-        "position": 11,
         "team": "RAYO ROJO",
         "played": 93,
         "won": 29,
@@ -325,6 +313,18 @@
         "goalsAgainst": 191,
         "points": 72,
         "goalDifference": -77
+      },
+      {
+        "position": 11,
+        "team": "LA PICADA",
+        "played": 93,
+        "won": 32,
+        "drawn": 10,
+        "lost": 51,
+        "goalsFor": 145,
+        "goalsAgainst": 199,
+        "points": 70,
+        "goalDifference": -54
       },
       {
         "position": 12,
@@ -359,7 +359,7 @@
         "lost": 59,
         "goalsFor": 105,
         "goalsAgainst": 222,
-        "points": 61,
+        "points": 60,
         "goalDifference": -117
       }
     ],
@@ -409,7 +409,7 @@
         "lost": 62,
         "goalsFor": 484,
         "goalsAgainst": 337,
-        "points": 238,
+        "points": 228,
         "goalDifference": 147
       },
       {
@@ -421,7 +421,7 @@
         "lost": 71,
         "goalsFor": 453,
         "goalsAgainst": 349,
-        "points": 221,
+        "points": 219,
         "goalDifference": 104
       },
       {
@@ -1481,7 +1481,7 @@
               "lost": 7,
               "goalsFor": 10,
               "goalsAgainst": 19,
-              "points": 7,
+              "points": 6,
               "goalDifference": -9
             },
             {
@@ -10534,18 +10534,6 @@
             },
             {
               "position": 8,
-              "team": "UNION VECINAL",
-              "played": 11,
-              "won": 5,
-              "drawn": 1,
-              "lost": 5,
-              "goalsFor": 12,
-              "goalsAgainst": 15,
-              "points": 11,
-              "goalDifference": -3
-            },
-            {
-              "position": 9,
               "team": "CARABELAS",
               "played": 12,
               "won": 4,
@@ -10555,6 +10543,18 @@
               "goalsAgainst": 23,
               "points": 11,
               "goalDifference": -6
+            },
+            {
+              "position": 9,
+              "team": "UNION VECINAL",
+              "played": 11,
+              "won": 5,
+              "drawn": 1,
+              "lost": 5,
+              "goalsFor": 12,
+              "goalsAgainst": 15,
+              "points": 9,
+              "goalDifference": -3
             },
             {
               "position": 10,
@@ -11324,7 +11324,7 @@
               "lost": 12,
               "goalsFor": 34,
               "goalsAgainst": 44,
-              "points": 22,
+              "points": 20,
               "goalDifference": -10
             },
             {
@@ -12701,7 +12701,7 @@
               "lost": 2,
               "goalsFor": 27,
               "goalsAgainst": 15,
-              "points": 18,
+              "points": 17,
               "goalDifference": 12
             },
             {
@@ -13465,18 +13465,6 @@
           "standings": [
             {
               "position": 1,
-              "team": "LA RINCONADA",
-              "played": 12,
-              "won": 11,
-              "drawn": 0,
-              "lost": 1,
-              "goalsFor": 68,
-              "goalsAgainst": 9,
-              "points": 22,
-              "goalDifference": 59
-            },
-            {
-              "position": 2,
               "team": "ENRIQUE LOPEZ",
               "played": 11,
               "won": 11,
@@ -13486,6 +13474,18 @@
               "goalsAgainst": 7,
               "points": 22,
               "goalDifference": 31
+            },
+            {
+              "position": 2,
+              "team": "LA RINCONADA",
+              "played": 12,
+              "won": 11,
+              "drawn": 0,
+              "lost": 1,
+              "goalsFor": 68,
+              "goalsAgainst": 9,
+              "points": 21,
+              "goalDifference": 59
             },
             {
               "position": 3,
@@ -13520,7 +13520,7 @@
               "lost": 3,
               "goalsFor": 16,
               "goalsAgainst": 18,
-              "points": 15,
+              "points": 14,
               "goalDifference": -2
             },
             {
@@ -16508,7 +16508,7 @@
               "lost": 2,
               "goalsFor": 48,
               "goalsAgainst": 14,
-              "points": 18,
+              "points": 17,
               "goalDifference": 34
             },
             {
@@ -19563,18 +19563,6 @@
             },
             {
               "position": 6,
-              "team": "CARABELAS",
-              "played": 12,
-              "won": 6,
-              "drawn": 2,
-              "lost": 4,
-              "goalsFor": 29,
-              "goalsAgainst": 25,
-              "points": 14,
-              "goalDifference": 4
-            },
-            {
-              "position": 7,
               "team": "UNION VECINAL",
               "played": 12,
               "won": 5,
@@ -19586,7 +19574,7 @@
               "goalDifference": 7
             },
             {
-              "position": 8,
+              "position": 7,
               "team": "LA ESCALINATA",
               "played": 12,
               "won": 6,
@@ -19596,6 +19584,18 @@
               "goalsAgainst": 18,
               "points": 12,
               "goalDifference": 5
+            },
+            {
+              "position": 8,
+              "team": "CARABELAS",
+              "played": 12,
+              "won": 6,
+              "drawn": 2,
+              "lost": 4,
+              "goalsFor": 29,
+              "goalsAgainst": 25,
+              "points": 12,
+              "goalDifference": 4
             },
             {
               "position": 9,
@@ -19642,7 +19642,7 @@
               "lost": 8,
               "goalsFor": 11,
               "goalsAgainst": 43,
-              "points": 7,
+              "points": 6,
               "goalDifference": -32
             },
             {
@@ -22620,7 +22620,7 @@
               "lost": 5,
               "goalsFor": 20,
               "goalsAgainst": 19,
-              "points": 11,
+              "points": 10,
               "goalDifference": 1
             },
             {

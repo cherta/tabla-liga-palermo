@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-24T11:00:32.652Z",
+  "updatedAt": "2026-11-25T11:00:25.993Z",
   "division": "Serie B",
   "source": {
     "pageUrl": "https://www.ligapalermo.org/serie-b-2026/",
@@ -107,7 +107,7 @@
         "lost": 41,
         "goalsFor": 237,
         "goalsAgainst": 185,
-        "points": 130,
+        "points": 129,
         "goalDifference": 52
       },
       {
@@ -229,20 +229,20 @@
         "lost": 18,
         "goalsFor": 254,
         "goalsAgainst": 94,
-        "points": 154,
+        "points": 153,
         "goalDifference": 160
       },
       {
         "position": 3,
         "team": "DEP.ORIENTAL",
-        "played": 103,
-        "won": 69,
+        "played": 104,
+        "won": 70,
         "drawn": 14,
         "lost": 20,
-        "goalsFor": 295,
+        "goalsFor": 297,
         "goalsAgainst": 95,
-        "points": 150,
-        "goalDifference": 200
+        "points": 149,
+        "goalDifference": 202
       },
       {
         "position": 4,
@@ -306,6 +306,18 @@
       },
       {
         "position": 9,
+        "team": "INTERMEZZO",
+        "played": 98,
+        "won": 39,
+        "drawn": 9,
+        "lost": 50,
+        "goalsFor": 196,
+        "goalsAgainst": 197,
+        "points": 88,
+        "goalDifference": -1
+      },
+      {
+        "position": 10,
         "team": "NUEVA PALMIRA",
         "played": 98,
         "won": 37,
@@ -313,20 +325,8 @@
         "lost": 46,
         "goalsFor": 156,
         "goalsAgainst": 217,
-        "points": 89,
-        "goalDifference": -61
-      },
-      {
-        "position": 10,
-        "team": "INTERMEZZO",
-        "played": 97,
-        "won": 39,
-        "drawn": 9,
-        "lost": 49,
-        "goalsFor": 196,
-        "goalsAgainst": 195,
         "points": 88,
-        "goalDifference": 1
+        "goalDifference": -61
       },
       {
         "position": 11,
@@ -385,7 +385,7 @@
         "lost": 92,
         "goalsFor": 22,
         "goalsAgainst": 323,
-        "points": 7,
+        "points": 6,
         "goalDifference": -301
       }
     ],
@@ -404,18 +404,6 @@
       },
       {
         "position": 2,
-        "team": "DEP.ORIENTAL",
-        "played": 215,
-        "won": 151,
-        "drawn": 28,
-        "lost": 36,
-        "goalsFor": 605,
-        "goalsAgainst": 185,
-        "points": 315,
-        "goalDifference": 420
-      },
-      {
-        "position": 3,
         "team": "STOCKOLMO",
         "played": 214,
         "won": 147,
@@ -425,6 +413,18 @@
         "goalsAgainst": 196,
         "points": 314,
         "goalDifference": 358
+      },
+      {
+        "position": 3,
+        "team": "DEP.ORIENTAL",
+        "played": 216,
+        "won": 152,
+        "drawn": 28,
+        "lost": 36,
+        "goalsFor": 607,
+        "goalsAgainst": 185,
+        "points": 307,
+        "goalDifference": 422
       },
       {
         "position": 4,
@@ -471,7 +471,7 @@
         "lost": 76,
         "goalsFor": 465,
         "goalsAgainst": 333,
-        "points": 253,
+        "points": 252,
         "goalDifference": 132
       },
       {
@@ -513,14 +513,14 @@
       {
         "position": 11,
         "team": "INTERMEZZO",
-        "played": 204,
+        "played": 205,
         "won": 76,
         "drawn": 20,
-        "lost": 108,
+        "lost": 109,
         "goalsFor": 366,
-        "goalsAgainst": 408,
+        "goalsAgainst": 410,
         "points": 172,
-        "goalDifference": -42
+        "goalDifference": -44
       },
       {
         "position": 12,
@@ -1489,14 +1489,14 @@
             {
               "position": 3,
               "team": "DEP.ORIENTAL",
-              "played": 12,
-              "won": 9,
+              "played": 13,
+              "won": 10,
               "drawn": 1,
               "lost": 2,
-              "goalsFor": 34,
+              "goalsFor": 36,
               "goalsAgainst": 10,
-              "points": 19,
-              "goalDifference": 24
+              "points": 20,
+              "goalDifference": 26
             },
             {
               "position": 4,
@@ -1609,14 +1609,14 @@
             {
               "position": 13,
               "team": "INTERMEZZO",
-              "played": 6,
+              "played": 7,
               "won": 0,
               "drawn": 0,
-              "lost": 6,
+              "lost": 7,
               "goalsFor": 0,
-              "goalsAgainst": 12,
+              "goalsAgainst": 14,
               "points": 0,
-              "goalDifference": -12
+              "goalDifference": -14
             },
             {
               "position": 14,
@@ -2217,6 +2217,13 @@
               "away": "EST. DE LA UNION",
               "homeGoals": 4,
               "awayGoals": 0
+            },
+            {
+              "round": "14ª fecha",
+              "home": "INTERMEZZO",
+              "away": "DEP.ORIENTAL",
+              "homeGoals": 0,
+              "awayGoals": 2
             }
           ],
           "nextGames": [
@@ -2239,10 +2246,6 @@
             {
               "home": "ALAS ROJAS",
               "away": "STOCKOLMO"
-            },
-            {
-              "home": "DEP.ORIENTAL",
-              "away": "INTERMEZZO"
             },
             {
               "home": "DEP.ORIENTAL",
@@ -2343,14 +2346,14 @@
             {
               "position": 3,
               "team": "DEP.ORIENTAL",
-              "played": 26,
-              "won": 21,
+              "played": 27,
+              "won": 22,
               "drawn": 1,
               "lost": 4,
-              "goalsFor": 68,
+              "goalsFor": 70,
               "goalsAgainst": 23,
-              "points": 42,
-              "goalDifference": 45
+              "points": 44,
+              "goalDifference": 47
             },
             {
               "position": 4,
@@ -2463,14 +2466,14 @@
             {
               "position": 13,
               "team": "INTERMEZZO",
-              "played": 15,
+              "played": 16,
               "won": 0,
               "drawn": 0,
-              "lost": 15,
+              "lost": 16,
               "goalsFor": 0,
-              "goalsAgainst": 30,
+              "goalsAgainst": 32,
               "points": 0,
-              "goalDifference": -30
+              "goalDifference": -32
             },
             {
               "position": 14,
@@ -3715,6 +3718,13 @@
               "away": "EST. DE LA UNION",
               "homeGoals": 4,
               "awayGoals": 0
+            },
+            {
+              "round": "Clausura · 14ª fecha",
+              "home": "INTERMEZZO",
+              "away": "DEP.ORIENTAL",
+              "homeGoals": 0,
+              "awayGoals": 2
             }
           ],
           "nextGames": [
@@ -3737,10 +3747,6 @@
             {
               "home": "ALAS ROJAS",
               "away": "STOCKOLMO"
-            },
-            {
-              "home": "DEP.ORIENTAL",
-              "away": "INTERMEZZO"
             },
             {
               "home": "DEP.ORIENTAL",
@@ -13104,7 +13110,7 @@
               "lost": 5,
               "goalsFor": 22,
               "goalsAgainst": 25,
-              "points": 11,
+              "points": 10,
               "goalDifference": -3
             },
             {
@@ -16468,7 +16474,7 @@
               "lost": 2,
               "goalsFor": 32,
               "goalsAgainst": 13,
-              "points": 20,
+              "points": 19,
               "goalDifference": 19
             },
             {
@@ -20036,7 +20042,7 @@
               "lost": 7,
               "goalsFor": 15,
               "goalsAgainst": 31,
-              "points": 7,
+              "points": 6,
               "goalDifference": -16
             },
             {
@@ -22472,7 +22478,7 @@
               "lost": 3,
               "goalsFor": 38,
               "goalsAgainst": 15,
-              "points": 20,
+              "points": 19,
               "goalDifference": 23
             },
             {
@@ -23435,18 +23441,6 @@
             },
             {
               "position": 8,
-              "team": "DEP.ORIENTAL",
-              "played": 13,
-              "won": 6,
-              "drawn": 1,
-              "lost": 6,
-              "goalsFor": 28,
-              "goalsAgainst": 20,
-              "points": 13,
-              "goalDifference": 8
-            },
-            {
-              "position": 9,
               "team": "SUR2000",
               "played": 13,
               "won": 5,
@@ -23456,6 +23450,18 @@
               "goalsAgainst": 21,
               "points": 12,
               "goalDifference": 5
+            },
+            {
+              "position": 9,
+              "team": "DEP.ORIENTAL",
+              "played": 13,
+              "won": 6,
+              "drawn": 1,
+              "lost": 6,
+              "goalsFor": 28,
+              "goalsAgainst": 20,
+              "points": 11,
+              "goalDifference": 8
             },
             {
               "position": 10,
@@ -24275,7 +24281,7 @@
               "lost": 5,
               "goalsFor": 78,
               "goalsAgainst": 26,
-              "points": 40,
+              "points": 39,
               "goalDifference": 52
             },
             {
