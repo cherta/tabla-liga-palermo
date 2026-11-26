@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-25T11:00:23.893Z",
+  "updatedAt": "2026-11-26T11:00:19.662Z",
   "division": "Serie A",
   "source": {
     "pageUrl": "https://www.ligapalermo.org/serie-a-2026/",
@@ -197,62 +197,62 @@
       {
         "position": 1,
         "team": "ENRIQUE LOPEZ",
-        "played": 94,
-        "won": 74,
+        "played": 96,
+        "won": 76,
         "drawn": 4,
         "lost": 16,
-        "goalsFor": 324,
-        "goalsAgainst": 107,
-        "points": 152,
-        "goalDifference": 217
+        "goalsFor": 336,
+        "goalsAgainst": 109,
+        "points": 156,
+        "goalDifference": 227
       },
       {
         "position": 2,
         "team": "LA RINCONADA",
-        "played": 93,
-        "won": 74,
+        "played": 96,
+        "won": 76,
         "drawn": 3,
-        "lost": 16,
-        "goalsFor": 329,
-        "goalsAgainst": 101,
-        "points": 149,
-        "goalDifference": 228
+        "lost": 17,
+        "goalsFor": 341,
+        "goalsAgainst": 111,
+        "points": 153,
+        "goalDifference": 230
       },
       {
         "position": 3,
         "team": "LA ESCALINATA",
-        "played": 92,
-        "won": 50,
+        "played": 95,
+        "won": 52,
         "drawn": 16,
-        "lost": 26,
-        "goalsFor": 193,
-        "goalsAgainst": 112,
-        "points": 116,
-        "goalDifference": 81
+        "lost": 27,
+        "goalsFor": 198,
+        "goalsAgainst": 116,
+        "points": 120,
+        "goalDifference": 82
       },
       {
         "position": 4,
         "team": "CARABELAS",
-        "played": 95,
+        "played": 99,
         "won": 49,
-        "drawn": 15,
-        "lost": 31,
-        "goalsFor": 207,
-        "goalsAgainst": 158,
-        "points": 110,
-        "goalDifference": 49
+        "drawn": 18,
+        "lost": 32,
+        "goalsFor": 212,
+        "goalsAgainst": 165,
+        "points": 113,
+        "goalDifference": 47
       },
       {
         "position": 5,
         "team": "UNION VECINAL",
-        "played": 92,
-        "won": 49,
+        "played": 94,
+        "won": 50,
         "drawn": 12,
-        "lost": 31,
-        "goalsFor": 211,
-        "goalsAgainst": 159,
-        "points": 108,
-        "goalDifference": 52
+        "lost": 32,
+        "goalsFor": 215,
+        "goalsAgainst": 162,
+        "points": 110,
+        "goalDifference": 53
       },
       {
         "position": 6,
@@ -268,6 +268,18 @@
       },
       {
         "position": 7,
+        "team": "URUNDAY",
+        "played": 96,
+        "won": 36,
+        "drawn": 13,
+        "lost": 47,
+        "goalsFor": 166,
+        "goalsAgainst": 186,
+        "points": 85,
+        "goalDifference": -20
+      },
+      {
+        "position": 8,
         "team": "EUSKAL ERRIA",
         "played": 96,
         "won": 32,
@@ -279,19 +291,19 @@
         "goalDifference": -41
       },
       {
-        "position": 8,
-        "team": "URUNDAY",
-        "played": 93,
-        "won": 34,
-        "drawn": 13,
-        "lost": 46,
-        "goalsFor": 157,
-        "goalsAgainst": 180,
-        "points": 81,
-        "goalDifference": -23
+        "position": 9,
+        "team": "RAYO ROJO",
+        "played": 98,
+        "won": 31,
+        "drawn": 19,
+        "lost": 48,
+        "goalsFor": 126,
+        "goalsAgainst": 203,
+        "points": 77,
+        "goalDifference": -77
       },
       {
-        "position": 9,
+        "position": 10,
         "team": "MAESO",
         "played": 96,
         "won": 31,
@@ -303,126 +315,114 @@
         "goalDifference": -51
       },
       {
-        "position": 10,
-        "team": "RAYO ROJO",
-        "played": 93,
-        "won": 29,
-        "drawn": 18,
-        "lost": 46,
-        "goalsFor": 114,
-        "goalsAgainst": 191,
-        "points": 72,
-        "goalDifference": -77
-      },
-      {
         "position": 11,
         "team": "LA PICADA",
-        "played": 93,
-        "won": 32,
+        "played": 97,
+        "won": 33,
         "drawn": 10,
-        "lost": 51,
-        "goalsFor": 145,
-        "goalsAgainst": 199,
-        "points": 70,
-        "goalDifference": -54
+        "lost": 54,
+        "goalsFor": 151,
+        "goalsAgainst": 210,
+        "points": 72,
+        "goalDifference": -59
       },
       {
         "position": 12,
-        "team": "DON BOSCO",
-        "played": 93,
-        "won": 23,
-        "drawn": 16,
-        "lost": 54,
-        "goalsFor": 109,
-        "goalsAgainst": 205,
-        "points": 62,
-        "goalDifference": -96
+        "team": "POCO SITIO",
+        "played": 99,
+        "won": 26,
+        "drawn": 14,
+        "lost": 59,
+        "goalsFor": 111,
+        "goalsAgainst": 293,
+        "points": 66,
+        "goalDifference": -182
       },
       {
         "position": 13,
-        "team": "POCO SITIO",
+        "team": "DON BOSCO",
         "played": 96,
-        "won": 25,
-        "drawn": 12,
-        "lost": 59,
-        "goalsFor": 106,
-        "goalsAgainst": 290,
-        "points": 62,
-        "goalDifference": -184
+        "won": 23,
+        "drawn": 17,
+        "lost": 56,
+        "goalsFor": 113,
+        "goalsAgainst": 219,
+        "points": 63,
+        "goalDifference": -106
       },
       {
         "position": 14,
         "team": "EST. DEL SUR",
-        "played": 96,
+        "played": 98,
         "won": 24,
-        "drawn": 13,
-        "lost": 59,
+        "drawn": 14,
+        "lost": 60,
         "goalsFor": 105,
-        "goalsAgainst": 222,
-        "points": 60,
-        "goalDifference": -117
+        "goalsAgainst": 224,
+        "points": 61,
+        "goalDifference": -119
       }
     ],
     "anual": [
       {
         "position": 1,
         "team": "LA RINCONADA",
-        "played": 197,
-        "won": 149,
+        "played": 200,
+        "won": 151,
         "drawn": 19,
-        "lost": 29,
-        "goalsFor": 667,
-        "goalsAgainst": 223,
-        "points": 314,
-        "goalDifference": 444
+        "lost": 30,
+        "goalsFor": 679,
+        "goalsAgainst": 233,
+        "points": 318,
+        "goalDifference": 446
       },
       {
         "position": 2,
         "team": "ENRIQUE LOPEZ",
-        "played": 198,
-        "won": 144,
+        "played": 200,
+        "won": 146,
         "drawn": 20,
         "lost": 34,
-        "goalsFor": 681,
-        "goalsAgainst": 239,
-        "points": 306,
-        "goalDifference": 442
+        "goalsFor": 693,
+        "goalsAgainst": 241,
+        "points": 310,
+        "goalDifference": 452
       },
       {
         "position": 3,
         "team": "LA ESCALINATA",
-        "played": 196,
-        "won": 104,
+        "played": 199,
+        "won": 106,
         "drawn": 37,
-        "lost": 55,
-        "goalsFor": 424,
-        "goalsAgainst": 250,
-        "points": 244,
-        "goalDifference": 174
+        "lost": 56,
+        "goalsFor": 429,
+        "goalsAgainst": 254,
+        "points": 248,
+        "goalDifference": 175
       },
       {
         "position": 4,
         "team": "CARABELAS",
-        "played": 199,
+        "played": 203,
         "won": 105,
-        "drawn": 32,
-        "lost": 62,
-        "goalsFor": 484,
-        "goalsAgainst": 337,
-        "points": 228,
-        "goalDifference": 147
+        "drawn": 35,
+        "lost": 63,
+        "goalsFor": 489,
+        "goalsAgainst": 344,
+        "points": 231,
+        "goalDifference": 145
       },
       {
         "position": 5,
         "team": "UNION VECINAL",
-        "played": 196,
-        "won": 99,
+        "played": 198,
+        "won": 100,
         "drawn": 26,
-        "lost": 71,
-        "goalsFor": 453,
-        "goalsAgainst": 349,
-        "points": 219,
-        "goalDifference": 104
+        "lost": 72,
+        "goalsFor": 457,
+        "goalsAgainst": 352,
+        "points": 221,
+        "goalDifference": 105
       },
       {
         "position": 6,
@@ -463,74 +463,74 @@
       {
         "position": 9,
         "team": "URUNDAY",
-        "played": 197,
-        "won": 63,
+        "played": 200,
+        "won": 65,
         "drawn": 33,
-        "lost": 101,
-        "goalsFor": 336,
-        "goalsAgainst": 411,
-        "points": 159,
-        "goalDifference": -75
+        "lost": 102,
+        "goalsFor": 345,
+        "goalsAgainst": 417,
+        "points": 163,
+        "goalDifference": -72
       },
       {
         "position": 10,
         "team": "EST. DEL SUR",
-        "played": 200,
+        "played": 202,
         "won": 61,
-        "drawn": 37,
-        "lost": 102,
+        "drawn": 38,
+        "lost": 103,
         "goalsFor": 246,
-        "goalsAgainst": 411,
-        "points": 158,
-        "goalDifference": -165
+        "goalsAgainst": 413,
+        "points": 159,
+        "goalDifference": -167
       },
       {
         "position": 11,
         "team": "LA PICADA",
-        "played": 197,
-        "won": 60,
+        "played": 201,
+        "won": 61,
         "drawn": 32,
-        "lost": 105,
-        "goalsFor": 300,
-        "goalsAgainst": 460,
-        "points": 148,
-        "goalDifference": -160
+        "lost": 108,
+        "goalsFor": 306,
+        "goalsAgainst": 471,
+        "points": 150,
+        "goalDifference": -165
       },
       {
         "position": 12,
-        "team": "DON BOSCO",
-        "played": 197,
+        "team": "RAYO ROJO",
+        "played": 202,
         "won": 58,
-        "drawn": 30,
-        "lost": 109,
-        "goalsFor": 246,
-        "goalsAgainst": 437,
-        "points": 145,
-        "goalDifference": -191
+        "drawn": 38,
+        "lost": 106,
+        "goalsFor": 247,
+        "goalsAgainst": 451,
+        "points": 149,
+        "goalDifference": -204
       },
       {
         "position": 13,
-        "team": "RAYO ROJO",
-        "played": 197,
-        "won": 56,
-        "drawn": 37,
-        "lost": 104,
-        "goalsFor": 235,
-        "goalsAgainst": 439,
-        "points": 144,
-        "goalDifference": -204
+        "team": "DON BOSCO",
+        "played": 200,
+        "won": 58,
+        "drawn": 31,
+        "lost": 111,
+        "goalsFor": 250,
+        "goalsAgainst": 451,
+        "points": 146,
+        "goalDifference": -201
       },
       {
         "position": 14,
         "team": "POCO SITIO",
-        "played": 200,
-        "won": 47,
-        "drawn": 21,
+        "played": 203,
+        "won": 48,
+        "drawn": 23,
         "lost": 132,
-        "goalsFor": 230,
-        "goalsAgainst": 576,
-        "points": 115,
-        "goalDifference": -346
+        "goalsFor": 235,
+        "goalsAgainst": 579,
+        "points": 119,
+        "goalDifference": -344
       }
     ]
   },
@@ -1475,14 +1475,14 @@
             {
               "position": 11,
               "team": "LA PICADA",
-              "played": 11,
+              "played": 12,
               "won": 3,
               "drawn": 1,
-              "lost": 7,
-              "goalsFor": 10,
-              "goalsAgainst": 19,
+              "lost": 8,
+              "goalsFor": 11,
+              "goalsAgainst": 22,
               "points": 6,
-              "goalDifference": -9
+              "goalDifference": -11
             },
             {
               "position": 12,
@@ -1499,14 +1499,14 @@
             {
               "position": 13,
               "team": "URUNDAY",
-              "played": 11,
-              "won": 1,
+              "played": 12,
+              "won": 2,
               "drawn": 1,
               "lost": 9,
-              "goalsFor": 12,
-              "goalsAgainst": 27,
-              "points": 3,
-              "goalDifference": -15
+              "goalsFor": 15,
+              "goalsAgainst": 28,
+              "points": 5,
+              "goalDifference": -13
             },
             {
               "position": 14,
@@ -2070,6 +2070,13 @@
             },
             {
               "round": "12ª fecha",
+              "home": "URUNDAY",
+              "away": "LA PICADA",
+              "homeGoals": 3,
+              "awayGoals": 1
+            },
+            {
+              "round": "12ª fecha",
               "home": "DON BOSCO",
               "away": "ENRIQUE LOPEZ",
               "homeGoals": 1,
@@ -2124,10 +2131,6 @@
             {
               "home": "LA ESCALINATA",
               "away": "LA PICADA"
-            },
-            {
-              "home": "LA PICADA",
-              "away": "URUNDAY"
             },
             {
               "home": "LA RINCONADA",
@@ -2263,18 +2266,30 @@
             },
             {
               "position": 11,
-              "team": "LA PICADA",
-              "played": 24,
+              "team": "URUNDAY",
+              "played": 25,
               "won": 5,
-              "drawn": 4,
-              "lost": 15,
-              "goalsFor": 22,
-              "goalsAgainst": 56,
+              "drawn": 3,
+              "lost": 17,
+              "goalsFor": 34,
+              "goalsAgainst": 63,
               "points": 13,
-              "goalDifference": -34
+              "goalDifference": -29
             },
             {
               "position": 12,
+              "team": "LA PICADA",
+              "played": 25,
+              "won": 5,
+              "drawn": 4,
+              "lost": 16,
+              "goalsFor": 23,
+              "goalsAgainst": 59,
+              "points": 13,
+              "goalDifference": -36
+            },
+            {
+              "position": 13,
               "team": "DON BOSCO",
               "played": 25,
               "won": 4,
@@ -2284,18 +2299,6 @@
               "goalsAgainst": 49,
               "points": 13,
               "goalDifference": -40
-            },
-            {
-              "position": 13,
-              "team": "URUNDAY",
-              "played": 24,
-              "won": 4,
-              "drawn": 3,
-              "lost": 17,
-              "goalsFor": 31,
-              "goalsAgainst": 62,
-              "points": 11,
-              "goalDifference": -31
             },
             {
               "position": 14,
@@ -3496,6 +3499,13 @@
             },
             {
               "round": "Clausura · 12ª fecha",
+              "home": "URUNDAY",
+              "away": "LA PICADA",
+              "homeGoals": 3,
+              "awayGoals": 1
+            },
+            {
+              "round": "Clausura · 12ª fecha",
               "home": "DON BOSCO",
               "away": "ENRIQUE LOPEZ",
               "homeGoals": 1,
@@ -3550,10 +3560,6 @@
             {
               "home": "LA ESCALINATA",
               "away": "LA PICADA"
-            },
-            {
-              "home": "LA PICADA",
-              "away": "URUNDAY"
             },
             {
               "home": "LA RINCONADA",
@@ -4434,6 +4440,18 @@
             },
             {
               "position": 5,
+              "team": "LA PICADA",
+              "played": 12,
+              "won": 8,
+              "drawn": 0,
+              "lost": 4,
+              "goalsFor": 42,
+              "goalsAgainst": 15,
+              "points": 15,
+              "goalDifference": 27
+            },
+            {
+              "position": 6,
               "team": "MIRADOR",
               "played": 12,
               "won": 6,
@@ -4443,18 +4461,6 @@
               "goalsAgainst": 13,
               "points": 15,
               "goalDifference": 18
-            },
-            {
-              "position": 6,
-              "team": "LA PICADA",
-              "played": 11,
-              "won": 7,
-              "drawn": 0,
-              "lost": 4,
-              "goalsFor": 38,
-              "goalsAgainst": 14,
-              "points": 13,
-              "goalDifference": 24
             },
             {
               "position": 7,
@@ -4471,29 +4477,41 @@
             {
               "position": 8,
               "team": "CARABELAS",
-              "played": 12,
+              "played": 13,
               "won": 4,
-              "drawn": 2,
+              "drawn": 3,
               "lost": 6,
-              "goalsFor": 26,
-              "goalsAgainst": 33,
-              "points": 10,
+              "goalsFor": 27,
+              "goalsAgainst": 34,
+              "points": 11,
               "goalDifference": -7
             },
             {
               "position": 9,
-              "team": "URUNDAY",
-              "played": 11,
-              "won": 3,
-              "drawn": 1,
+              "team": "POCO SITIO",
+              "played": 13,
+              "won": 2,
+              "drawn": 4,
               "lost": 7,
-              "goalsFor": 14,
-              "goalsAgainst": 25,
-              "points": 7,
-              "goalDifference": -11
+              "goalsFor": 9,
+              "goalsAgainst": 42,
+              "points": 8,
+              "goalDifference": -33
             },
             {
               "position": 10,
+              "team": "URUNDAY",
+              "played": 12,
+              "won": 3,
+              "drawn": 1,
+              "lost": 8,
+              "goalsFor": 15,
+              "goalsAgainst": 29,
+              "points": 7,
+              "goalDifference": -14
+            },
+            {
+              "position": 11,
               "team": "RAYO ROJO",
               "played": 12,
               "won": 2,
@@ -4503,18 +4521,6 @@
               "goalsAgainst": 29,
               "points": 7,
               "goalDifference": -23
-            },
-            {
-              "position": 11,
-              "team": "POCO SITIO",
-              "played": 12,
-              "won": 2,
-              "drawn": 3,
-              "lost": 7,
-              "goalsFor": 8,
-              "goalsAgainst": 41,
-              "points": 7,
-              "goalDifference": -33
             },
             {
               "position": 12,
@@ -5102,6 +5108,13 @@
             },
             {
               "round": "12ª fecha",
+              "home": "URUNDAY",
+              "away": "LA PICADA",
+              "homeGoals": 1,
+              "awayGoals": 4
+            },
+            {
+              "round": "12ª fecha",
               "home": "DON BOSCO",
               "away": "ENRIQUE LOPEZ",
               "homeGoals": 0,
@@ -5134,13 +5147,16 @@
               "away": "EST. DEL SUR",
               "homeGoals": 1,
               "awayGoals": 2
+            },
+            {
+              "round": "13ª fecha",
+              "home": "POCO SITIO",
+              "away": "CARABELAS",
+              "homeGoals": 1,
+              "awayGoals": 1
             }
           ],
           "nextGames": [
-            {
-              "home": "CARABELAS",
-              "away": "POCO SITIO"
-            },
             {
               "home": "DON BOSCO",
               "away": "EUSKAL ERRIA"
@@ -5156,10 +5172,6 @@
             {
               "home": "LA ESCALINATA",
               "away": "LA PICADA"
-            },
-            {
-              "home": "LA PICADA",
-              "away": "URUNDAY"
             },
             {
               "home": "LA RINCONADA",
@@ -5236,25 +5248,25 @@
             {
               "position": 6,
               "team": "LA PICADA",
-              "played": 24,
-              "won": 14,
+              "played": 25,
+              "won": 15,
               "drawn": 2,
               "lost": 8,
-              "goalsFor": 64,
-              "goalsAgainst": 30,
-              "points": 29,
-              "goalDifference": 34
+              "goalsFor": 68,
+              "goalsAgainst": 31,
+              "points": 31,
+              "goalDifference": 37
             },
             {
               "position": 7,
               "team": "CARABELAS",
-              "played": 25,
+              "played": 26,
               "won": 9,
-              "drawn": 5,
+              "drawn": 6,
               "lost": 11,
-              "goalsFor": 51,
-              "goalsAgainst": 60,
-              "points": 23,
+              "goalsFor": 52,
+              "goalsAgainst": 61,
+              "points": 24,
               "goalDifference": -9
             },
             {
@@ -5272,26 +5284,26 @@
             {
               "position": 9,
               "team": "POCO SITIO",
-              "played": 25,
+              "played": 26,
               "won": 5,
-              "drawn": 7,
+              "drawn": 8,
               "lost": 13,
-              "goalsFor": 23,
-              "goalsAgainst": 64,
-              "points": 17,
+              "goalsFor": 24,
+              "goalsAgainst": 65,
+              "points": 18,
               "goalDifference": -41
             },
             {
               "position": 10,
               "team": "URUNDAY",
-              "played": 24,
+              "played": 25,
               "won": 6,
               "drawn": 4,
-              "lost": 14,
-              "goalsFor": 28,
-              "goalsAgainst": 62,
+              "lost": 15,
+              "goalsFor": 29,
+              "goalsAgainst": 66,
               "points": 16,
-              "goalDifference": -34
+              "goalDifference": -37
             },
             {
               "position": 11,
@@ -6528,6 +6540,13 @@
             },
             {
               "round": "Clausura · 12ª fecha",
+              "home": "URUNDAY",
+              "away": "LA PICADA",
+              "homeGoals": 1,
+              "awayGoals": 4
+            },
+            {
+              "round": "Clausura · 12ª fecha",
               "home": "DON BOSCO",
               "away": "ENRIQUE LOPEZ",
               "homeGoals": 0,
@@ -6560,13 +6579,16 @@
               "away": "EST. DEL SUR",
               "homeGoals": 1,
               "awayGoals": 2
+            },
+            {
+              "round": "Clausura · 13ª fecha",
+              "home": "POCO SITIO",
+              "away": "CARABELAS",
+              "homeGoals": 1,
+              "awayGoals": 1
             }
           ],
           "nextGames": [
-            {
-              "home": "CARABELAS",
-              "away": "POCO SITIO"
-            },
             {
               "home": "DON BOSCO",
               "away": "EUSKAL ERRIA"
@@ -6582,10 +6604,6 @@
             {
               "home": "LA ESCALINATA",
               "away": "LA PICADA"
-            },
-            {
-              "home": "LA PICADA",
-              "away": "URUNDAY"
             },
             {
               "home": "LA RINCONADA",
@@ -7443,14 +7461,14 @@
             {
               "position": 3,
               "team": "CARABELAS",
-              "played": 12,
+              "played": 13,
               "won": 7,
               "drawn": 2,
-              "lost": 3,
+              "lost": 4,
               "goalsFor": 18,
-              "goalsAgainst": 14,
+              "goalsAgainst": 16,
               "points": 16,
-              "goalDifference": 4
+              "goalDifference": 2
             },
             {
               "position": 4,
@@ -7526,27 +7544,27 @@
             },
             {
               "position": 10,
-              "team": "EST. DEL SUR",
-              "played": 12,
-              "won": 3,
+              "team": "POCO SITIO",
+              "played": 13,
+              "won": 4,
               "drawn": 2,
               "lost": 7,
-              "goalsFor": 13,
-              "goalsAgainst": 25,
-              "points": 8,
-              "goalDifference": -12
+              "goalsFor": 15,
+              "goalsAgainst": 33,
+              "points": 10,
+              "goalDifference": -18
             },
             {
               "position": 11,
-              "team": "POCO SITIO",
-              "played": 12,
+              "team": "EST. DEL SUR",
+              "played": 13,
               "won": 3,
               "drawn": 2,
-              "lost": 7,
+              "lost": 8,
               "goalsFor": 13,
-              "goalsAgainst": 33,
+              "goalsAgainst": 27,
               "points": 8,
-              "goalDifference": -20
+              "goalDifference": -14
             },
             {
               "position": 12,
@@ -7562,6 +7580,18 @@
             },
             {
               "position": 13,
+              "team": "RAYO ROJO",
+              "played": 13,
+              "won": 3,
+              "drawn": 1,
+              "lost": 9,
+              "goalsFor": 10,
+              "goalsAgainst": 26,
+              "points": 7,
+              "goalDifference": -16
+            },
+            {
+              "position": 14,
               "team": "DON BOSCO",
               "played": 12,
               "won": 1,
@@ -7571,18 +7601,6 @@
               "goalsAgainst": 24,
               "points": 6,
               "goalDifference": -15
-            },
-            {
-              "position": 14,
-              "team": "RAYO ROJO",
-              "played": 12,
-              "won": 2,
-              "drawn": 1,
-              "lost": 9,
-              "goalsFor": 8,
-              "goalsAgainst": 26,
-              "points": 5,
-              "goalDifference": -18
             }
           ],
           "results": [
@@ -8166,13 +8184,23 @@
               "away": "EST. DEL SUR",
               "homeGoals": 4,
               "awayGoals": 1
+            },
+            {
+              "round": "13ª fecha",
+              "home": "POCO SITIO",
+              "away": "CARABELAS",
+              "homeGoals": 2,
+              "awayGoals": 0
+            },
+            {
+              "round": "13ª fecha",
+              "home": "RAYO ROJO",
+              "away": "EST. DEL SUR",
+              "homeGoals": 2,
+              "awayGoals": 0
             }
           ],
           "nextGames": [
-            {
-              "home": "CARABELAS",
-              "away": "POCO SITIO"
-            },
             {
               "home": "DON BOSCO",
               "away": "EUSKAL ERRIA"
@@ -8180,10 +8208,6 @@
             {
               "home": "ENRIQUE LOPEZ",
               "away": "MIRADOR"
-            },
-            {
-              "home": "EST. DEL SUR",
-              "away": "RAYO ROJO"
             },
             {
               "home": "LA ESCALINATA",
@@ -8232,14 +8256,14 @@
             {
               "position": 3,
               "team": "CARABELAS",
-              "played": 25,
+              "played": 26,
               "won": 13,
               "drawn": 4,
-              "lost": 8,
+              "lost": 9,
               "goalsFor": 49,
-              "goalsAgainst": 33,
+              "goalsAgainst": 35,
               "points": 30,
-              "goalDifference": 16
+              "goalDifference": 14
             },
             {
               "position": 4,
@@ -8291,18 +8315,6 @@
             },
             {
               "position": 8,
-              "team": "EST. DEL SUR",
-              "played": 25,
-              "won": 7,
-              "drawn": 6,
-              "lost": 12,
-              "goalsFor": 37,
-              "goalsAgainst": 51,
-              "points": 20,
-              "goalDifference": -14
-            },
-            {
-              "position": 9,
               "team": "UNION VECINAL",
               "played": 24,
               "won": 8,
@@ -8314,7 +8326,31 @@
               "goalDifference": -15
             },
             {
+              "position": 9,
+              "team": "EST. DEL SUR",
+              "played": 26,
+              "won": 7,
+              "drawn": 6,
+              "lost": 13,
+              "goalsFor": 37,
+              "goalsAgainst": 53,
+              "points": 20,
+              "goalDifference": -16
+            },
+            {
               "position": 10,
+              "team": "RAYO ROJO",
+              "played": 26,
+              "won": 8,
+              "drawn": 4,
+              "lost": 14,
+              "goalsFor": 32,
+              "goalsAgainst": 56,
+              "points": 20,
+              "goalDifference": -24
+            },
+            {
+              "position": 11,
               "team": "URUNDAY",
               "played": 25,
               "won": 6,
@@ -8326,7 +8362,7 @@
               "goalDifference": -17
             },
             {
-              "position": 11,
+              "position": 12,
               "team": "EUSKAL ERRIA",
               "played": 25,
               "won": 7,
@@ -8338,28 +8374,16 @@
               "goalDifference": -19
             },
             {
-              "position": 12,
-              "team": "RAYO ROJO",
-              "played": 25,
-              "won": 7,
-              "drawn": 4,
-              "lost": 14,
-              "goalsFor": 30,
-              "goalsAgainst": 56,
-              "points": 18,
-              "goalDifference": -26
-            },
-            {
               "position": 13,
               "team": "POCO SITIO",
-              "played": 25,
-              "won": 5,
+              "played": 26,
+              "won": 6,
               "drawn": 4,
               "lost": 16,
-              "goalsFor": 23,
+              "goalsFor": 25,
               "goalsAgainst": 69,
-              "points": 14,
-              "goalDifference": -46
+              "points": 16,
+              "goalDifference": -44
             },
             {
               "position": 14,
@@ -9592,13 +9616,23 @@
               "away": "EST. DEL SUR",
               "homeGoals": 4,
               "awayGoals": 1
+            },
+            {
+              "round": "Clausura · 13ª fecha",
+              "home": "POCO SITIO",
+              "away": "CARABELAS",
+              "homeGoals": 2,
+              "awayGoals": 0
+            },
+            {
+              "round": "Clausura · 13ª fecha",
+              "home": "RAYO ROJO",
+              "away": "EST. DEL SUR",
+              "homeGoals": 2,
+              "awayGoals": 0
             }
           ],
           "nextGames": [
-            {
-              "home": "CARABELAS",
-              "away": "POCO SITIO"
-            },
             {
               "home": "DON BOSCO",
               "away": "EUSKAL ERRIA"
@@ -9606,10 +9640,6 @@
             {
               "home": "ENRIQUE LOPEZ",
               "away": "MIRADOR"
-            },
-            {
-              "home": "EST. DEL SUR",
-              "away": "RAYO ROJO"
             },
             {
               "home": "LA ESCALINATA",
@@ -10450,6 +10480,30 @@
           "standings": [
             {
               "position": 1,
+              "team": "LA RINCONADA",
+              "played": 12,
+              "won": 10,
+              "drawn": 1,
+              "lost": 1,
+              "goalsFor": 46,
+              "goalsAgainst": 9,
+              "points": 21,
+              "goalDifference": 37
+            },
+            {
+              "position": 2,
+              "team": "URUNDAY",
+              "played": 12,
+              "won": 9,
+              "drawn": 3,
+              "lost": 0,
+              "goalsFor": 36,
+              "goalsAgainst": 5,
+              "points": 21,
+              "goalDifference": 31
+            },
+            {
+              "position": 3,
               "team": "ENRIQUE LOPEZ",
               "played": 12,
               "won": 9,
@@ -10459,30 +10513,6 @@
               "goalsAgainst": 16,
               "points": 20,
               "goalDifference": 26
-            },
-            {
-              "position": 2,
-              "team": "LA RINCONADA",
-              "played": 11,
-              "won": 9,
-              "drawn": 1,
-              "lost": 1,
-              "goalsFor": 42,
-              "goalsAgainst": 8,
-              "points": 19,
-              "goalDifference": 34
-            },
-            {
-              "position": 3,
-              "team": "URUNDAY",
-              "played": 11,
-              "won": 8,
-              "drawn": 3,
-              "lost": 0,
-              "goalsFor": 31,
-              "goalsAgainst": 4,
-              "points": 19,
-              "goalDifference": 27
             },
             {
               "position": 4,
@@ -10499,14 +10529,14 @@
             {
               "position": 5,
               "team": "RAYO ROJO",
-              "played": 11,
+              "played": 12,
               "won": 6,
               "drawn": 4,
-              "lost": 1,
-              "goalsFor": 17,
-              "goalsAgainst": 6,
+              "lost": 2,
+              "goalsFor": 18,
+              "goalsAgainst": 10,
               "points": 16,
-              "goalDifference": 11
+              "goalDifference": 8
             },
             {
               "position": 6,
@@ -10523,14 +10553,14 @@
             {
               "position": 7,
               "team": "LA ESCALINATA",
-              "played": 11,
-              "won": 5,
+              "played": 12,
+              "won": 6,
               "drawn": 1,
               "lost": 5,
-              "goalsFor": 16,
-              "goalsAgainst": 19,
-              "points": 11,
-              "goalDifference": -3
+              "goalsFor": 18,
+              "goalsAgainst": 20,
+              "points": 13,
+              "goalDifference": -2
             },
             {
               "position": 8,
@@ -10547,14 +10577,14 @@
             {
               "position": 9,
               "team": "UNION VECINAL",
-              "played": 11,
+              "played": 12,
               "won": 5,
               "drawn": 1,
-              "lost": 5,
-              "goalsFor": 12,
-              "goalsAgainst": 15,
+              "lost": 6,
+              "goalsFor": 13,
+              "goalsAgainst": 17,
               "points": 9,
-              "goalDifference": -3
+              "goalDifference": -4
             },
             {
               "position": 10,
@@ -10571,14 +10601,14 @@
             {
               "position": 11,
               "team": "LA PICADA",
-              "played": 11,
+              "played": 12,
               "won": 2,
               "drawn": 2,
-              "lost": 7,
-              "goalsFor": 9,
-              "goalsAgainst": 22,
+              "lost": 8,
+              "goalsFor": 10,
+              "goalsAgainst": 27,
               "points": 6,
-              "goalDifference": -13
+              "goalDifference": -17
             },
             {
               "position": 12,
@@ -11166,10 +11196,31 @@
             },
             {
               "round": "12ª fecha",
+              "home": "URUNDAY",
+              "away": "LA PICADA",
+              "homeGoals": 5,
+              "awayGoals": 1
+            },
+            {
+              "round": "12ª fecha",
               "home": "DON BOSCO",
               "away": "ENRIQUE LOPEZ",
               "homeGoals": 2,
               "awayGoals": 7
+            },
+            {
+              "round": "12ª fecha",
+              "home": "UNION VECINAL",
+              "away": "LA ESCALINATA",
+              "homeGoals": 1,
+              "awayGoals": 2
+            },
+            {
+              "round": "12ª fecha",
+              "home": "RAYO ROJO",
+              "away": "LA RINCONADA",
+              "homeGoals": 1,
+              "awayGoals": 4
             },
             {
               "round": "12ª fecha",
@@ -11208,18 +11259,6 @@
               "away": "LA PICADA"
             },
             {
-              "home": "LA ESCALINATA",
-              "away": "UNION VECINAL"
-            },
-            {
-              "home": "LA PICADA",
-              "away": "URUNDAY"
-            },
-            {
-              "home": "LA RINCONADA",
-              "away": "RAYO ROJO"
-            },
-            {
               "home": "LA RINCONADA",
               "away": "UNION VECINAL"
             },
@@ -11233,6 +11272,30 @@
           "standings": [
             {
               "position": 1,
+              "team": "LA RINCONADA",
+              "played": 25,
+              "won": 21,
+              "drawn": 3,
+              "lost": 1,
+              "goalsFor": 98,
+              "goalsAgainst": 29,
+              "points": 44,
+              "goalDifference": 69
+            },
+            {
+              "position": 2,
+              "team": "URUNDAY",
+              "played": 25,
+              "won": 19,
+              "drawn": 5,
+              "lost": 1,
+              "goalsFor": 101,
+              "goalsAgainst": 14,
+              "points": 43,
+              "goalDifference": 87
+            },
+            {
+              "position": 3,
               "team": "ENRIQUE LOPEZ",
               "played": 25,
               "won": 19,
@@ -11242,30 +11305,6 @@
               "goalsAgainst": 29,
               "points": 43,
               "goalDifference": 68
-            },
-            {
-              "position": 2,
-              "team": "LA RINCONADA",
-              "played": 24,
-              "won": 20,
-              "drawn": 3,
-              "lost": 1,
-              "goalsFor": 94,
-              "goalsAgainst": 28,
-              "points": 42,
-              "goalDifference": 66
-            },
-            {
-              "position": 3,
-              "team": "URUNDAY",
-              "played": 24,
-              "won": 18,
-              "drawn": 5,
-              "lost": 1,
-              "goalsFor": 96,
-              "goalsAgainst": 13,
-              "points": 41,
-              "goalDifference": 83
             },
             {
               "position": 4,
@@ -11294,38 +11333,38 @@
             {
               "position": 6,
               "team": "RAYO ROJO",
-              "played": 24,
+              "played": 25,
               "won": 12,
               "drawn": 8,
-              "lost": 4,
-              "goalsFor": 29,
-              "goalsAgainst": 13,
+              "lost": 5,
+              "goalsFor": 30,
+              "goalsAgainst": 17,
               "points": 31,
-              "goalDifference": 16
+              "goalDifference": 13
             },
             {
               "position": 7,
               "team": "LA ESCALINATA",
-              "played": 24,
-              "won": 9,
+              "played": 25,
+              "won": 10,
               "drawn": 4,
               "lost": 11,
-              "goalsFor": 36,
-              "goalsAgainst": 46,
-              "points": 22,
-              "goalDifference": -10
+              "goalsFor": 38,
+              "goalsAgainst": 47,
+              "points": 24,
+              "goalDifference": -9
             },
             {
               "position": 8,
               "team": "UNION VECINAL",
-              "played": 24,
+              "played": 25,
               "won": 10,
               "drawn": 2,
-              "lost": 12,
-              "goalsFor": 34,
-              "goalsAgainst": 44,
+              "lost": 13,
+              "goalsFor": 35,
+              "goalsAgainst": 46,
               "points": 20,
-              "goalDifference": -10
+              "goalDifference": -11
             },
             {
               "position": 9,
@@ -11354,14 +11393,14 @@
             {
               "position": 11,
               "team": "LA PICADA",
-              "played": 24,
+              "played": 25,
               "won": 4,
               "drawn": 5,
-              "lost": 15,
-              "goalsFor": 30,
-              "goalsAgainst": 58,
+              "lost": 16,
+              "goalsFor": 31,
+              "goalsAgainst": 63,
               "points": 13,
-              "goalDifference": -28
+              "goalDifference": -32
             },
             {
               "position": 12,
@@ -12586,10 +12625,31 @@
             },
             {
               "round": "Clausura · 12ª fecha",
+              "home": "URUNDAY",
+              "away": "LA PICADA",
+              "homeGoals": 5,
+              "awayGoals": 1
+            },
+            {
+              "round": "Clausura · 12ª fecha",
               "home": "DON BOSCO",
               "away": "ENRIQUE LOPEZ",
               "homeGoals": 2,
               "awayGoals": 7
+            },
+            {
+              "round": "Clausura · 12ª fecha",
+              "home": "UNION VECINAL",
+              "away": "LA ESCALINATA",
+              "homeGoals": 1,
+              "awayGoals": 2
+            },
+            {
+              "round": "Clausura · 12ª fecha",
+              "home": "RAYO ROJO",
+              "away": "LA RINCONADA",
+              "homeGoals": 1,
+              "awayGoals": 4
             },
             {
               "round": "Clausura · 12ª fecha",
@@ -12626,18 +12686,6 @@
             {
               "home": "LA ESCALINATA",
               "away": "LA PICADA"
-            },
-            {
-              "home": "LA ESCALINATA",
-              "away": "UNION VECINAL"
-            },
-            {
-              "home": "LA PICADA",
-              "away": "URUNDAY"
-            },
-            {
-              "home": "LA RINCONADA",
-              "away": "RAYO ROJO"
             },
             {
               "home": "LA RINCONADA",
@@ -13466,14 +13514,14 @@
             {
               "position": 1,
               "team": "ENRIQUE LOPEZ",
-              "played": 11,
-              "won": 11,
+              "played": 12,
+              "won": 12,
               "drawn": 0,
               "lost": 0,
-              "goalsFor": 38,
+              "goalsFor": 43,
               "goalsAgainst": 7,
-              "points": 22,
-              "goalDifference": 31
+              "points": 24,
+              "goalDifference": 36
             },
             {
               "position": 2,
@@ -13490,25 +13538,25 @@
             {
               "position": 3,
               "team": "CARABELAS",
-              "played": 12,
+              "played": 13,
               "won": 9,
-              "drawn": 1,
+              "drawn": 2,
               "lost": 2,
-              "goalsFor": 43,
-              "goalsAgainst": 10,
-              "points": 19,
+              "goalsFor": 45,
+              "goalsAgainst": 12,
+              "points": 20,
               "goalDifference": 33
             },
             {
               "position": 4,
               "team": "POCO SITIO",
-              "played": 12,
+              "played": 13,
               "won": 8,
-              "drawn": 1,
+              "drawn": 2,
               "lost": 3,
-              "goalsFor": 27,
-              "goalsAgainst": 20,
-              "points": 17,
+              "goalsFor": 29,
+              "goalsAgainst": 22,
+              "points": 18,
               "goalDifference": 7
             },
             {
@@ -13525,18 +13573,30 @@
             },
             {
               "position": 6,
-              "team": "EST. DEL SUR",
+              "team": "UNION VECINAL",
               "played": 12,
               "won": 5,
-              "drawn": 2,
-              "lost": 5,
-              "goalsFor": 11,
-              "goalsAgainst": 19,
-              "points": 12,
-              "goalDifference": -8
+              "drawn": 3,
+              "lost": 4,
+              "goalsFor": 19,
+              "goalsAgainst": 21,
+              "points": 13,
+              "goalDifference": -2
             },
             {
               "position": 7,
+              "team": "EST. DEL SUR",
+              "played": 13,
+              "won": 5,
+              "drawn": 3,
+              "lost": 5,
+              "goalsFor": 11,
+              "goalsAgainst": 19,
+              "points": 13,
+              "goalDifference": -8
+            },
+            {
+              "position": 8,
               "team": "MIRADOR",
               "played": 12,
               "won": 3,
@@ -13548,39 +13608,27 @@
               "goalDifference": -2
             },
             {
-              "position": 8,
-              "team": "UNION VECINAL",
-              "played": 11,
-              "won": 4,
-              "drawn": 3,
-              "lost": 4,
-              "goalsFor": 16,
-              "goalsAgainst": 20,
-              "points": 11,
-              "goalDifference": -4
-            },
-            {
               "position": 9,
               "team": "LA ESCALINATA",
-              "played": 11,
+              "played": 12,
               "won": 2,
               "drawn": 4,
-              "lost": 5,
-              "goalsFor": 5,
-              "goalsAgainst": 14,
+              "lost": 6,
+              "goalsFor": 6,
+              "goalsAgainst": 17,
               "points": 8,
-              "goalDifference": -9
+              "goalDifference": -11
             },
             {
               "position": 10,
               "team": "RAYO ROJO",
-              "played": 12,
+              "played": 13,
               "won": 3,
-              "drawn": 3,
+              "drawn": 4,
               "lost": 6,
               "goalsFor": 11,
               "goalsAgainst": 23,
-              "points": 7,
+              "points": 8,
               "goalDifference": -12
             },
             {
@@ -13610,14 +13658,14 @@
             {
               "position": 13,
               "team": "DON BOSCO",
-              "played": 11,
+              "played": 12,
               "won": 1,
               "drawn": 2,
-              "lost": 8,
+              "lost": 9,
               "goalsFor": 8,
-              "goalsAgainst": 23,
+              "goalsAgainst": 28,
               "points": 4,
-              "goalDifference": -15
+              "goalDifference": -20
             },
             {
               "position": 14,
@@ -14188,6 +14236,20 @@
             },
             {
               "round": "12ª fecha",
+              "home": "DON BOSCO",
+              "away": "ENRIQUE LOPEZ",
+              "homeGoals": 0,
+              "awayGoals": 5
+            },
+            {
+              "round": "12ª fecha",
+              "home": "UNION VECINAL",
+              "away": "LA ESCALINATA",
+              "homeGoals": 3,
+              "awayGoals": 1
+            },
+            {
+              "round": "12ª fecha",
               "home": "RAYO ROJO",
               "away": "LA RINCONADA",
               "homeGoals": 1,
@@ -14206,17 +14268,23 @@
               "away": "EST. DEL SUR",
               "homeGoals": 2,
               "awayGoals": 2
+            },
+            {
+              "round": "13ª fecha",
+              "home": "POCO SITIO",
+              "away": "CARABELAS",
+              "homeGoals": 2,
+              "awayGoals": 2
+            },
+            {
+              "round": "13ª fecha",
+              "home": "RAYO ROJO",
+              "away": "EST. DEL SUR",
+              "homeGoals": 0,
+              "awayGoals": 0
             }
           ],
           "nextGames": [
-            {
-              "home": "CARABELAS",
-              "away": "POCO SITIO"
-            },
-            {
-              "home": "DON BOSCO",
-              "away": "ENRIQUE LOPEZ"
-            },
             {
               "home": "DON BOSCO",
               "away": "EUSKAL ERRIA"
@@ -14226,16 +14294,8 @@
               "away": "MIRADOR"
             },
             {
-              "home": "EST. DEL SUR",
-              "away": "RAYO ROJO"
-            },
-            {
               "home": "LA ESCALINATA",
               "away": "LA PICADA"
-            },
-            {
-              "home": "LA ESCALINATA",
-              "away": "UNION VECINAL"
             },
             {
               "home": "LA RINCONADA",
@@ -14252,14 +14312,14 @@
             {
               "position": 1,
               "team": "ENRIQUE LOPEZ",
-              "played": 24,
-              "won": 24,
+              "played": 25,
+              "won": 25,
               "drawn": 0,
               "lost": 0,
-              "goalsFor": 92,
+              "goalsFor": 97,
               "goalsAgainst": 15,
-              "points": 48,
-              "goalDifference": 77
+              "points": 50,
+              "goalDifference": 82
             },
             {
               "position": 2,
@@ -14276,29 +14336,41 @@
             {
               "position": 3,
               "team": "POCO SITIO",
-              "played": 25,
+              "played": 26,
               "won": 18,
-              "drawn": 2,
+              "drawn": 3,
               "lost": 5,
-              "goalsFor": 56,
-              "goalsAgainst": 32,
-              "points": 38,
+              "goalsFor": 58,
+              "goalsAgainst": 34,
+              "points": 39,
               "goalDifference": 24
             },
             {
               "position": 4,
               "team": "CARABELAS",
-              "played": 25,
+              "played": 26,
               "won": 16,
-              "drawn": 5,
+              "drawn": 6,
               "lost": 4,
-              "goalsFor": 70,
-              "goalsAgainst": 25,
-              "points": 36,
+              "goalsFor": 72,
+              "goalsAgainst": 27,
+              "points": 37,
               "goalDifference": 45
             },
             {
               "position": 5,
+              "team": "UNION VECINAL",
+              "played": 25,
+              "won": 11,
+              "drawn": 6,
+              "lost": 8,
+              "goalsFor": 49,
+              "goalsAgainst": 37,
+              "points": 28,
+              "goalDifference": 12
+            },
+            {
+              "position": 6,
               "team": "LA PICADA",
               "played": 25,
               "won": 12,
@@ -14310,40 +14382,28 @@
               "goalDifference": -2
             },
             {
-              "position": 6,
-              "team": "UNION VECINAL",
-              "played": 24,
-              "won": 10,
-              "drawn": 6,
-              "lost": 8,
-              "goalsFor": 46,
-              "goalsAgainst": 36,
-              "points": 26,
-              "goalDifference": 10
-            },
-            {
               "position": 7,
               "team": "EST. DEL SUR",
-              "played": 25,
+              "played": 26,
               "won": 11,
-              "drawn": 4,
+              "drawn": 5,
               "lost": 10,
               "goalsFor": 28,
               "goalsAgainst": 33,
-              "points": 26,
+              "points": 27,
               "goalDifference": -5
             },
             {
               "position": 8,
               "team": "LA ESCALINATA",
-              "played": 24,
+              "played": 25,
               "won": 7,
               "drawn": 5,
-              "lost": 12,
-              "goalsFor": 17,
-              "goalsAgainst": 30,
+              "lost": 13,
+              "goalsFor": 18,
+              "goalsAgainst": 33,
               "points": 18,
-              "goalDifference": -13
+              "goalDifference": -15
             },
             {
               "position": 9,
@@ -14359,27 +14419,27 @@
             },
             {
               "position": 10,
-              "team": "DON BOSCO",
-              "played": 24,
-              "won": 6,
-              "drawn": 3,
-              "lost": 15,
-              "goalsFor": 17,
-              "goalsAgainst": 47,
-              "points": 15,
-              "goalDifference": -30
-            },
-            {
-              "position": 11,
               "team": "RAYO ROJO",
-              "played": 25,
+              "played": 26,
               "won": 5,
-              "drawn": 6,
+              "drawn": 7,
               "lost": 14,
               "goalsFor": 20,
               "goalsAgainst": 47,
-              "points": 14,
+              "points": 15,
               "goalDifference": -27
+            },
+            {
+              "position": 11,
+              "team": "DON BOSCO",
+              "played": 25,
+              "won": 6,
+              "drawn": 3,
+              "lost": 16,
+              "goalsFor": 17,
+              "goalsAgainst": 52,
+              "points": 15,
+              "goalDifference": -35
             },
             {
               "position": 12,
@@ -15597,6 +15657,20 @@
             },
             {
               "round": "Clausura · 12ª fecha",
+              "home": "DON BOSCO",
+              "away": "ENRIQUE LOPEZ",
+              "homeGoals": 0,
+              "awayGoals": 5
+            },
+            {
+              "round": "Clausura · 12ª fecha",
+              "home": "UNION VECINAL",
+              "away": "LA ESCALINATA",
+              "homeGoals": 3,
+              "awayGoals": 1
+            },
+            {
+              "round": "Clausura · 12ª fecha",
               "home": "RAYO ROJO",
               "away": "LA RINCONADA",
               "homeGoals": 1,
@@ -15615,17 +15689,23 @@
               "away": "EST. DEL SUR",
               "homeGoals": 2,
               "awayGoals": 2
+            },
+            {
+              "round": "Clausura · 13ª fecha",
+              "home": "POCO SITIO",
+              "away": "CARABELAS",
+              "homeGoals": 2,
+              "awayGoals": 2
+            },
+            {
+              "round": "Clausura · 13ª fecha",
+              "home": "RAYO ROJO",
+              "away": "EST. DEL SUR",
+              "homeGoals": 0,
+              "awayGoals": 0
             }
           ],
           "nextGames": [
-            {
-              "home": "CARABELAS",
-              "away": "POCO SITIO"
-            },
-            {
-              "home": "DON BOSCO",
-              "away": "ENRIQUE LOPEZ"
-            },
             {
               "home": "DON BOSCO",
               "away": "EUSKAL ERRIA"
@@ -15635,16 +15715,8 @@
               "away": "MIRADOR"
             },
             {
-              "home": "EST. DEL SUR",
-              "away": "RAYO ROJO"
-            },
-            {
               "home": "LA ESCALINATA",
               "away": "LA PICADA"
-            },
-            {
-              "home": "LA ESCALINATA",
-              "away": "UNION VECINAL"
             },
             {
               "home": "LA RINCONADA",
@@ -16490,26 +16562,26 @@
             {
               "position": 2,
               "team": "LA ESCALINATA",
-              "played": 12,
-              "won": 9,
+              "played": 13,
+              "won": 10,
               "drawn": 1,
               "lost": 2,
-              "goalsFor": 43,
+              "goalsFor": 45,
               "goalsAgainst": 16,
-              "points": 19,
-              "goalDifference": 27
+              "points": 21,
+              "goalDifference": 29
             },
             {
               "position": 3,
               "team": "LA RINCONADA",
-              "played": 11,
-              "won": 9,
+              "played": 12,
+              "won": 10,
               "drawn": 0,
               "lost": 2,
-              "goalsFor": 48,
-              "goalsAgainst": 14,
-              "points": 17,
-              "goalDifference": 34
+              "goalsFor": 54,
+              "goalsAgainst": 17,
+              "points": 19,
+              "goalDifference": 37
             },
             {
               "position": 4,
@@ -16538,13 +16610,13 @@
             {
               "position": 6,
               "team": "DON BOSCO",
-              "played": 11,
+              "played": 12,
               "won": 5,
-              "drawn": 2,
+              "drawn": 3,
               "lost": 4,
-              "goalsFor": 18,
-              "goalsAgainst": 17,
-              "points": 12,
+              "goalsFor": 20,
+              "goalsAgainst": 19,
+              "points": 13,
               "goalDifference": 1
             },
             {
@@ -16562,17 +16634,29 @@
             {
               "position": 8,
               "team": "LA PICADA",
-              "played": 12,
+              "played": 13,
               "won": 4,
               "drawn": 1,
-              "lost": 7,
+              "lost": 8,
               "goalsFor": 19,
-              "goalsAgainst": 27,
+              "goalsAgainst": 29,
               "points": 9,
-              "goalDifference": -8
+              "goalDifference": -10
             },
             {
               "position": 9,
+              "team": "CARABELAS",
+              "played": 12,
+              "won": 3,
+              "drawn": 2,
+              "lost": 7,
+              "goalsFor": 13,
+              "goalsAgainst": 28,
+              "points": 7,
+              "goalDifference": -15
+            },
+            {
+              "position": 10,
               "team": "EST. DEL SUR",
               "played": 12,
               "won": 3,
@@ -16584,7 +16668,7 @@
               "goalDifference": -17
             },
             {
-              "position": 10,
+              "position": 11,
               "team": "POCO SITIO",
               "played": 12,
               "won": 3,
@@ -16596,7 +16680,7 @@
               "goalDifference": -21
             },
             {
-              "position": 11,
+              "position": 12,
               "team": "MAESO",
               "played": 12,
               "won": 4,
@@ -16608,28 +16692,16 @@
               "goalDifference": -14
             },
             {
-              "position": 12,
-              "team": "CARABELAS",
-              "played": 11,
-              "won": 3,
-              "drawn": 1,
-              "lost": 7,
-              "goalsFor": 11,
-              "goalsAgainst": 26,
-              "points": 6,
-              "goalDifference": -15
-            },
-            {
               "position": 13,
               "team": "RAYO ROJO",
-              "played": 11,
+              "played": 12,
               "won": 2,
               "drawn": 2,
-              "lost": 7,
-              "goalsFor": 13,
-              "goalsAgainst": 27,
+              "lost": 8,
+              "goalsFor": 16,
+              "goalsAgainst": 33,
               "points": 4,
-              "goalDifference": -14
+              "goalDifference": -17
             },
             {
               "position": 14,
@@ -17151,6 +17223,13 @@
             },
             {
               "round": "11ª fecha",
+              "home": "DON BOSCO",
+              "away": "CARABELAS",
+              "homeGoals": 2,
+              "awayGoals": 2
+            },
+            {
+              "round": "11ª fecha",
               "home": "URUNDAY",
               "away": "UNION VECINAL",
               "homeGoals": 1,
@@ -17207,6 +17286,13 @@
             },
             {
               "round": "12ª fecha",
+              "home": "RAYO ROJO",
+              "away": "LA RINCONADA",
+              "homeGoals": 3,
+              "awayGoals": 6
+            },
+            {
+              "round": "12ª fecha",
               "home": "MAESO",
               "away": "POCO SITIO",
               "homeGoals": 1,
@@ -17218,13 +17304,16 @@
               "away": "EST. DEL SUR",
               "homeGoals": 4,
               "awayGoals": 1
+            },
+            {
+              "round": "13ª fecha",
+              "home": "LA PICADA",
+              "away": "LA ESCALINATA",
+              "homeGoals": 0,
+              "awayGoals": 2
             }
           ],
           "nextGames": [
-            {
-              "home": "CARABELAS",
-              "away": "DON BOSCO"
-            },
             {
               "home": "CARABELAS",
               "away": "POCO SITIO"
@@ -17242,14 +17331,6 @@
               "away": "RAYO ROJO"
             },
             {
-              "home": "LA ESCALINATA",
-              "away": "LA PICADA"
-            },
-            {
-              "home": "LA RINCONADA",
-              "away": "RAYO ROJO"
-            },
-            {
               "home": "LA RINCONADA",
               "away": "UNION VECINAL"
             },
@@ -17264,26 +17345,26 @@
             {
               "position": 1,
               "team": "LA RINCONADA",
-              "played": 24,
-              "won": 20,
+              "played": 25,
+              "won": 21,
               "drawn": 2,
               "lost": 2,
-              "goalsFor": 100,
-              "goalsAgainst": 30,
-              "points": 41,
-              "goalDifference": 70
+              "goalsFor": 106,
+              "goalsAgainst": 33,
+              "points": 43,
+              "goalDifference": 73
             },
             {
               "position": 2,
               "team": "LA ESCALINATA",
-              "played": 25,
-              "won": 17,
+              "played": 26,
+              "won": 18,
               "drawn": 6,
               "lost": 2,
-              "goalsFor": 79,
+              "goalsFor": 81,
               "goalsAgainst": 29,
-              "points": 40,
-              "goalDifference": 50
+              "points": 42,
+              "goalDifference": 52
             },
             {
               "position": 3,
@@ -17312,13 +17393,13 @@
             {
               "position": 5,
               "team": "DON BOSCO",
-              "played": 24,
+              "played": 25,
               "won": 14,
-              "drawn": 3,
+              "drawn": 4,
               "lost": 7,
-              "goalsFor": 49,
-              "goalsAgainst": 34,
-              "points": 31,
+              "goalsFor": 51,
+              "goalsAgainst": 36,
+              "points": 32,
               "goalDifference": 15
             },
             {
@@ -17336,13 +17417,13 @@
             {
               "position": 7,
               "team": "CARABELAS",
-              "played": 24,
+              "played": 25,
               "won": 11,
-              "drawn": 1,
+              "drawn": 2,
               "lost": 12,
-              "goalsFor": 45,
-              "goalsAgainst": 47,
-              "points": 22,
+              "goalsFor": 47,
+              "goalsAgainst": 49,
+              "points": 23,
               "goalDifference": -2
             },
             {
@@ -17384,26 +17465,26 @@
             {
               "position": 11,
               "team": "LA PICADA",
-              "played": 25,
+              "played": 26,
               "won": 7,
               "drawn": 4,
-              "lost": 14,
+              "lost": 15,
               "goalsFor": 42,
-              "goalsAgainst": 65,
+              "goalsAgainst": 67,
               "points": 18,
-              "goalDifference": -23
+              "goalDifference": -25
             },
             {
               "position": 12,
               "team": "RAYO ROJO",
-              "played": 24,
+              "played": 25,
               "won": 3,
               "drawn": 5,
-              "lost": 16,
-              "goalsFor": 24,
-              "goalsAgainst": 66,
+              "lost": 17,
+              "goalsFor": 27,
+              "goalsAgainst": 72,
               "points": 9,
-              "goalDifference": -42
+              "goalDifference": -45
             },
             {
               "position": 13,
@@ -18574,6 +18655,13 @@
             },
             {
               "round": "Clausura · 11ª fecha",
+              "home": "DON BOSCO",
+              "away": "CARABELAS",
+              "homeGoals": 2,
+              "awayGoals": 2
+            },
+            {
+              "round": "Clausura · 11ª fecha",
               "home": "URUNDAY",
               "away": "UNION VECINAL",
               "homeGoals": 1,
@@ -18630,6 +18718,13 @@
             },
             {
               "round": "Clausura · 12ª fecha",
+              "home": "RAYO ROJO",
+              "away": "LA RINCONADA",
+              "homeGoals": 3,
+              "awayGoals": 6
+            },
+            {
+              "round": "Clausura · 12ª fecha",
               "home": "MAESO",
               "away": "POCO SITIO",
               "homeGoals": 1,
@@ -18641,13 +18736,16 @@
               "away": "EST. DEL SUR",
               "homeGoals": 4,
               "awayGoals": 1
+            },
+            {
+              "round": "Clausura · 13ª fecha",
+              "home": "LA PICADA",
+              "away": "LA ESCALINATA",
+              "homeGoals": 0,
+              "awayGoals": 2
             }
           ],
           "nextGames": [
-            {
-              "home": "CARABELAS",
-              "away": "DON BOSCO"
-            },
             {
               "home": "CARABELAS",
               "away": "POCO SITIO"
@@ -18662,14 +18760,6 @@
             },
             {
               "home": "EST. DEL SUR",
-              "away": "RAYO ROJO"
-            },
-            {
-              "home": "LA ESCALINATA",
-              "away": "LA PICADA"
-            },
-            {
-              "home": "LA RINCONADA",
               "away": "RAYO ROJO"
             },
             {
@@ -22541,6 +22631,18 @@
           "standings": [
             {
               "position": 1,
+              "team": "ENRIQUE LOPEZ",
+              "played": 12,
+              "won": 11,
+              "drawn": 0,
+              "lost": 1,
+              "goalsFor": 58,
+              "goalsAgainst": 10,
+              "points": 22,
+              "goalDifference": 48
+            },
+            {
+              "position": 2,
               "team": "CARABELAS",
               "played": 12,
               "won": 10,
@@ -22552,40 +22654,28 @@
               "goalDifference": 31
             },
             {
-              "position": 2,
-              "team": "ENRIQUE LOPEZ",
-              "played": 11,
-              "won": 10,
-              "drawn": 0,
-              "lost": 1,
-              "goalsFor": 51,
-              "goalsAgainst": 8,
-              "points": 20,
-              "goalDifference": 43
-            },
-            {
               "position": 3,
-              "team": "DON BOSCO",
-              "played": 11,
-              "won": 7,
+              "team": "RAYO ROJO",
+              "played": 12,
+              "won": 8,
               "drawn": 2,
               "lost": 2,
-              "goalsFor": 26,
-              "goalsAgainst": 16,
-              "points": 16,
-              "goalDifference": 10
+              "goalsFor": 28,
+              "goalsAgainst": 20,
+              "points": 18,
+              "goalDifference": 8
             },
             {
               "position": 4,
-              "team": "RAYO ROJO",
-              "played": 11,
+              "team": "DON BOSCO",
+              "played": 12,
               "won": 7,
               "drawn": 2,
-              "lost": 2,
-              "goalsFor": 22,
-              "goalsAgainst": 18,
+              "lost": 3,
+              "goalsFor": 28,
+              "goalsAgainst": 23,
               "points": 16,
-              "goalDifference": 4
+              "goalDifference": 5
             },
             {
               "position": 5,
@@ -22649,18 +22739,6 @@
             },
             {
               "position": 10,
-              "team": "LA RINCONADA",
-              "played": 11,
-              "won": 4,
-              "drawn": 0,
-              "lost": 7,
-              "goalsFor": 12,
-              "goalsAgainst": 23,
-              "points": 8,
-              "goalDifference": -11
-            },
-            {
-              "position": 11,
               "team": "MAESO",
               "played": 12,
               "won": 3,
@@ -22670,6 +22748,18 @@
               "goalsAgainst": 28,
               "points": 8,
               "goalDifference": -11
+            },
+            {
+              "position": 11,
+              "team": "LA RINCONADA",
+              "played": 12,
+              "won": 4,
+              "drawn": 0,
+              "lost": 8,
+              "goalsFor": 14,
+              "goalsAgainst": 29,
+              "points": 8,
+              "goalDifference": -15
             },
             {
               "position": 12,
@@ -23264,6 +23354,20 @@
             },
             {
               "round": "12ª fecha",
+              "home": "DON BOSCO",
+              "away": "ENRIQUE LOPEZ",
+              "homeGoals": 2,
+              "awayGoals": 7
+            },
+            {
+              "round": "12ª fecha",
+              "home": "RAYO ROJO",
+              "away": "LA RINCONADA",
+              "homeGoals": 6,
+              "awayGoals": 2
+            },
+            {
+              "round": "12ª fecha",
               "home": "MAESO",
               "away": "POCO SITIO",
               "homeGoals": 3,
@@ -23284,10 +23388,6 @@
             },
             {
               "home": "DON BOSCO",
-              "away": "ENRIQUE LOPEZ"
-            },
-            {
-              "home": "DON BOSCO",
               "away": "EUSKAL ERRIA"
             },
             {
@@ -23305,10 +23405,6 @@
             {
               "home": "LA ESCALINATA",
               "away": "UNION VECINAL"
-            },
-            {
-              "home": "LA RINCONADA",
-              "away": "RAYO ROJO"
             },
             {
               "home": "LA RINCONADA",
@@ -23337,14 +23433,14 @@
             {
               "position": 2,
               "team": "ENRIQUE LOPEZ",
-              "played": 24,
-              "won": 21,
+              "played": 25,
+              "won": 22,
               "drawn": 0,
               "lost": 3,
-              "goalsFor": 117,
-              "goalsAgainst": 21,
-              "points": 41,
-              "goalDifference": 96
+              "goalsFor": 124,
+              "goalsAgainst": 23,
+              "points": 43,
+              "goalDifference": 101
             },
             {
               "position": 3,
@@ -23360,27 +23456,27 @@
             },
             {
               "position": 4,
-              "team": "DON BOSCO",
-              "played": 24,
-              "won": 16,
-              "drawn": 3,
-              "lost": 5,
-              "goalsFor": 66,
-              "goalsAgainst": 41,
-              "points": 35,
-              "goalDifference": 25
+              "team": "RAYO ROJO",
+              "played": 25,
+              "won": 17,
+              "drawn": 2,
+              "lost": 6,
+              "goalsFor": 68,
+              "goalsAgainst": 48,
+              "points": 36,
+              "goalDifference": 20
             },
             {
               "position": 5,
-              "team": "RAYO ROJO",
-              "played": 24,
+              "team": "DON BOSCO",
+              "played": 25,
               "won": 16,
-              "drawn": 2,
+              "drawn": 3,
               "lost": 6,
-              "goalsFor": 62,
-              "goalsAgainst": 46,
-              "points": 34,
-              "goalDifference": 16
+              "goalsFor": 68,
+              "goalsAgainst": 48,
+              "points": 35,
+              "goalDifference": 20
             },
             {
               "position": 6,
@@ -23397,14 +23493,14 @@
             {
               "position": 7,
               "team": "LA RINCONADA",
-              "played": 24,
+              "played": 25,
               "won": 7,
               "drawn": 5,
-              "lost": 12,
-              "goalsFor": 32,
-              "goalsAgainst": 45,
+              "lost": 13,
+              "goalsFor": 34,
+              "goalsAgainst": 51,
               "points": 19,
-              "goalDifference": -13
+              "goalDifference": -17
             },
             {
               "position": 8,
@@ -24684,6 +24780,20 @@
             },
             {
               "round": "Clausura · 12ª fecha",
+              "home": "DON BOSCO",
+              "away": "ENRIQUE LOPEZ",
+              "homeGoals": 2,
+              "awayGoals": 7
+            },
+            {
+              "round": "Clausura · 12ª fecha",
+              "home": "RAYO ROJO",
+              "away": "LA RINCONADA",
+              "homeGoals": 6,
+              "awayGoals": 2
+            },
+            {
+              "round": "Clausura · 12ª fecha",
               "home": "MAESO",
               "away": "POCO SITIO",
               "homeGoals": 3,
@@ -24704,10 +24814,6 @@
             },
             {
               "home": "DON BOSCO",
-              "away": "ENRIQUE LOPEZ"
-            },
-            {
-              "home": "DON BOSCO",
               "away": "EUSKAL ERRIA"
             },
             {
@@ -24725,10 +24831,6 @@
             {
               "home": "LA ESCALINATA",
               "away": "UNION VECINAL"
-            },
-            {
-              "home": "LA RINCONADA",
-              "away": "RAYO ROJO"
             },
             {
               "home": "LA RINCONADA",
