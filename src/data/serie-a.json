@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-26T11:00:19.662Z",
+  "updatedAt": "2026-11-27T11:00:27.459Z",
   "division": "Serie A",
   "source": {
     "pageUrl": "https://www.ligapalermo.org/serie-a-2026/",
@@ -221,14 +221,14 @@
       {
         "position": 3,
         "team": "LA ESCALINATA",
-        "played": 95,
-        "won": 52,
-        "drawn": 16,
+        "played": 97,
+        "won": 53,
+        "drawn": 17,
         "lost": 27,
-        "goalsFor": 198,
-        "goalsAgainst": 116,
-        "points": 120,
-        "goalDifference": 82
+        "goalsFor": 203,
+        "goalsAgainst": 120,
+        "points": 123,
+        "goalDifference": 83
       },
       {
         "position": 4,
@@ -245,14 +245,14 @@
       {
         "position": 5,
         "team": "UNION VECINAL",
-        "played": 94,
+        "played": 96,
         "won": 50,
-        "drawn": 12,
-        "lost": 32,
-        "goalsFor": 215,
-        "goalsAgainst": 162,
-        "points": 110,
-        "goalDifference": 53
+        "drawn": 13,
+        "lost": 33,
+        "goalsFor": 219,
+        "goalsAgainst": 167,
+        "points": 111,
+        "goalDifference": 52
       },
       {
         "position": 6,
@@ -391,14 +391,14 @@
       {
         "position": 3,
         "team": "LA ESCALINATA",
-        "played": 199,
-        "won": 106,
-        "drawn": 37,
+        "played": 201,
+        "won": 107,
+        "drawn": 38,
         "lost": 56,
-        "goalsFor": 429,
-        "goalsAgainst": 254,
-        "points": 248,
-        "goalDifference": 175
+        "goalsFor": 434,
+        "goalsAgainst": 258,
+        "points": 251,
+        "goalDifference": 176
       },
       {
         "position": 4,
@@ -415,14 +415,14 @@
       {
         "position": 5,
         "team": "UNION VECINAL",
-        "played": 198,
+        "played": 200,
         "won": 100,
-        "drawn": 26,
-        "lost": 72,
-        "goalsFor": 457,
-        "goalsAgainst": 352,
-        "points": 221,
-        "goalDifference": 105
+        "drawn": 27,
+        "lost": 73,
+        "goalsFor": 461,
+        "goalsAgainst": 357,
+        "points": 222,
+        "goalDifference": 104
       },
       {
         "position": 6,
@@ -7496,6 +7496,18 @@
             },
             {
               "position": 6,
+              "team": "LA ESCALINATA",
+              "played": 12,
+              "won": 3,
+              "drawn": 6,
+              "lost": 3,
+              "goalsFor": 12,
+              "goalsAgainst": 17,
+              "points": 12,
+              "goalDifference": -5
+            },
+            {
+              "position": 7,
               "team": "LA PICADA",
               "played": 12,
               "won": 5,
@@ -7507,7 +7519,7 @@
               "goalDifference": -2
             },
             {
-              "position": 7,
+              "position": 8,
               "team": "URUNDAY",
               "played": 12,
               "won": 4,
@@ -7519,27 +7531,15 @@
               "goalDifference": -3
             },
             {
-              "position": 8,
-              "team": "LA ESCALINATA",
-              "played": 11,
-              "won": 3,
-              "drawn": 5,
-              "lost": 3,
-              "goalsFor": 11,
-              "goalsAgainst": 16,
-              "points": 11,
-              "goalDifference": -5
-            },
-            {
               "position": 9,
               "team": "UNION VECINAL",
-              "played": 11,
+              "played": 12,
               "won": 4,
-              "drawn": 2,
+              "drawn": 3,
               "lost": 5,
-              "goalsFor": 22,
-              "goalsAgainst": 27,
-              "points": 10,
+              "goalsFor": 23,
+              "goalsAgainst": 28,
+              "points": 11,
               "goalDifference": -5
             },
             {
@@ -8166,6 +8166,13 @@
             },
             {
               "round": "12ª fecha",
+              "home": "UNION VECINAL",
+              "away": "LA ESCALINATA",
+              "homeGoals": 1,
+              "awayGoals": 1
+            },
+            {
+              "round": "12ª fecha",
               "home": "RAYO ROJO",
               "away": "LA RINCONADA",
               "homeGoals": 0,
@@ -8212,10 +8219,6 @@
             {
               "home": "LA ESCALINATA",
               "away": "LA PICADA"
-            },
-            {
-              "home": "LA ESCALINATA",
-              "away": "UNION VECINAL"
             },
             {
               "home": "LA RINCONADA",
@@ -8291,6 +8294,18 @@
             },
             {
               "position": 6,
+              "team": "LA ESCALINATA",
+              "played": 25,
+              "won": 6,
+              "drawn": 11,
+              "lost": 8,
+              "goalsFor": 26,
+              "goalsAgainst": 40,
+              "points": 23,
+              "goalDifference": -14
+            },
+            {
+              "position": 7,
               "team": "LA PICADA",
               "played": 25,
               "won": 10,
@@ -8302,27 +8317,15 @@
               "goalDifference": -13
             },
             {
-              "position": 7,
-              "team": "LA ESCALINATA",
-              "played": 24,
-              "won": 6,
-              "drawn": 10,
-              "lost": 8,
-              "goalsFor": 25,
-              "goalsAgainst": 39,
-              "points": 22,
-              "goalDifference": -14
-            },
-            {
               "position": 8,
               "team": "UNION VECINAL",
-              "played": 24,
+              "played": 25,
               "won": 8,
-              "drawn": 4,
+              "drawn": 5,
               "lost": 12,
-              "goalsFor": 37,
-              "goalsAgainst": 52,
-              "points": 20,
+              "goalsFor": 38,
+              "goalsAgainst": 53,
+              "points": 21,
               "goalDifference": -15
             },
             {
@@ -9598,6 +9601,13 @@
             },
             {
               "round": "Clausura · 12ª fecha",
+              "home": "UNION VECINAL",
+              "away": "LA ESCALINATA",
+              "homeGoals": 1,
+              "awayGoals": 1
+            },
+            {
+              "round": "Clausura · 12ª fecha",
               "home": "RAYO ROJO",
               "away": "LA RINCONADA",
               "homeGoals": 0,
@@ -9644,10 +9654,6 @@
             {
               "home": "LA ESCALINATA",
               "away": "LA PICADA"
-            },
-            {
-              "home": "LA ESCALINATA",
-              "away": "UNION VECINAL"
             },
             {
               "home": "LA RINCONADA",
@@ -22667,6 +22673,18 @@
             },
             {
               "position": 4,
+              "team": "LA ESCALINATA",
+              "played": 12,
+              "won": 7,
+              "drawn": 2,
+              "lost": 3,
+              "goalsFor": 24,
+              "goalsAgainst": 17,
+              "points": 16,
+              "goalDifference": 7
+            },
+            {
+              "position": 5,
               "team": "DON BOSCO",
               "played": 12,
               "won": 7,
@@ -22676,18 +22694,6 @@
               "goalsAgainst": 23,
               "points": 16,
               "goalDifference": 5
-            },
-            {
-              "position": 5,
-              "team": "LA ESCALINATA",
-              "played": 11,
-              "won": 6,
-              "drawn": 2,
-              "lost": 3,
-              "goalsFor": 20,
-              "goalsAgainst": 14,
-              "points": 14,
-              "goalDifference": 6
             },
             {
               "position": 6,
@@ -22764,14 +22770,14 @@
             {
               "position": 12,
               "team": "UNION VECINAL",
-              "played": 11,
+              "played": 12,
               "won": 3,
               "drawn": 1,
-              "lost": 7,
-              "goalsFor": 19,
-              "goalsAgainst": 24,
+              "lost": 8,
+              "goalsFor": 22,
+              "goalsAgainst": 28,
               "points": 7,
-              "goalDifference": -5
+              "goalDifference": -6
             },
             {
               "position": 13,
@@ -23361,6 +23367,13 @@
             },
             {
               "round": "12ª fecha",
+              "home": "UNION VECINAL",
+              "away": "LA ESCALINATA",
+              "homeGoals": 3,
+              "awayGoals": 4
+            },
+            {
+              "round": "12ª fecha",
               "home": "RAYO ROJO",
               "away": "LA RINCONADA",
               "homeGoals": 6,
@@ -23403,10 +23416,6 @@
               "away": "LA PICADA"
             },
             {
-              "home": "LA ESCALINATA",
-              "away": "UNION VECINAL"
-            },
-            {
               "home": "LA RINCONADA",
               "away": "UNION VECINAL"
             },
@@ -23445,14 +23454,14 @@
             {
               "position": 3,
               "team": "LA ESCALINATA",
-              "played": 24,
-              "won": 18,
+              "played": 25,
+              "won": 19,
               "drawn": 2,
               "lost": 4,
-              "goalsFor": 65,
-              "goalsAgainst": 31,
-              "points": 38,
-              "goalDifference": 34
+              "goalsFor": 69,
+              "goalsAgainst": 34,
+              "points": 40,
+              "goalDifference": 35
             },
             {
               "position": 4,
@@ -23553,14 +23562,14 @@
             {
               "position": 12,
               "team": "UNION VECINAL",
-              "played": 24,
+              "played": 25,
               "won": 8,
               "drawn": 2,
-              "lost": 14,
-              "goalsFor": 46,
-              "goalsAgainst": 60,
+              "lost": 15,
+              "goalsFor": 49,
+              "goalsAgainst": 64,
               "points": 15,
-              "goalDifference": -14
+              "goalDifference": -15
             },
             {
               "position": 13,
@@ -24787,6 +24796,13 @@
             },
             {
               "round": "Clausura · 12ª fecha",
+              "home": "UNION VECINAL",
+              "away": "LA ESCALINATA",
+              "homeGoals": 3,
+              "awayGoals": 4
+            },
+            {
+              "round": "Clausura · 12ª fecha",
               "home": "RAYO ROJO",
               "away": "LA RINCONADA",
               "homeGoals": 6,
@@ -24827,10 +24843,6 @@
             {
               "home": "LA ESCALINATA",
               "away": "LA PICADA"
-            },
-            {
-              "home": "LA ESCALINATA",
-              "away": "UNION VECINAL"
             },
             {
               "home": "LA RINCONADA",
